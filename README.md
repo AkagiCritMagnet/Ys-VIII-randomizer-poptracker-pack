@@ -10,6 +10,6 @@ I'm open for suggestions and insight of course. Feel free to talk to me here or 
 
 Ys VIII: Lacrimosa of Dana is a game developped by Nihon Falcom.
 
-Seiren Shuffle is project in development by junglechief87, ooiale and Ballistixx99.
+Seiren Shuffle is project in development by junglechief87, ooiale and Ballistixx99. Big thanks to them for their hard work.
 
-Big thanks to ☈ⒶⒹical ടquirrel on Steam for more than half of the map images. That spared me quite some time.
+I want to also thank ☈ⒶⒹical ടquirrel on Steam for more than half of the map images. That spared me quite some time.
