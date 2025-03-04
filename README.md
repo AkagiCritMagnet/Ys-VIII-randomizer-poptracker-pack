@@ -1,2 +1,13 @@
 # Ys-VIII-randomizer---poptracker-pack
-This is a tracker for the Ys VIII tracker called "Seiren Shuffle".
+This is a pack on poptracker for the Ys VIII randomizer called "Seiren Shuffle".
+
+Seiren Shuffle repository: https://github.com/junglechief87/Seiren-Shuffle-An-Ys-8-Randomizer-
+
+I'm open for suggestions and insight of course. Feel free to talk to me here or on the thread about this randomizer on the Archipelago Discord: https://discord.com/channels/731205301247803413/1260965063397871657
+
+
+## Credits
+
+Ys VIII: Lacrimosa of Dana is a game developped by Nihon Falcom.
+
+Seiren Shuffle is project in development by junglechief87, ooiale and Ballistixx99.
