@@ -1,0 +1,20 @@
+{
+  "name": "Ys VIII Randomizer Track Pack",
+  "game_name": "Ys VIII",
+  "package_version": "0.1",
+  "package_uid": "Ys_VIII_track_pack",
+  "author": "CRIT MAGNET",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+      ]
+    },
+    "var_itemsonly": {
+      "display_name": "Items Only",
+      "flags": [
+      ]
+    }
+  },
+  "min_poptracker_version": "0.25.3"
+}

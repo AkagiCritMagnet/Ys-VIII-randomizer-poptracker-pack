@@ -1,0 +1,150 @@
+[
+	{
+    "name": "Mode",
+    "type": "toggle",
+    "img": "images/options/PastDanaMode.png",
+	"disabled_img": "images/options/StandardMode.png",
+	"disabled_img_mods": "none",
+    "codes": "PastDanaMode"
+  },
+
+  {
+    "name": "Goal: Seiren Escape",
+    "type": "toggle",
+    "img": "images/options/SeirenEscape.png",
+    "codes": "Escape"
+  },
+  
+  {
+    "name": "Goal: Castaways",
+    "type": "toggle",
+    "img": "images/options/FindCrew.png",
+    "codes": "Castaways_toggle"
+  },
+  {
+    "name": "Number of Castaways to win",
+    "type": "consumable",
+    "img": "images/options/CastawaysToWin.png",
+    "codes": "Castaways_Goal",
+    "overlay_background": "#000000",
+    "max_quantity": 28
+  },
+  {
+    "name": "Number of Castaways to open Octus",
+    "type": "consumable",
+    "img": "images/options/CastawaysToOctus.png",
+    "codes": "Castaways_Octus",
+    "overlay_background": "#000000",
+    "max_quantity": 28
+  },
+  
+  {
+    "name": "Goal: Psyches",
+    "type": "toggle",
+    "img": "images/options/ReleaseThePsyches.png",
+    "codes": "Psyches_toggle"
+  },
+  {
+    "name": "Number of Psyches to win",
+    "type": "consumable",
+    "img": "images/options/PsychesToWin.png",
+    "codes": "Psyches_Goal",
+    "overlay_background": "#000000",
+    "max_quantity": 4
+  },
+  {
+    "name": "Number of Psyches to open Octus",
+    "type": "consumable",
+    "img": "images/options/PsychesToOctus.png",
+    "codes": "Psyches_Octus",
+    "overlay_background": "#000000",
+    "max_quantity": 4
+  },
+	{
+    "name": "Prismatic Jewel Trades",
+    "codes": "Prismatic",
+    "type": "progressive",
+    "stages": [
+      {"disabled_img": "images/options/JewelNone.png",
+	"img": "images/options/Jewel1.png"},
+      {"img": "images/options/Jewel2.png"},
+      {"img": "images/options/Jewel3.png"},
+      {"img": "images/options/Jewel10.png"},
+      {"img": "images/options/JewelAll.png"},
+    ]
+  },
+   {
+    "name": "Fish Trades",
+    "type": "consumable",
+    "img": "images/options/FishTrades.png",
+	"initial_quantity": 6,
+    "codes": "fish_trades",
+    "overlay_background": "#000000",
+    "max_quantity": 6
+  },
+    {
+    "name": "Food Trades",
+    "type": "consumable",
+    "img": "images/options/FoodTrades.png",
+	"initial_quantity": 6,
+    "codes": "food_trades",
+    "overlay_background": "#000000",
+    "max_quantity": 6
+  },
+    {
+    "name": "Map % Completion",
+    "type": "consumable",
+    "img": "images/options/MapCompletion.png",
+	"initial_quantity": 70,
+    "codes": "exploration",
+    "overlay_background": "#000000",
+    "max_quantity": 90,
+    "increment": 10
+  },
+    {
+    "name": "Discoveries",
+    "type": "consumable",
+    "img": "images/options/Discoveries.png",
+	"initial_quantity": 24,
+    "codes": "discoveries",
+    "overlay_background": "#000000",
+    "max_quantity": 24,
+    "increment": 12
+  },
+    {
+    "name": "Dogi Intercept Rewards",
+    "type": "toggle",
+    "img": "images/options/DogiRewards.png",
+    "codes": "intercept_rewards"
+  },
+    {
+    "name": "Master Kong Rewards",
+    "type": "toggle",
+    "img": "images/options/MasterKongRewards.png",
+    "codes": "kong_rewards"
+  },
+    {
+    "name": "Silvia's Fight",
+    "type": "toggle",
+    "img": "images/options/Silvia.png",
+    "codes": "silvia_fight"
+  },
+     {
+    "name": "Mephorash's Fight",
+    "type": "toggle",
+    "img": "images/options/FightMephorash.png",
+    "codes": "mephorash_fight"
+  },
+  {
+    "name": "Former Sanctuary Crypt",
+    "type": "toggle",
+    "img": "images/options/FSC.png",
+    "codes": "FSC Access"
+  },
+  {
+    "name": "North Side Open",
+    "type": "toggle",
+    "img": "images/options/NorthSideOpen.png",
+    "codes": "NorthSideOpen"
+  }
+]
