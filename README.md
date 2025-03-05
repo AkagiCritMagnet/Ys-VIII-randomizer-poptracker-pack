@@ -2,7 +2,7 @@
 This is a pack on poptracker for the Ys VIII randomizer called "Seiren Shuffle".
 
 Poptracker can be downloaded here: https://poptracker.github.io/
-To use my pack, just put the folder in the "packs" folder and that's it.
+To use my pack, click on the green "<>code" and then "download ZIP". In poptracker, create a folder inside the "packs" folder and unzip everything in it. Launch poptracker and here you go!
 
 Seiren Shuffle repository: https://github.com/junglechief87/Seiren-Shuffle-An-Ys-8-Randomizer-
 
