@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Master Kong Trainings",
+    "access_rules": [],
+	"visibility_rules":["$has|kong_rewards"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 282,
+        "y": 1093,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Roaring Seashore training",
+		"access_rules":["$has|Castaways|14, Ricotta"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Sunrise Beach training",
+		"access_rules":["@Master Kong Trainings/Roaring Seashore training, Sahad"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Odd Rock Coast training",
+		"access_rules":["@Master Kong Trainings/Sunrise Beach training, $access_jungle, Floating_Shoes, Dana"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme summit training",
+		"access_rules":["@Master Kong Trainings/Odd Rock Coast training, $access_mountain, Laxia"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Pangaia Plains training",
+		"access_rules":["@Master Kong Trainings/Mt Gendarme summit training, Hummel"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Vista Ridge training",
+		"access_rules":["@Master Kong Trainings/Pangaia Plains training, Adol"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  
+  // Placement on other maps
+  {
+    "item_count": 1,
+    "children": [
+		{
+        "sections": [
+          {
+            "ref": "Master Kong Trainings/Roaring Seashore training",
+            "name": "Roaring Seashore training"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Roaring_Seashore",
+            "x": 765,
+            "y": 385,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Master Kong Trainings/Mt Gendarme summit training",
+            "name": "Mt Gendarme summit training"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 1040,
+            "y": 413,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Master Kong Trainings/Pangaia Plains training",
+            "name": "Pangaia Plains training"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Pangaia_Plains",
+            "x": 212,
+            "y": 351,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Master Kong Trainings/Vista Ridge training",
+            "name": "Vista Ridge training"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vista_Ridge",
+            "x": 156,
+            "y": 100,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+
+ 
+]

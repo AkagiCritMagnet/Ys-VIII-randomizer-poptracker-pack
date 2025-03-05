@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Vista Ridge",
+    "access_rules": ["$access_temple"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 222,
+        "y": 529,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Vista Ridge chest 1",
+		"access_rules": ["Grip_Gloves, $has|Castaways|21"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Vista Ridge chest 2",
+		"access_rules": ["Grip_Gloves, $has|Castaways|21"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Find Franz",
+		"access_rules": ["Grip_Gloves, $has|Castaways|21"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  //Vista Ridge Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Vista Ridge/Vista Ridge chest 1",
+            "name": "Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vista_Ridge",
+            "x": 431,
+            "y": 564,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Vista Ridge/Vista Ridge chest 2",
+            "name": "Chest 2"
+          },
+		  {
+            "ref": "Vista Ridge/Find Franz",
+            "name": "Find Franz"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Vista_Ridge",
+            "x": 355,
+            "y": 678,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

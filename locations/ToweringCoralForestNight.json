@@ -1,0 +1,333 @@
+[
+  {
+    "name": "Towering Coral Forest Night",
+    "access_rules": ["$access_nameless_coast, Glow_Stone" ],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 246,
+        "y": 848,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "TCF Night upper chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night upper chest 2",
+		"access_rules": ["Archaeopteryx_Wing"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night upper chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  	  {
+        "name": "TCF Night upper chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night lower chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night lower chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night lower chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night upper chest 5",
+		"access_rules": ["Grip_Gloves"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night upper chest 6",
+		"access_rules": ["Grip_Gloves"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night upper chest 7",
+		"access_rules": ["Grip_Gloves"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night upper chest 8",
+		"access_rules": ["Grip_Gloves"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night upper chest 9",
+		"access_rules": ["Grip_Gloves"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night lower chest 4",
+		"access_rules": ["Grip_Gloves"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF Night upper chest 10",
+		"access_rules": ["Grip_Gloves"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  
+ 
+    ]
+  },
+  //Towering Coral Forest Night Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 1",
+            "name": "Upper Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 534,
+            "y": 645,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 2",
+            "name": "Upper Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 714,
+            "y": 361,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 3",
+            "name": "Upper Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 695,
+            "y": 176,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 4",
+            "name": "Upper Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 395,
+            "y": 263,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night lower chest 1",
+            "name": "Lower Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 1848,
+            "y": 176,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night lower chest 2",
+            "name": "Lower Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 1624,
+            "y": 130,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night lower chest 3",
+            "name": "Lower Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 1666,
+            "y": 520,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 5",
+            "name": "Upper Chest 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 331,
+            "y": 383,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 6",
+            "name": "Upper Chest 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 397,
+            "y": 531,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 7",
+            "name": "Upper Chest 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 117,
+            "y": 547,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 8",
+            "name": "Upper Chest 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 32,
+            "y": 370,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 9",
+            "name": "Upper Chest 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 64,
+            "y": 211,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night lower chest 4",
+            "name": "Lower Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 1160,
+            "y": 184,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 10",
+            "name": "Upper Chest 10"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest_Night",
+            "x": 471,
+            "y": 123,
+			"size": 30
+          }
+        ]
+      },
+      
+      
+    ]
+  },
+  
+ 
+]

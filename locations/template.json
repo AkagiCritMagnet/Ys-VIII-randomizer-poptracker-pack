@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Ancient Sanctuary Crypt",
+    "access_rules": [],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 389,
+        "y": 1005,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": " chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  //Ancient Sanctuary Crypt Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Ancient Sanctuary Crypt/Ancient Sanctuary Crypt chest 1",
+            "name": "Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ancient_Sanctuary_Crypt",
+            "x": 440,
+            "y": 121,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

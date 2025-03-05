@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Solitude Island",
+    "access_rules": ["$has|ship_blueprints"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 558,
+        "y": 990,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Solitude chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Solitude freestanding item",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Find Big Pikkard",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  // Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Solitude Island/Solitude chest",
+            "name": "Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Solitude_Island",
+            "x": 252,
+            "y": 154,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Solitude Island/Solitude freestanding item",
+            "name": "Item in the sand"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Solitude_Island",
+            "x": 91,
+            "y": 132,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Solitude Island/Find Big Pikkard",
+            "name": "Find Big Pikkard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Solitude_Island",
+            "x": 393,
+            "y": 251,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

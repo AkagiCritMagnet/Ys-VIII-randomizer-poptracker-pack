@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Great River Valley",
+    "access_rules": ["$access_great_river_valley"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 387,
+        "y": 857,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "GRV chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "GRV chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "GRV chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "GRV chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "GRV chest 5",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "GRV chest 6",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },	  
+	  {
+        "name": "GRV chest 7",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+		"access_rules": ["$has|Castaways|10"],
+      },
+	  {
+        "name": "GRV chest 8",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+		"access_rules": ["Dina"],
+      },
+	  	  {
+        "name": "GRV chest 9",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+		"access_rules": ["Floating_Shoes"],
+      },
+	  	  {
+        "name": "GRV chest 10",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+		"access_rules": ["Floating_Shoes"],
+      },
+	  	  {
+        "name": "GRV chest 11",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+		"access_rules": ["Floating_Shoes"],
+      },
+	  {
+        "name": "GRV near Beast Hills chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  //Great River Valley Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 1",
+            "name": "Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 582,
+            "y": 340,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 2",
+            "name": "Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 456,
+            "y": 156,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 3",
+            "name": "Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 640,
+            "y": 451,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 4",
+            "name": "Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 498,
+            "y": 508,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 5",
+            "name": "Chest 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 452,
+            "y": 88,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 6",
+            "name": "Chest 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 1017,
+            "y": 211,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 7",
+            "name": "Chest 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 1009,
+            "y": 151,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 8",
+            "name": "Chest 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 1111,
+            "y": 379,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 9",
+            "name": "Chest 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 316,
+            "y": 94,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 10",
+            "name": "Chest 10"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 185,
+            "y": 106,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV chest 11",
+            "name": "Chest 11"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 243,
+            "y": 189,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/GRV near Beast Hills chest",
+            "name": "Chest near Beast Hills"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 840,
+            "y": 54,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

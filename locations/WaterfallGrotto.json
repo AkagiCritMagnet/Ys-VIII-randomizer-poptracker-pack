@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Waterfall Grotto",
+    "access_rules": ["$access_great_river_valley"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 359,
+        "y": 820,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Find Sister Nia",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Waterfall Grotto chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Waterfall Grotto chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  //Waterfall Grotto Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Waterfall Grotto/Find Sister Nia",
+            "name": "Find Sister Nia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Waterfall_Grotto",
+            "x": 344,
+            "y": 305,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Waterfall Grotto/Waterfall Grotto chest 1",
+            "name": "Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Waterfall_Grotto",
+            "x": 171,
+            "y": 210,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Waterfall Grotto/Waterfall Grotto chest 1",
+            "name": "Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Waterfall_Grotto",
+            "x": 551,
+            "y": 179,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

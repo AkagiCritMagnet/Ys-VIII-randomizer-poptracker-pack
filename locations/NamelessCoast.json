@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Nameless Coast",
+    "access_rules": [],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 459,
+        "y": 1013,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Nameless Coast chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  
+	  {
+        "name": "Nameless Coast chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  
+	  {
+        "name": "Nameless Coast chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  
+	  {
+        "name": "Nameless Coast chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  
+	  {
+        "name": "Nameless Coast chest 5",
+		"access_rules": ["Grip_Gloves", "$has|Castaways|6"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Nameless Coast chest 6",
+		"access_rules": ["Grip_Gloves", "$has|Castaways|6"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Nameless Coast chest 7",
+		"access_rules": ["Grip_Gloves", "$has|Castaways|6"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Nameless Coast chest 8",
+		"access_rules": ["Grip_Gloves", "$has|Castaways|6"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Nameless Coast chest 9",
+		"access_rules": ["Grip_Gloves", "Archaeopteryx_Wing, $has|Castaways|6"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Nameless Coast chest 10",
+		"access_rules": ["Archaeopteryx_Wing, $has|Castaways|6", "Archaeopteryx_Wing, Grip_Gloves", "$has|Castaways|8"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Avalodragil Boss Fight",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Nameless Ripper Boss Fight",
+		"access_rules": "@Odd Rock Coast/Find Licht",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	        
+
+	  
+ 
+    ]
+  },
+  //Nameless Coast Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 1",
+            "name": "Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 477,
+            "y": 568,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 2",
+            "name": "Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 223,
+            "y": 414,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 3",
+            "name": "Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 739,
+            "y": 733,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 4",
+            "name": "Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 295,
+            "y": 389,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 5",
+            "name": "Chest 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 637,
+            "y": 297,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 6",
+            "name": "Chest 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 473,
+            "y": 330,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 7",
+            "name": "Chest 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 224,
+            "y": 193,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 8",
+            "name": "Chest 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 346,
+            "y": 103,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 9",
+            "name": "Chest 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 266,
+            "y": 362,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 10",
+            "name": "Chest 10"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 289,
+            "y": 71,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Nameless Coast/Avalodragil Boss Fight",
+            "name": "Avalodragil First Fight"
+          },
+		  {
+            "ref": "Nameless Coast/Nameless Ripper Boss Fight",
+            "name": "Nameless Ripper Fight"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 430,
+            "y": 426,
+			"size": 20
+          }
+        ]
+      },
+	  
+	       
+      
+    ]
+  },
+  
+ 
+]
