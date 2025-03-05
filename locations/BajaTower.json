@@ -1,0 +1,423 @@
+[
+  {
+    "name": "Baja Tower1",
+    "access_rules": ["@Towal Highway, golden_seal, Grip_Gloves"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 400,
+        "y": 223,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Baja Tower 2-2 chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 2-2 chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 2-2 chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 3 chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 3 chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 3 chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 3 chest 4",
+		"access_rules": ["Archaeopteryx_Wing"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Exmetal Boss Fight",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower Hallway 1-2 chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  {
+    "name": "Baja Tower2",
+    "access_rules": ["@Baja Tower1, Archaeopteryx_Wing"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 434,
+        "y": 223,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Baja Tower 5-1 chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 5-2 chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 6 chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 6 chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 6 chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 6 chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 6 chest 5",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Baja Tower 6 chest 6",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Carveros Boss Fight",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Study history after boss",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  
+
+ 
+    ]
+  },
+  //Baja Tower Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Baja Tower1/Baja Tower 2-2 chest 1",
+            "name": "Baja Tower 2-2 Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 85,
+            "y": 165,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower1/Baja Tower 2-2 chest 2",
+            "name": "Baja Tower 2-2 Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 247,
+            "y": 76,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower1/Baja Tower 2-2 chest 3",
+            "name": "Baja Tower 2-2 Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 228,
+            "y": 262,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower1/Baja Tower 3 chest 1",
+            "name": "Baja Tower 3 Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 855,
+            "y": 138,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower1/Baja Tower 3 chest 2",
+            "name": "Baja Tower 3 Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 577,
+            "y": 192,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower1/Baja Tower 3 chest 3",
+            "name": "Baja Tower 3 Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 792,
+            "y": 237,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower1/Baja Tower 3 chest 4",
+            "name": "Baja Tower 3 Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 688,
+            "y": 58,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower1/Exmetal Boss Fight",
+            "name": "Exmetal Boss Fight"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 1372,
+            "y": 255,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower1/Baja Tower Hallway 1-2 chest",
+            "name": "Baja Tower Hallway 1-2 Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 1569,
+            "y": 240,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower2/Baja Tower 5-1 chest",
+            "name": "Baja Tower 5-1 Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 129,
+            "y": 550,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower2/Baja Tower 5-2 chest",
+            "name": "Baja Tower 5-2 Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 873,
+            "y": 538,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower2/Baja Tower 6 chest 1",
+            "name": "Baja Tower 6 Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 555,
+            "y": 739,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower2/Baja Tower 6 chest 2",
+            "name": "Baja Tower 6 Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 573,
+            "y": 930,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower2/Baja Tower 6 chest 3",
+            "name": "Baja Tower 6 Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 400,
+            "y": 927,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower2/Baja Tower 6 chest 4",
+            "name": "Baja Tower 6 Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 660,
+            "y": 906,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower2/Baja Tower 6 chest 5",
+            "name": "Baja Tower 6 Chest 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 702,
+            "y": 876,
+			"size": 35
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Baja Tower2/Carveros Boss Fight",
+            "name": "Carveros Boss Fight"
+          },
+		  {
+            "ref": "Baja Tower2/Study history after boss",
+            "name": "Study history after boss"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Baja_Tower",
+            "x": 774,
+            "y": 838,
+			"size": 35
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

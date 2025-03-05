@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Towering Coral Forest1",
+    "access_rules": ["$access_nameless_coast"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 261,
+        "y": 812,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "TCF upper chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 10",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 8",
+		"access_rules": ["Grip_Gloves"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF lower chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 9",
+		"access_rules": ["Grip_Gloves", "Archaeopteryx_Wing"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF lower chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Find Kiergaard and Sir Carlan",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Serpentus Boss Fight",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Grip Gloves on corpse",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	   
+	  
+ 
+    ]
+  },
+  {
+    "name": "Towering Coral Forest2",
+    "access_rules": ["Grip_Gloves"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 228,
+        "y": 812,
+        "size": 30
+      }
+    ],
+	"sections": [
+      {
+        "name": "TCF upper chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 5",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 6",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 7",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 11",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF lower chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 12",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF lower chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "TCF upper chest 13",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Clareon Boss Fight",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	]
+
+
+  },
+  //Towering Coral Forest Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest1/TCF upper chest 1",
+            "name": "Upper Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 911,
+            "y": 537,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest1/TCF upper chest 2",
+            "name": "Upper Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 806,
+            "y": 332,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest1/TCF upper chest 10",
+            "name": "Upper Chest 10"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 774,
+            "y": 256,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest1/TCF upper chest 8",
+            "name": "Upper Chest 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 869,
+            "y": 150,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest1/TCF lower chest 2",
+            "name": "Lower Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 2084,
+            "y": 283,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest1/TCF upper chest 9",
+            "name": "Upper Chest 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 559,
+            "y": 167,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest1/TCF lower chest 1",
+            "name": "Lower Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 1745,
+            "y": 134,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest1/Find Kiergaard and Sir Carlan",
+            "name": "Find Kiergaard and Sir Carlan"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 1677,
+            "y": 263,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest1/Serpentus Boss Fight",
+            "name": "Serpentus Boss Fight"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 1792,
+            "y": 555,
+			"size": 30
+          }
+        ]
+	  },
+	  {
+        "sections": [
+          {
+            "ref": "Towering Coral Forest1/Grip Gloves on corpse",
+            "name": "Grip Gloves on corpse"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 1830,
+            "y": 743,
+			"size": 30
+          }
+        ]
+	  },
+	  {
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 3",
+            "name": "Upper Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 455,
+            "y": 451,
+			"size": 30
+          }
+         ]
+		},
+		{
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 4",
+            "name": "Upper Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 313,
+            "y": 466,
+			"size": 30
+          }
+         ]
+		},
+		{
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 5",
+            "name": "Upper Chest 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 275,
+            "y": 349,
+			"size": 30
+          }
+         ]
+		},
+		{
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 6",
+            "name": "Upper Chest 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 85,
+            "y": 485,
+			"size": 30
+          }
+         ]
+		},
+		{
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 7",
+            "name": "Upper Chest 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 107,
+            "y": 225,
+			"size": 30
+          }
+         ]
+		},
+		{
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 11",
+            "name": "Upper Chest 11"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 173,
+            "y": 150,
+			"size": 30
+          }
+         ]
+		},
+		{
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF lower chest 3",
+            "name": "Lower Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 1217,
+            "y": 181,
+			"size": 30
+          }
+         ]
+		},
+		{
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 12",
+            "name": "Upper Chest 12"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 320,
+            "y": 132,
+			"size": 30
+          }
+         ]
+		},
+		{
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF lower chest 4",
+            "name": "Lower Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 1486,
+            "y": 110,
+			"size": 30
+          }
+         ]
+		},
+		{
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 13",
+            "name": "Upper Chest 13"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 469,
+            "y": 51,
+			"size": 30
+          }
+         ]
+		},
+		{
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/Clareon Boss Fight",
+            "name": "Clareon Boss Fight"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 510,
+            "y": 15,
+			"size": 30
+          }
+         ]
+		},
+      
+	        
+	       
+	  
+      
+    ]
+  },
+  
+  
+]

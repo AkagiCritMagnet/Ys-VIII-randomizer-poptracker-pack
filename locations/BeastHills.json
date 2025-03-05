@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Beast Hills",
+    "access_rules": ["$access_great_river_valley"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 546,
+        "y": 776,
+        "size": 30
+      }
+    ],
+    "sections": [
+	  {
+        "name": "Hummel",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+      {
+        "name": "Beast Hills chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Beast Hills chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+		"access_rules": ["Dina"]
+      },
+	  {
+        "name": "Beast Hills chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+		"access_rules": ["Dina"] 
+      },
+	  {
+        "name": "Beast Hills chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+		"access_rules": ["Dina, $has|Castaways|15"]
+      },
+
+ 
+    ]
+  },
+  //Beast Hills Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Beast Hills/Hummel",
+            "name": "Hummel finds you"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Beast_Hills",
+            "x": 238,
+            "y": 15,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Beast Hills/Beast Hills chest 1",
+            "name": "Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Beast_Hills",
+            "x": 738,
+            "y": 79,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Beast Hills/Beast Hills chest 2",
+            "name": "Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Beast_Hills",
+            "x": 705,
+            "y": 178,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Beast Hills/Beast Hills chest 3",
+            "name": "Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Beast_Hills",
+            "x": 831,
+            "y": 589,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Beast Hills/Beast Hills chest 4",
+            "name": "Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Beast_Hills",
+            "x": 70,
+            "y": 274,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

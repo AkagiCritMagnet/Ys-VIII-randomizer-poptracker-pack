@@ -1,0 +1,120 @@
+{
+    "adventure_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 5",
+                        "h_alignment": "left",
+			"item_size": 50,
+                        "rows": [
+                            ["Grip_Gloves", "Glow_Stone", "Floating_Shoes", "Hermits_Scale", "Archaeopteryx_Wing","Purifying_Bell"],
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "playable_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "0, 0",
+                        "h_alignment": "left",
+						"item_size": 60,
+                        "rows": [
+                            ["Adol", "Laxia", "Sahad", "Hummel", "Ricotta", "Dana"],
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "npc_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "1, 1",
+                        "h_alignment": "left",
+						"item_size": 70,
+                        "rows": [
+                            ["Dina", "Euron", "Austin", "Silvia", "Castaways"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "eternia_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "8, 5",
+                        "h_alignment": "left",
+						"item_size": 70,
+                        "rows": [
+                            ["maiden_journal", "blue_seal", "green_seal", "golden_seal"],
+							["frosted_flower", "treasure_chest_key", "maiden_amulet", "jade_pendant"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "other_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+			"item_size": 70,
+                        "rows": [
+                            ["fishing_rod", "recipes", "ship_log", "Tnotes"],
+			    ["ship_blueprints", "seiren_map", "mistilteinn", "psyches"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    
+}

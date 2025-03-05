@@ -1,0 +1,526 @@
+[
+  {
+    "name": "Calm Inlet",
+    "access_rules": [],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 400,
+        "y": 1081,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Fight Silvia",
+		"visibility_rules": ["silvia_fight"],
+		"access_rules": ["Silvia"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "12 Discoveries shown",
+		"access_rules": ["Austin"],
+		"visibility_rules": ["$has|Discoveries|12"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "24 Discoveries shown",
+		"access_rules": ["Austin"],
+		"visibility_rules": ["$has|Discoveries|24"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "10 Exploration",
+		"access_rules":["Euron"],
+		"visibility_rules": ["$has|exploration|10"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "20 Exploration",
+		"access_rules":["Euron"],
+		"visibility_rules": ["$has|exploration|20"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "30 Exploration",
+		"access_rules":["Euron"],
+		"visibility_rules": ["$has|exploration|30"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "40 Exploration",
+		"access_rules":["Euron"],
+		"visibility_rules": ["$has|exploration|40"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "50 Exploration",
+		"access_rules":["Euron"],
+		"visibility_rules": ["$has|exploration|50"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "60 Exploration",
+		"access_rules":["Euron"],
+		"visibility_rules": ["$has|exploration|60"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "70 Exploration",
+		"access_rules":["Euron"],
+		"visibility_rules": ["$has|exploration|70"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "80 Exploration",
+		"access_rules":["Euron"],
+		"visibility_rules": ["$has|exploration|80"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "90 Exploration",
+		"access_rules":["Euron"],
+		"visibility_rules": ["$has|exploration|90"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  
+	  	  
+ 
+    ]
+  },
+  
+  {
+    "name": "Dina Trades",
+    "access_rules": [],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 400,
+        "y": 1046,
+        "size": 30
+      }
+    ],
+    "sections": [
+	  
+	  {
+        "name": "Dina trade 1",
+		"access_rules":["Dina"],
+		"visibility_rules": ["$prismatic_logic|1"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Dina trade 2",
+		"access_rules":["Dina"],
+		"visibility_rules": ["$prismatic_logic|1"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "Dina trade 3",
+		"access_rules":["Dina"],
+		"visibility_rules": ["$prismatic_logic|2"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "Dina trade 4",
+		"access_rules":["Dina"],
+		"visibility_rules": ["$prismatic_logic|4"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Dina trade 5",
+		"access_rules":["Dina"],
+		"visibility_rules": ["$prismatic_logic|5"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Dina trade 6",
+		"access_rules":["Dina"],
+		"visibility_rules": ["$prismatic_logic|1"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Dina trade 7",
+		"access_rules":["Dina"],
+		"visibility_rules": ["$prismatic_logic|1"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Dina trade 8",
+		"access_rules":["Dina"],
+		"visibility_rules": ["$prismatic_logic|2"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Dina trade 9",
+		"access_rules":["Dina"],
+		"visibility_rules": ["$prismatic_logic|2"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Dina trade 10",
+		"access_rules":["Dina"],
+		"visibility_rules": ["$prismatic_logic|3"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+ 
+    ]
+  },
+  
+  {
+    "name": "Fish trades",
+    "access_rules": [],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 365,
+        "y": 1070,
+        "size": 30
+      }
+    ],
+    "sections": [
+	  
+	  {
+        "name": "Fish trade 1",
+		"access_rules":["fishing_rod"],
+		"visibility_rules": ["$has|fish_trades|1"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Fish trade 2",
+		"access_rules":["fishing_rod"],
+		"visibility_rules": ["$has|fish_trades|2"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "Fish trade 3",
+		"access_rules":["fishing_rod"],
+		"visibility_rules": ["$has|fish_trades|3"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "Fish trade 4",
+		"access_rules":["fishing_rod"],
+		"visibility_rules": ["$has|fish_trades|4"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Fish trade 5",
+		"access_rules":["fishing_rod"],
+		"visibility_rules": ["$has|fish_trades|5"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Fish trade 6",
+		"access_rules":["fishing_rod"],
+		"visibility_rules": ["$has|fish_trades|6"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+ 
+    ]
+  },
+  {
+    "name": "Dogi's interceptions",
+    "access_rules": [],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 400,
+        "y": 1115,
+        "size": 30
+      }
+    ],
+    "sections": [
+// Interceptions 2, 3, 5, 7, 9
+	  {
+        "name": "Agents of the Sea",
+		"access_rules":["$has|Tnotes"],
+		"visibility_rules": ["$has|intercept_rewards"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "Tyrant's Invading Army",
+		"access_rules":["$has|Tnotes"],
+		"visibility_rules": ["$has|intercept_rewards"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Agents of the Deep Sea",
+		"access_rules":["$has|Tnotes"],
+		"visibility_rules": ["$has|intercept_rewards"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  {
+        "name": "Creeping Beasts of Yore",
+		"access_rules":["$has|Tnotes"],
+		"visibility_rules": ["$has|intercept_rewards"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  {
+        "name": "Wisened Onslaught",
+		"access_rules":["$has|Tnotes|3"],
+		"visibility_rules": ["$has|intercept_rewards"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },	  
+	  
+ 
+    ]
+  },
+  
+  
+  //Calm Inlet Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Calm Inlet/Fight Silvia",
+            "name": "Fight Silvia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Calm_Inlet",
+            "x": 277,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Calm Inlet/12 Discoveries shown",
+            "name": "12 Discoveries shown"
+          },
+		  {
+            "ref": "Calm Inlet/24 Discoveries shown",
+            "name": "24 Discoveries shown"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Calm_Inlet",
+            "x": 280,
+            "y": 111
+          }
+        ]
+      },
+
+	        {
+        "sections": [
+          {
+            "ref": "Calm Inlet/10 Exploration",
+            "name": "10% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/20 Exploration",
+            "name": "20% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/30 Exploration",
+            "name": "30% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/40 Exploration",
+            "name": "40% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/50 Exploration",
+            "name": "50% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/60 Exploration",
+            "name": "60% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/70 Exploration",
+            "name": "70% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/80 Exploration",
+            "name": "80% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/90 Exploration",
+            "name": "90% Map Completion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Calm_Inlet",
+            "x": 300,
+            "y": 113
+          }
+        ]
+      },
+		  
+	   {
+        "sections": [
+          {
+            "ref": "Dina Trades/Dina trade 1",
+            "name": "Dina Trade 1"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 2",
+            "name": "Dina Trade 2"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 3",
+            "name": "Dina Trade 3"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 4",
+            "name": "Dina Trade 4"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 5",
+            "name": "Dina Trade 5"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 6",
+            "name": "Dina Trade 6"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 7",
+            "name": "Dina Trade 7"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 8",
+            "name": "Dina Trade 8"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 9",
+            "name": "Dina Trade 9"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 10",
+            "name": "Dina Trade 10"
+          }
+		  
+        ],
+        "map_locations": [
+          {
+            "map": "Calm_Inlet",
+            "x": 305,
+            "y": 100
+          }
+        ]
+      },
+
+	 {
+        "sections": [
+          {
+            "ref": "Fish trades/Fish trade 1",
+            "name": "Fish trade 1"
+          },
+		  {
+            "ref": "Fish trades/Fish trade 2",
+            "name": "Fish trade 1"
+          },
+		  {
+            "ref": "Fish trades/Fish trade 3",
+            "name": "Fish trade 1"
+          },
+		  {
+            "ref": "Fish trades/Fish trade 4",
+            "name": "Fish trade 1"
+          },
+		  {
+            "ref": "Fish trades/Fish trade 5",
+            "name": "Fish trade 1"
+          },
+		  {
+            "ref": "Fish trades/Fish trade 6",
+            "name": "Fish trade 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Calm_Inlet",
+            "x": 124,
+            "y": 151
+          }
+        ]
+      },	  
+      
+    ]
+  },  
+
+
+	  
+      
+  
+ 
+]

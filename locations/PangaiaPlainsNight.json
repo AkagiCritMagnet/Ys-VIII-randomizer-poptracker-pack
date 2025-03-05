@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Pangaia Plains Night",
+    "access_rules": ["@Titis Primeval Forest, Glow_Stone"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 446,
+        "y": 325,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Pangaia Plains Night chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Pangaia Plains Night chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Pangaia Plains Night chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  //Pangaia Plains Night Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Pangaia Plains Night/Pangaia Plains Night chest 1",
+            "name": "Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Pangaia_Plains_Night",
+            "x": 146,
+            "y": 286,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Pangaia Plains Night/Pangaia Plains Night chest 2",
+            "name": "Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Pangaia_Plains_Night",
+            "x": 605,
+            "y": 184,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Pangaia Plains Night/Pangaia Plains Night chest 3",
+            "name": "Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Pangaia_Plains_Night",
+            "x": 485,
+            "y": 26,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

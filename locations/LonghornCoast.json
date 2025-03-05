@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Longhorn Coast",
+    "access_rules": ["$access_jungle"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 597,
+        "y": 888,
+        "size": 30
+      }
+    ],
+    "sections": [
+	  {
+        "name": "Check under stone",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+      {
+        "name": "Longhorn Coast chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Longhorn Coast chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Find Reja Pikkard",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Longhorn Coast Pirate Corpse",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Longhorn Coast chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Longhorn Coast chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  //Longhorn Coast Map Items
+  {
+    "item_count": 1,
+    "children": [
+		{
+        "sections": [
+          {
+            "ref": "Longhorn Coast/Check under stone",
+            "name": "Check under stone"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Longhorn_Coast",
+            "x": 225,
+            "y": 98,
+			"size": 20
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Longhorn Coast/Longhorn Coast chest 1",
+            "name": "Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Longhorn_Coast",
+            "x": 339,
+            "y": 88,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Longhorn Coast/Find Reja Pikkard",
+            "name": "Find Reja's Pikkard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Longhorn_Coast",
+            "x": 245,
+            "y": 207,
+			"size": 20
+          },
+		  {
+            "map": "Longhorn_Coast",
+            "x": 665,
+            "y": 327,
+			"size": 20
+           }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Longhorn Coast/Longhorn Coast chest 2",
+            "name": "Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Longhorn_Coast",
+            "x": 411,
+            "y": 154,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Longhorn Coast/Longhorn Coast Pirate Corpse",
+            "name": "Pirate Corpse"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Longhorn_Coast",
+            "x": 577,
+            "y": 298,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Longhorn Coast/Longhorn Coast chest 3",
+            "name": "Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Longhorn_Coast",
+            "x": 580,
+            "y": 130,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Longhorn Coast/Longhorn Coast chest 4",
+            "name": "Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Longhorn_Coast",
+            "x": 911,
+            "y": 430,
+			"size": 20
+          }
+        ]
+      },
+	  
+ 
+      
+    ]
+  },
+  
+ 
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Mt Gendarme Night",
+    "access_rules": ["$access_mountain, Glow_Stone"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 483,
+        "y": 673,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Mt Gendarme Night bottom chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme Night mid chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme Night mid chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme Night mid chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme Night mid chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme Night mid chest 5",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme Night mid chest 6",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme Night mid chest 7",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme Night upper 1 chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme Night upper 2 chest",
+		"access_rules": "Grip_Gloves",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  //Mt Gendarme Night Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night bottom chest",
+            "name": "Bottom Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme_Night",
+            "x": 575,
+            "y": 348,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 1",
+            "name": "Mid Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme_Night",
+            "x": 734,
+            "y": 432,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 2",
+            "name": "Mid Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme_Night",
+            "x": 962,
+            "y": 284,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 3",
+            "name": "Mid Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme_Night",
+            "x": 1074,
+            "y": 84,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 4",
+            "name": "Mid Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme_Night",
+            "x": 646,
+            "y": 297,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 5",
+            "name": "Mid Chest 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme_Night",
+            "x": 659,
+            "y": 460,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 6",
+            "name": "Mid Chest 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme_Night",
+            "x": 169,
+            "y": 715,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 7",
+            "name": "Mid Chest 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme_Night",
+            "x": 513,
+            "y": 161,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night upper 1 chest",
+            "name": "Upper 1 Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme_Night",
+            "x": 852,
+            "y": 505,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night upper 2 chest",
+            "name": "Upper 2 Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme_Night",
+            "x": 1077,
+            "y": 333,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

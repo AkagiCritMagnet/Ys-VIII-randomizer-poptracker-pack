@@ -1,0 +1,470 @@
+[
+  {
+    "name": "Mt Gendarme1",
+    "access_rules": ["$access_mountain"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 413,
+        "y": 702,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Mt Gendarme bottom chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme mid chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme mid chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme mid chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme mid chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme mid chest 5",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme mid chest 6",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme mid chest 7",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme mid chest 8",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Wish tree",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Avalodragil Second Fight",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  {
+    "name": "Mt Gendarme2",
+    "access_rules": ["$access_mountain"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 446,
+        "y": 693,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Mt Gendarme upper 1 chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme upper 1 chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mt Gendarme upper 2 chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Giasburn Boss Fight",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  
+  {
+    "name": "Food trades",
+    "access_rules": ["$access_mountain"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 375,
+        "y": 704,
+        "size": 30
+      }
+    ],
+    "sections": [
+	  
+	  {
+        "name": "Food trade 1",
+		"access_rules":[],
+		"visibility_rules": ["$has|food_trades|1"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Food trade 2",
+		"access_rules":["$has|recipes|1"],
+		"visibility_rules": ["$has|food_trades|2"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "Food trade 3",
+		"access_rules":["$has|recipes|2"],
+		"visibility_rules": ["$has|food_trades|3"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+	  {
+        "name": "Food trade 4",
+		"access_rules":["$has|recipes|3"],
+		"visibility_rules": ["$has|food_trades|4"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Food trade 5",
+		"access_rules":["$has|recipes|4"],
+		"visibility_rules": ["$has|food_trades|5"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+
+	  {
+        "name": "Food trade 6",
+		"access_rules":["$has|recipes|5"],
+		"visibility_rules": ["$has|food_trades|6"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  
+ 
+    ]
+  },
+  
+  //Mt Gendarme Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme bottom chest 1",
+            "name": "Bottom Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 459,
+            "y": 340,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 1",
+            "name": "Mid Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 616,
+            "y": 451,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 2",
+            "name": "Mid Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 835,
+            "y": 344,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 3",
+            "name": "Mid Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 1154,
+            "y": 48,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 4",
+            "name": "Mid Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 824,
+            "y": 193,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 5",
+            "name": "Mid Chest 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 672,
+            "y": 348,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 6",
+            "name": "Mid Chest 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 47,
+            "y": 634,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 7",
+            "name": "Mid Chest 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 334,
+            "y": 426,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 8",
+            "name": "Mid Chest 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 414,
+            "y": 439,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Wish tree",
+            "name": "Wish tree"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 300,
+            "y": 463,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme1/Avalodragil Second Fight",
+            "name": "Avalodragil Second Fight"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 291,
+            "y": 205,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Food trades/Food trade 1",
+            "name": "Food Trade 1"
+          },
+		  {
+            "ref": "Food trades/Food trade 2",
+            "name": "Food Trade 2"
+          },
+		  {
+            "ref": "Food trades/Food trade 3",
+            "name": "Food Trade 3"
+          },
+		  {
+            "ref": "Food trades/Food trade 4",
+            "name": "Food Trade 4"
+          },
+		  {
+            "ref": "Food trades/Food trade 5",
+            "name": "Food Trade 5"
+          },
+		  {
+            "ref": "Food trades/Food trade 6",
+            "name": "Food Trade 6"
+          },
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 413,
+            "y": 146,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme2/Mt Gendarme upper 1 chest 1",
+            "name": "Upper 1 Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 906,
+            "y": 515,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme2/Mt Gendarme upper 1 chest 2",
+            "name": "Upper 1 Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 842,
+            "y": 487,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme2/Mt Gendarme upper 2 chest",
+            "name": "Upper 2 Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 1071,
+            "y": 491,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mt Gendarme2/Giasburn Boss Fight",
+            "name": "Giasburn Boss Fight"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mt_Gendarme",
+            "x": 1063,
+            "y": 413,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

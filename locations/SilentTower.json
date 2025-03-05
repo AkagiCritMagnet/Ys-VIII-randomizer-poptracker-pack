@@ -1,0 +1,190 @@
+[
+  {
+    "name": "Silent Tower",
+    "access_rules": ["$access_jungle, Archaeopteryx_Wing, $has|Castaways|24"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 727,
+        "y": 822,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Silent Tower passage 1 chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Silent Tower B1F chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Silent Tower B1F chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Silent Tower passage 2 chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Silent Tower B2F chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Silent Tower B2F chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Mephorash Boss Fight",
+		"visibility_rules": ["mephorash_fight"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Silent Tower B2F chest 3",
+		"visibility_rules": ["mephorash_fight"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  //Silent Tower Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Silent Tower/Silent Tower passage 1 chest",
+            "name": "Passage 1 Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Silent_Tower",
+            "x": 68,
+            "y": 135,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Silent Tower/Silent Tower B1F chest 1",
+            "name": "B1F Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Silent_Tower",
+            "x": 790,
+            "y": 70,
+			"size": 20
+          }
+        ]
+      },
+	  
+	  {
+        "sections": [
+          {
+            "ref": "Silent Tower/Silent Tower B1F chest 2",
+            "name": "B1F Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Silent_Tower",
+            "x": 461,
+            "y": 239,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Silent Tower/Silent Tower passage 2 chest",
+            "name": "Passage 2 Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Silent_Tower",
+            "x": 651,
+            "y": 445,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Silent Tower/Silent Tower B2F chest 1",
+            "name": "B2F Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Silent_Tower",
+            "x": 426,
+            "y": 622,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Silent Tower/Silent Tower B2F chest 2",
+            "name": "B2F Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Silent_Tower",
+            "x": 88,
+            "y": 501,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Silent Tower/Mephorash Boss Fight",
+            "name": "Mephorash Boss Fight"
+          },
+		  {
+            "ref": "Silent Tower/Silent Tower B2F chest 3",
+            "name": "B2F Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Silent_Tower",
+            "x": 234,
+            "y": 465,
+			"size": 20
+          }
+        ]
+      },
+ 
+      
+    ]
+  },
+  
+ 
+]

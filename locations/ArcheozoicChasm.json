@@ -1,0 +1,396 @@
+[
+  {
+    "name": "Archeozoic Chasm1",
+    "access_rules": ["$access_eternia, frosted_flower"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 198,
+        "y": 250,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Archeozoic Chasm bottom chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm mid chest 1",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm mid chest 2",
+		"access_rules": ["$has|Castaways|23"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm bottom chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm bottom chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Coelacantos Boss Fight",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm bottom chest 4",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  {
+    "name": "Archeozoic Chasm2",
+    "access_rules": ["$access_eternia, frosted_flower, hermits_scale"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 232,
+        "y": 250,
+        "size": 30
+      }
+    ],
+    "sections": [
+      {
+        "name": "Archeozoic Chasm bottom chest 5",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm bottom chest 6",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm bottom chest 7",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm bottom chest 8",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm bottom chest 9",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm bottom chest 10",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm bottom chest 11",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Archeozoic Chasm bottom chest 12",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Oceanus Boss Fight",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Lombardia Nameplate",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+
+ 
+    ]
+  },
+  //Archeozoic Chasm Map Items
+  {
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm bottom chest 1",
+            "name": "Bottom Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 573,
+            "y": 655,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm mid chest 1",
+            "name": "Mid Chest 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 834,
+            "y": 532,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm mid chest 2",
+            "name": "Mid Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 852,
+            "y": 478,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm bottom chest 2",
+            "name": "Bottom Chest 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 721,
+            "y": 102,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm bottom chest 3",
+            "name": "Bottom Chest 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 715,
+            "y": 52,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm1/Coelacantos Boss Fight",
+            "name": "Coelacantos Boss Fight"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 466,
+            "y": 70,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm bottom chest 4",
+            "name": "Bottom Chest 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 465,
+            "y": 121,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 5",
+            "name": "Bottom Chest 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 507,
+            "y": 109,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 6",
+            "name": "Bottom Chest 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 409,
+            "y": 18,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 7",
+            "name": "Bottom Chest 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 156,
+            "y": 288,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 8",
+            "name": "Bottom Chest 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 64,
+            "y": 327,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 9",
+            "name": "Bottom Chest 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 261,
+            "y": 576,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 10",
+            "name": "Bottom Chest 10"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 358,
+            "y": 789,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 11",
+            "name": "Bottom Chest 11"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 346,
+            "y": 478,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 12",
+            "name": "Bottom Chest 12"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 612,
+            "y": 481,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Archeozoic Chasm2/Oceanus Boss Fight",
+            "name": "Oceanus Boss Fight"
+          },
+		  {
+            "ref": "Archeozoic Chasm2/Lombardia Nameplate",
+            "name": "Lombardia Nameplate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Archeozoic_Chasm",
+            "x": 553,
+            "y": 291,
+			"size": 20
+          }
+        ]
+      },
+
+      
+    ]
+  },
+  
+ 
+]
