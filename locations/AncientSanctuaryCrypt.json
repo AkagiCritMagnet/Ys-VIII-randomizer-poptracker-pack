@@ -1,7 +1,7 @@
 [
   {
     "name": "Ancient Sanctuary Crypt F1",
-    "access_rules": ["$access_eternia, jade_pendant, Archaeopteryx_Wing"],
+    "access_rules": ["@Ruins of Eternia, jade_pendant, Archaeopteryx_Wing"],
 	"visibility_rules": ["FSC Access"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
@@ -764,8 +764,8 @@
         "map_locations": [
           {
             "map": "Ancient_Sanctuary_Crypt",
-            "x": 2359,
-            "y": 786,
+            "x": 1685,
+            "y": 326,
 			"size": 27
           }
         ]

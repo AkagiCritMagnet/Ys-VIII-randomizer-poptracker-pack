@@ -146,5 +146,11 @@
     "type": "toggle",
     "img": "images/options/NorthSideOpen.png",
     "codes": "NorthSideOpen"
+  },
+  {
+    "name": "Landmark Sanity",
+    "type": "toggle",
+    "img": "images/options/LandmarkSanity.png",
+    "codes": "landmark_sanity"
   }
 ]

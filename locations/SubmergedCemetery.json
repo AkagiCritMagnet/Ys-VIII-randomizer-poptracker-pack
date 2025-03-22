@@ -1,7 +1,7 @@
 [
   {
     "name": "Submerged Cemetery",
-    "access_rules": ["$access_submerged_cemetery"],
+    "access_rules": ["$access_submerged_cemetery_landmarks", "@Temple of the Great Tree, treasure_chest_key, Grip_Gloves, Floating_Shoes", "@Temple of the Great Tree, treasure_chest_key, Grip_Gloves, Archaeopteryx_Wing"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -16,11 +16,18 @@
     "sections": [
 	  {
         "name": "Submerged Cemetery chest 1",
+		"access_rules": ["Hermits_scale"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Submerged Cemetery chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Soundless Hall Discovery",
+		"visbilitry_rules": ["landmark_sanity"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -53,6 +60,10 @@
           {
             "ref": "Submerged Cemetery/Submerged Cemetery chest 2",
             "name": "Chest 2"
+          },
+		  {
+            "ref": "Submerged Cemetery/Soundless Hall Discovery",
+            "name": "Soundless Hall Discovery"
           }
         ],
         "map_locations": [

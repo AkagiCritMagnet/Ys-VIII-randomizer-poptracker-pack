@@ -11,9 +11,9 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "5, 5",
+                        "item_margin": "10, 5",
                         "h_alignment": "left",
-			"item_size": 50,
+						"item_size": 60,
                         "rows": [
                             ["Grip_Gloves", "Glow_Stone", "Floating_Shoes", "Hermits_Scale", "Archaeopteryx_Wing","Purifying_Bell"],
                         ]
@@ -34,9 +34,9 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "0, 0",
+                        "item_margin": "5, 0",
                         "h_alignment": "left",
-						"item_size": 60,
+						"item_size": 70,
                         "rows": [
                             ["Adol", "Laxia", "Sahad", "Hummel", "Ricotta", "Dana"],
                         ]
@@ -57,7 +57,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "1, 1",
+                        "item_margin": "14, 1",
                         "h_alignment": "left",
 						"item_size": 70,
                         "rows": [
@@ -80,12 +80,11 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "8, 5",
+                        "item_margin": "1, 2",
                         "h_alignment": "left",
-						"item_size": 70,
+						"item_size": 60,
                         "rows": [
-                            ["maiden_journal", "blue_seal", "green_seal", "golden_seal"],
-							["frosted_flower", "treasure_chest_key", "maiden_amulet", "jade_pendant"]
+                            ["maiden_journal", "blue_seal", "green_seal", "golden_seal", "frosted_flower", "treasure_chest_key", "maiden_amulet", "jade_pendant"],
                         ]
                     }
                 ]
@@ -104,12 +103,38 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "10, 10",
+                        "item_margin": "1, 2",
                         "h_alignment": "left",
-			"item_size": 70,
+						"item_size": 60,
                         "rows": [
-                            ["fishing_rod", "recipes", "ship_log", "Tnotes"],
-			    ["ship_blueprints", "seiren_map", "mistilteinn", "psyches"]
+                            ["fishing_rod", "recipes", "ship_log", "Tnotes", "psyches", "ship_blueprints", "seiren_map", "mistilteinn"],
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+	
+	"landmarks_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "1, 1",
+                        "h_alignment": "left",
+						"item_size": 80,
+                        "rows": [
+                            ["cobalt_crag", "birdsong_rock", "rainbow_falls", "metavolicalis", "milky_white_vein", "chimney_rock"],
+							["indigo_mineral_vein", "beached_remains", "zephyr_hill", "beehive", "field_of_medicinal_herbs", "airs_cairn"],
+							["parasequoia", "prismatic_mineral_vein", "ancient_tree", "breath_fountain", "unicalamites", "ship_graveyard"],
+							["hidden_pirates_storehouse", "lapis_mineral_vein", "soundless_hall", "sky_garden", "magnacarpa", "graves_of_ancient_heroes"],
                         ]
                     }
                 ]

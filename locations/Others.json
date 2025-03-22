@@ -1,7 +1,7 @@
 [
   {
     "name": "Sunrise Beach",
-    "access_rules": ["$access_great_river_valley"],
+    "access_rules": ["@Great River Valley"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -19,6 +19,12 @@
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
+	  {
+        "name": "Beached Remains Discovery",
+		"visibility_rules": ["landmark_sanity"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
 
  
     ]
@@ -26,7 +32,7 @@
   
   {
     "name": "Odd Rock Coast",
-    "access_rules": ["$access_jungle, Floating_Shoes"],
+    "access_rules": ["@Schlamm Jungle2, Floating_Shoes"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -51,7 +57,7 @@
   
   {
     "name": "Temple of the Great Tree",
-    "access_rules": ["$access_temple"],
+    "access_rules": ["@Ruins of Eternia, green_seal", "@Titis Primeval Forest, Dana", "$access_temple_landmarks"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -86,7 +92,7 @@
   
   {
     "name": "Octus: Sky Path",
-    "access_rules": ["$access_octus"],
+    "access_rules": ["$access_octus, @Temple of the Great Tree"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -127,7 +133,7 @@
   
   {
     "name": "Octus: Ocean Path",
-	"access_rules": ["$access_octus"],
+	"access_rules": ["$access_octus, @Temple of the Great Tree"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -163,7 +169,7 @@
   
   {
     "name": "Octus: Frozen Path",
-	"access_rules": ["$access_octus"],
+	"access_rules": ["$access_octus, @Temple of the Great Tree"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -203,7 +209,7 @@
   },
   {
     "name": "Octus: Insectoid Path",
-	"access_rules": ["$access_octus"],
+	"access_rules": ["$access_octus, @Temple of the Great Tree"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -244,7 +250,7 @@
   
   {
     "name": "Selection Sphere",
-	"access_rules": ["$access_octus"],
+	"access_rules": ["$access_octus, @Temple of the Great Tree"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

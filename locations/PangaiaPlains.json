@@ -20,12 +20,24 @@
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
+        "name": "Breath Fountain Discovery",
+		"visibility_rules": "landmark_sanity",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
         "name": "Find Silvia",
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Pangaia Plains chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Ancient Tree Discovery",
+		"visibility_rules": "landmark_sanity",
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -68,12 +80,16 @@
           {
             "ref": "Pangaia Plains/Find Silvia",
             "name": "Find Silvia"
+          },
+		  {
+            "ref": "Pangaia Plains/Breath Fountain Discovery",
+            "name": "Breath Fountain Discovery"
           }
         ],
         "map_locations": [
           {
             "map": "Pangaia_Plains",
-            "x": 541,
+            "x": 530,
             "y": 75,
 			"size": 20
           }
@@ -116,13 +132,17 @@
           {
             "ref": "Pangaia Plains/Pangaia Plains chest 4",
             "name": "Chest 4"
+          },
+		  {
+            "ref": "Pangaia Plains/Ancient Tree Discovery",
+            "name": "Ancient Tree Discovery"
           }
         ],
         "map_locations": [
           {
             "map": "Pangaia_Plains",
-            "x": 400,
-            "y": 339,
+            "x": 390,
+            "y": 350,
 			"size": 20
           }
         ]

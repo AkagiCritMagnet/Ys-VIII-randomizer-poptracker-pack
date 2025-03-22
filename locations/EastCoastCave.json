@@ -1,7 +1,7 @@
 [
   {
     "name": "East Coast Cave",
-    "access_rules": ["$access_nostalgia_cape"],
+    "access_rules": ["@Nostalgia Cape"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -20,12 +20,20 @@
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
+        "name": "Hidden Pirate's Storehouse",
+		"visibility_rules": ["landmark_sanity"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
         "name": "East Coast Cave chest 2",
+		"access_rules": ["Archaeopteryx_Wing"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "East Coast Cave chest 3",
+		"access_rules": ["Archaeopteryx_Wing"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -42,6 +50,10 @@
           {
             "ref": "East Coast Cave/East Coast Cave chest 1",
             "name": "Chest 1"
+          },
+		  {
+            "ref": "East Coast Cave/Hidden Pirate's Storehouse",
+            "name": "Hidden Pirate's Storehouse"
           }
         ],
         "map_locations": [

@@ -1,7 +1,7 @@
 [
   {
     "name": "Nostalgia Cape",
-    "access_rules": ["$access_nostalgia_cape"],
+    "access_rules": ["@Longhorn Coast, Archaeopteryx_Wing", "$access_nostalgia_cape_landmarks"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -21,6 +21,12 @@
       },
 	  {
         "name": "Nostalgia Cape item in crate",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Ship Graveyard Discovery",
+		"visibility_rules": "landmark_sanity",
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -59,6 +65,10 @@
           {
             "ref": "Nostalgia Cape/Nostalgia Cape item in crate",
             "name": "Item in crate"
+          },
+		  {
+            "ref": "Nostalgia Cape/Ship Graveyard Discovery",
+            "name": "Ship Graveyard Discovery"
           }
         ],
         "map_locations": [

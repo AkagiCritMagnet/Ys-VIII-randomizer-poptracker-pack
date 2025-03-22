@@ -1,7 +1,7 @@
 [
   {
     "name": "Mountain Pinnacle Trail",
-    "access_rules": ["$access_mountain"],
+    "access_rules": ["@Mt Gendarme1"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -46,6 +46,12 @@
       },
 	  {
         "name": "MPT lower lvl chest 5",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Prismatic Mineral Vein Discovery",
+		"visibility_rules": "landmark_sanity",
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -165,6 +171,22 @@
             "map": "Mountain_Pinnacle_Trail",
             "x": 680,
             "y": 160,
+			"size": 30
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Mountain Pinnacle Trail/Prismatic Mineral Vein Discovery",
+            "name": "Prismatic Mineral Vein Discovery"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mountain_Pinnacle_Trail",
+            "x": 342,
+            "y": 448,
 			"size": 30
           }
         ]

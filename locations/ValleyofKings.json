@@ -1,7 +1,7 @@
 [
   {
     "name": "Valley of Kings1",
-    "access_rules": ["$access_valley_of_kings"],
+    "access_rules": ["@Temple of the Great Tree, treasure_chest_key, Grip_Gloves, Floating_Shoes", "$access_lodinia_marsh_landmarks, Floating_Shoes", "$access_valley_of_kings_landmarks"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -16,6 +16,7 @@
     "sections": [
       {
         "name": "Valley of Kings chest",
+		"access_rules": "Dina",
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -77,7 +78,7 @@
   },
   {
     "name": "Valley of Kings2",
-    "access_rules": ["$access_valley_of_kings, Purifying_Bell"],
+    "access_rules": ["@Valley of Kings1, Purifying_Bell"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

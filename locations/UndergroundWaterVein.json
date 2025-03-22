@@ -1,7 +1,7 @@
 [
   {
     "name": "Underground Water Vein",
-    "access_rules": ["$access_weathervane_hills, Hermits_Scale"],
+    "access_rules": ["@Weathervane Hills, Hermits_Scale", "landmark_sanity, lapis_mineral_vein"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -16,6 +16,7 @@
     "sections": [
       {
         "name": "UWV chest 1",
+		"access_rules": ["Hermits_Scale"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -31,11 +32,19 @@
       },
 	  {
         "name": "UWV bottom chest",
+		"access_rules": ["Hermits_Scale"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "UWV item on the ground",
+		"access_rules": ["Hermits_Scale, Grip_Gloves"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Lapis Mineral Vein Discovery",
+		"visibility_rules": ["landmark_sanity"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -111,6 +120,22 @@
             "map": "Underground_Water_Vein",
             "x": 404,
             "y": 264,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Underground Water Vein/Lapis Mineral Vein Discovery",
+            "name": "Lapis Mineral Vein Discovery"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Underground_Water_Vein",
+            "x": 397,
+            "y": 66,
 			"size": 20
           }
         ]

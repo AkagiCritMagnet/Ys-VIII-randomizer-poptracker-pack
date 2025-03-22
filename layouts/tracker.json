@@ -58,11 +58,11 @@
                         },
                         {
                             "type": "group",
-                            "header": "Settings",
+                            "header": "Landmarks",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "settings_grid"
+                                "key": "landmarks_grid"
                             }
                         }
                     ]
@@ -132,6 +132,16 @@
                             "content": {
                                 "type": "layout",
                                 "key": "other_grid"
+                            }
+                        },
+						{
+                            "type": "group",
+                            "header": "Landmarks",
+                            "dock": "top",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "key": "landmarks_grid"
                             }
                         },
                     ]

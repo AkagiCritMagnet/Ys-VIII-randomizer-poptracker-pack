@@ -1,7 +1,7 @@
 [
   {
     "name": "Schlamm Jungle1",
-    "access_rules": ["$access_jungle"],
+    "access_rules": ["@Great River Valley, Dina", "landmark_sanity, field_of_medicinal_herbs"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -64,7 +64,7 @@
   },
   {
     "name": "Schlamm Jungle2",
-    "access_rules": ["$access_jungle, Floating_Shoes", "$access_jungle, Archaeopteryx_Wing"],
+    "access_rules": ["@Great River Valley, Dina, Floating_Shoes", "@Great River Valley, Dina, Archaeopteryx_Wing", "landmark_sanity, field_of_medicinal_herbs"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -79,7 +79,7 @@
     "sections": [
 	  {
         "name": "Jungle chest 6",
-		"access_rules": ["Grip_Gloves"],
+		"access_rules": ["Grip_Gloves, Floating_Shoes", "Grip_Gloves, Archaeopteryx_Wing"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -90,7 +90,14 @@
       },
 	  {
         "name": "Jungle chest 8",
-		"access_rules": ["Grip_Gloves, Floating_Shoes"],
+		"access_rules": ["Grip_Gloves, Floating_Shoes", "landmark_sanity, field_of_medicinal_herbs"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Field of Medicinal Herbs Discovery",
+		"visibility_rules": "landmark_sanity",
+		"access_rules": ["Grip_Gloves, Floating_Shoes", "landmark_sanity, field_of_medicinal_herbs"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -275,6 +282,10 @@
           {
             "ref": "Schlamm Jungle2/Jungle chest 8",
             "name": "Chest 8"
+          },
+		  {
+            "ref": "Schlamm Jungle2/Field of Medicinal Herbs Discovery",
+            "name": "Field of Medicinal Herbs Discovery"
           }
         ],
         "map_locations": [

@@ -1,7 +1,7 @@
 [
   {
     "name": "Great River Valley",
-    "access_rules": ["$access_great_river_valley"],
+    "access_rules": ["$access_great_river_valley", "$access_great_river_valley_landmarks"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -76,6 +76,12 @@
       },
 	  {
         "name": "GRV near Beast Hills chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Chimney Rock Discovery",
+		"visibility_rules": ["landmark_sanity"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -275,6 +281,22 @@
             "map": "Great_River_Valley",
             "x": 840,
             "y": 54,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Great River Valley/Chimney Rock Discovery",
+            "name": "Chimney Rock Discovery"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 941,
+            "y": 204,
 			"size": 20
           }
         ]

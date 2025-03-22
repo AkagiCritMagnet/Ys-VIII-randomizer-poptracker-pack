@@ -40,37 +40,37 @@
 	  
 	  {
         "name": "Nameless Coast chest 5",
-		"access_rules": ["Grip_Gloves", "$has|Castaways|6"],
+		"access_rules": ["Grip_Gloves", "$has|Castaways|6", "$access_nameless_coast_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Nameless Coast chest 6",
-		"access_rules": ["Grip_Gloves", "$has|Castaways|6"],
+		"access_rules": ["Grip_Gloves", "$has|Castaways|6", "$access_nameless_coast_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Nameless Coast chest 7",
-		"access_rules": ["Grip_Gloves", "$has|Castaways|6"],
+		"access_rules": ["Grip_Gloves", "$has|Castaways|6", "$access_nameless_coast_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Nameless Coast chest 8",
-		"access_rules": ["Grip_Gloves", "$has|Castaways|6"],
+		"access_rules": ["Grip_Gloves", "$has|Castaways|6", "$access_nameless_coast_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Nameless Coast chest 9",
-		"access_rules": ["Grip_Gloves", "Archaeopteryx_Wing, $has|Castaways|6"],
+		"access_rules": ["Grip_Gloves", "Archaeopteryx_Wing, $has|Castaways|6", "$access_nameless_coast_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Nameless Coast chest 10",
-		"access_rules": ["Archaeopteryx_Wing, $has|Castaways|6", "Archaeopteryx_Wing, Grip_Gloves", "$has|Castaways|8"],
+		"access_rules": ["Archaeopteryx_Wing, $has|Castaways|6", "Archaeopteryx_Wing, Grip_Gloves", "$has|Castaways|8", "$access_great_river_valley_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -85,6 +85,14 @@
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
+	  {
+        "name": "Birdsong Rock Discovery",
+		"visibility_rules": "landmark_sanity",
+		"access_rules": ["Grip_Gloves", "$has|Castaways|6", "$access_nameless_coast_landmarks"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  
 	        
 
 	  
@@ -285,7 +293,22 @@
           }
         ]
       },
-	  
+	  {
+        "sections": [
+		  {
+            "ref": "Nameless Coast/Birdsong Rock Discovery",
+            "name": "Birdsong Rock Discovery"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 598,
+            "y": 165,
+			"size": 20
+          }
+        ]
+      },
 	       
       
     ]

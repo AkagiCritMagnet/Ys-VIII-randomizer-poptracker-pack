@@ -1,7 +1,7 @@
 [
   {
     "name": "Vista Ridge",
-    "access_rules": ["$access_temple"],
+    "access_rules": ["@Temple of the Great Tree"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

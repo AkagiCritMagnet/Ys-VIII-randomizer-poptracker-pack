@@ -20,6 +20,12 @@
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
+		"name": "Cobalt Crag Discovery",
+		"visibility_rules": "landmark_sanity",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+	  },
+	  {
         "name": "WSC chest 2",
 		"access_rules": ["Archaeopteryx_Wing"],
 		"chest_unopened_img": "images/items/chest_closed.png",
@@ -188,6 +194,22 @@
             "map": "White_Sand_Coast",
             "x": 937,
             "y": 186,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "White Sand Coast/Cobalt Crag Discovery",
+            "name": "Cobalt Crag Discovery"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "White_Sand_Coast",
+            "x": 388,
+            "y": 131,
 			"size": 20
           }
         ]

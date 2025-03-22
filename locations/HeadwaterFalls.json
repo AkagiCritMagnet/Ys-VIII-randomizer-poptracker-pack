@@ -1,7 +1,7 @@
 [
   {
     "name": "Headwater Falls",
-    "access_rules": ["$access_weathervane_hills"],
+    "access_rules": ["@Weathervane Hills"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -16,6 +16,7 @@
     "sections": [
       {
         "name": "Headwater Falls chest 1",
+		"access_rules": ["Grip_Gloves"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },

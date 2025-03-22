@@ -17,25 +17,25 @@
     "sections": [
       {
         "name": "Roaring Seashore training",
-		"access_rules":["$has|Castaways|14, Ricotta"],
+		"access_rules":["$access_roaring_seashore_upper_landmarks, Ricotta"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Sunrise Beach training",
-		"access_rules":["@Master Kong Trainings/Roaring Seashore training, Sahad"],
+		"access_rules":["@Master Kong Trainings/Roaring Seashore training, $access_great_river_valley , Sahad", "@Master Kong Trainings/Roaring Seashore training, $access_great_river_valley_landmarks , Sahad"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Odd Rock Coast training",
-		"access_rules":["@Master Kong Trainings/Sunrise Beach training, $access_jungle, Floating_Shoes, Dana"],
+		"access_rules":["@Master Kong Trainings/Sunrise Beach training, @Schlamm Floating_Shoes, Dana"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Mt Gendarme summit training",
-		"access_rules":["@Master Kong Trainings/Odd Rock Coast training, $access_mountain, Laxia"],
+		"access_rules":["@Master Kong Trainings/Odd Rock Coast training, @Mt Gendarme2, Laxia"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -47,7 +47,7 @@
       },
 	  {
         "name": "Vista Ridge training",
-		"access_rules":["@Master Kong Trainings/Pangaia Plains training, Adol"],
+		"access_rules":["@Master Kong Trainings/Pangaia Plains training, @Temple of the Great Tree, Adol"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },

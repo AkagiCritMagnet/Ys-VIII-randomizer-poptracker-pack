@@ -1,7 +1,7 @@
 [
   {
     "name": "Silent Tower",
-    "access_rules": ["$access_jungle, Archaeopteryx_Wing, $has|Castaways|24"],
+    "access_rules": ["@Water and Wood Hills, Archaeopteryx_Wing, $has|Castaways|24"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

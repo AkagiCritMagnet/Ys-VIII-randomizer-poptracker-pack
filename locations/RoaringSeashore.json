@@ -1,7 +1,7 @@
 [
   {
     "name": "Roaring Seashore",
-    "access_rules": ["Grip_Gloves"],
+    "access_rules": [],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -16,28 +16,45 @@
     "sections": [
       {
         "name": "Roaring Seashore chest 1",
+		"access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Roaring Seashore chest 2",
+		"access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Metavolicalis Discovery",
+		"visibility_rules": ["landmark_sanity"],
+		"access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Find Kathleen",
+		"access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  	  {
         "name": "Roaring Seashore chest 3",
-		"access_rules":["$has|Castaways|14"],
+		"access_rules":["$access_roaring_seashore_upper_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Roaring Seashore near Kong chest",
-		"access_rules":["$has|Castaways|14"],
+		"access_rules":["$access_roaring_seashore_upper_landmarks"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Parasequoia Discovery",
+		"visibility_rules": ["landmark_sanity"],
+		"access_rules":["$access_roaring_seashore_upper_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -70,6 +87,10 @@
           {
             "ref": "Roaring Seashore/Roaring Seashore chest 2",
             "name": "Chest 2"
+          },
+		  {
+            "ref": "Roaring Seashore/Metavolicalis Discovery",
+            "name": "Metavolicalis Discovery"
           }
         ],
         "map_locations": [
@@ -118,6 +139,10 @@
           {
             "ref": "Roaring Seashore/Roaring Seashore near Kong chest",
             "name": "Near Kong Chest"
+          },
+		  {
+            "ref": "Roaring Seashore/Parasequoia Discovery",
+            "name": "Parasequoia Discovery"
           }
         ],
         "map_locations": [

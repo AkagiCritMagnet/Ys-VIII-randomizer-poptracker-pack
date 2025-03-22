@@ -1,7 +1,7 @@
 [
   {
     "name": "Towering Coral Forest Night",
-    "access_rules": ["$access_nameless_coast, Glow_Stone" ],
+    "access_rules": ["@Towering Coral Forest1, Glow_Stone" ],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

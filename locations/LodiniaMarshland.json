@@ -1,7 +1,7 @@
 [
   {
     "name": "Lodinia Marshland",
-    "access_rules": ["$access_temple"],
+    "access_rules": ["@Temple of the Great Tree", "$access_lodinia_marsh_landmarks"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -16,18 +16,19 @@
     "sections": [
       {
         "name": "Lodinia Marshland chest 1",
+		"access_rules": ["@Temple of the Great Tree", "landmark_sanity, soundless_hall, Hermits_Scale, $has|Castaways|22", "Floating_Shoes"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Lodinia Marshland chest 2",
-		"access_rules": ["Floating_Shoes", "Archaeopteryx_Wing"],
+		"access_rules": ["Floating_Shoes", "@Temple of the Great Tree, Archaeopteryx_Wing", "landmark_sanity, soundless_hall, Hermits_Scale, $has|Castaways|22"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Lodinia Marshland chest 3",
-		"access_rules": ["Floating_Shoes", "Archaeopteryx_Wing"],
+		"access_rules": ["Floating_Shoes", "@Temple of the Great Tree, Archaeopteryx_Wing", "landmark_sanity, soundless_hall, Hermits_Scale, $has|Castaways|22"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -51,37 +52,44 @@
       },
 	  {
         "name": "Lodinia Marshland chest 7",
-		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key"],
+		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key", "$access_lodinia_marsh_landmarks, Floating_Shoes"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Lodinia Marshland chest 8",
-		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key"],
+		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key", "$access_lodinia_marsh_landmarks, Floating_Shoes", "$access_lodinia_marsh_landmarks, Hermits_Scale"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Lodinia Marshland chest 9",
-		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key"],
+		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key", "$access_lodinia_marsh_landmarks, Floating_Shoes"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Lodinia Marshland chest 10",
-		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key"],
+		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key", "$access_lodinia_marsh_landmarks, Floating_Shoes", "$access_lodinia_marsh_landmarks, Hermits_Scale", "$access_valley_of_kings_landmarks"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Lodinia Marshland chest 11",
-		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key"],
+		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key", "$access_lodinia_marsh_landmarks, Floating_Shoes", "$access_lodinia_marsh_landmarks, Hermits_Scale"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Sky Garden Discovery",
+		"visibility_rules": ["landmark_sanity"],
+		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key, Archaeopteryx_Wing", "landmark_sanity, sky_garden"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Climb for tree sap",
-		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key, Archaeopteryx_Wing"],
+		"access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key, Archaeopteryx_Wing", "landmark_sanity, sky_garden"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -275,6 +283,10 @@
           {
             "ref": "Lodinia Marshland/Climb for tree sap",
             "name": "Climb for tree sap"
+          },
+		  {
+            "ref": "Lodinia Marshland/Sky Garden Discovery",
+            "name": "Sky Garden Discovery"
           }
         ],
         "map_locations": [

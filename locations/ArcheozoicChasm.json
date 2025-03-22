@@ -1,7 +1,7 @@
 [
   {
     "name": "Archeozoic Chasm1",
-    "access_rules": ["$access_eternia, frosted_flower"],
+    "access_rules": ["@Ruins of Eternia, frosted_flower"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -56,7 +56,7 @@
   },
   {
     "name": "Archeozoic Chasm2",
-    "access_rules": ["$access_eternia, frosted_flower, hermits_scale"],
+    "access_rules": ["@Archeozoic Chasm1, Hermits_Scale"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

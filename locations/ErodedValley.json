@@ -1,7 +1,7 @@
 [
   {
     "name": "Eroded Valley1",
-    "access_rules": ["$access_great_river_valley"],
+    "access_rules": ["@Great River Valley"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -84,13 +84,19 @@
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
+	  {
+        "name": "Indigo Mineral Vein Discovery",
+		"visibility_rules": ["landmark_sanity"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
 
  
     ]
   },
   {
     "name": "Eroded Valley2",
-    "access_rules": ["$access_great_river_valley"],
+    "access_rules": ["@Great River Valley"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -489,6 +495,22 @@
             "map": "Eroded_Valley",
             "x": 540,
             "y": 15,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Eroded Valley1/Indigo Mineral Vein Discovery",
+            "name": "Indigo Mineral Vein Discovery"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Eroded_Valley",
+            "x": 304,
+            "y": 789,
 			"size": 20
           }
         ]

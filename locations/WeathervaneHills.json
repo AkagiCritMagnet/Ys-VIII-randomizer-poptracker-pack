@@ -1,7 +1,7 @@
 [
   {
     "name": "Weathervane Hills",
-    "access_rules": ["$access_weathervane_hills"],
+    "access_rules": ["$access_weathervane_hills", "$access_weathervane_hills_landmarks"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -26,6 +26,12 @@
       },
 	  {
         "name": "Weathervane Hills chest 3",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Zephyr Hill Discovery",
+		"visibility_rules": ["landmark_sanity"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -81,6 +87,22 @@
             "map": "Weathervane_Hills",
             "x": 89,
             "y": 155,
+			"size": 20
+          }
+        ]
+      },
+	  {
+        "sections": [
+          {
+            "ref": "Weathervane Hills/Zephyr Hill Discovery",
+            "name": "Zephyr Hill Discovery"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Weathervane_Hills",
+            "x": 511,
+            "y": 299,
 			"size": 20
           }
         ]

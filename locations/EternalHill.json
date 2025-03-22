@@ -1,7 +1,7 @@
 [
   {
     "name": "Eternal Hill",
-    "access_rules": ["$access_valley_of_kings, maiden_amulet"],
+    "access_rules": ["@Valley of Kings, maiden_amulet", "landmark_sanity, grave_of_ancient_heroes"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -21,6 +21,12 @@
       },
 	  {
         "name": "Find Griselda",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Grave of Ancient Heroes Discovery",
+		"visibility_rules": ["landmark_sanity"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -53,13 +59,17 @@
           {
             "ref": "Eternal Hill/Find Griselda",
             "name": "Find Griselda"
+          },
+		  {
+            "ref": "Eternal Hill/Grave of Ancient Heroes Discovery",
+            "name": "Grave of Ancient Heroes Discovery"
           }
         ],
         "map_locations": [
           {
             "map": "Eternal_Hill",
-            "x": 509,
-            "y": 23,
+            "x": 500,
+            "y": 30,
 			"size": 20
           }
         ]

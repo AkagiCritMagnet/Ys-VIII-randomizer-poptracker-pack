@@ -1,7 +1,7 @@
 [
   {
     "name": "Longhorn Coast",
-    "access_rules": ["$access_jungle"],
+    "access_rules": ["@Great River Valley, Dina", "$access_longhorn_coast_landmarks"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -16,16 +16,26 @@
     "sections": [
 	  {
         "name": "Check under stone",
+		"access_rules": ["Dina", "beehive"],
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Beehive Discovery",
+		"visibility_rules": ["landmark_sanity"],
+		"access_rules": ["Dina", "beehive"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
       {
         "name": "Longhorn Coast chest 1",
+		"access_rules": ["Dina", "beehive"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
         "name": "Longhorn Coast chest 2",
+		"access_rules": ["Dina", "beehive"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -62,6 +72,10 @@
           {
             "ref": "Longhorn Coast/Check under stone",
             "name": "Check under stone"
+          },
+		  {
+            "ref": "Longhorn Coast/Beehive Discovery",
+            "name": "Beehive Discovery"
           }
         ],
         "map_locations": [

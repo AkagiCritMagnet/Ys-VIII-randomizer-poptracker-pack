@@ -1,7 +1,7 @@
 [
   {
     "name": "Solitude Island",
-    "access_rules": ["$has|ship_blueprints"],
+    "access_rules": ["ship_blueprints", "landmark_sanity, magnacarpa"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -16,6 +16,12 @@
     "sections": [
       {
         "name": "Solitude chest",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Magnacarpa Discovery",
+		"visibility_rules": ["landmark_sanity"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -42,6 +48,10 @@
           {
             "ref": "Solitude Island/Solitude chest",
             "name": "Chest"
+          },
+		  {
+            "ref": "Solitude Island/Magnacarpa Discovery",
+            "name": "Magnacarpa Discovery"
           }
         ],
         "map_locations": [

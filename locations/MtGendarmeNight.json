@@ -1,7 +1,7 @@
 [
   {
     "name": "Mt Gendarme Night",
-    "access_rules": ["$access_mountain, Glow_Stone"],
+    "access_rules": ["@Mt Gendarme1, Glow_Stone"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

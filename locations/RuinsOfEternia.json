@@ -1,7 +1,7 @@
 [
   {
     "name": "Ruins of Eternia",
-    "access_rules": ["$access_eternia"],
+    "access_rules": ["@Titis Primeval Forest, blue_seal", "@Titis Primeval Forest, green_seal, Dana", "$access_eternia_landmarks"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

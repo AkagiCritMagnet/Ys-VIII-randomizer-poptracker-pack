@@ -1,0 +1,149 @@
+[
+	{
+    "name": "Cobalt Crag",
+    "type": "toggle",
+    "img": "images/items/landmarks/cobalt_crag.png",
+    "codes": "landmark, cobalt_crag"
+	},
+	{
+    "name": "Birdsong Rock",
+    "type": "toggle",
+    "img": "images/items/landmarks/birdsong_rock.png",
+    "codes": "landmark, birdsong_rock"
+	},
+	{
+    "name": "Rainbow Falls",
+    "type": "toggle",
+    "img": "images/items/landmarks/rainbow_falls.png",
+    "codes": "landmark, rainbow_falls"
+	},
+	{
+    "name": "Metavolicalis",
+    "type": "toggle",
+    "img": "images/items/landmarks/metavolicalis.png",
+    "codes": "landmark, metavolicalis"
+	},
+	{
+    "name": "Milky White Vein",
+    "type": "toggle",
+    "img": "images/items/landmarks/milky_white_vein.png",
+    "codes": "landmark, milky_white_vein"
+	},
+	{
+    "name": "Chimney Rock",
+    "type": "toggle",
+    "img": "images/items/landmarks/chimney_rock.png",
+    "codes": "landmark, chimney_rock"
+	},
+	{
+    "name": "Indigo Mineral Vein",
+    "type": "toggle",
+    "img": "images/items/landmarks/indigo_mineral_vein.png",
+    "codes": "landmark, indigo_mineral_vein"
+	},
+	{
+    "name": "Beached Remains",
+    "type": "toggle",
+    "img": "images/items/landmarks/beached_remains.png",
+    "codes": "landmark, beached_remains"
+	},
+	{
+    "name": "Zephyr Hill",
+    "type": "toggle",
+    "img": "images/items/landmarks/zephyr_hill.png",
+    "codes": "landmark, zephyr_hill"
+	},
+	{
+    "name": "Beehive",
+    "type": "toggle",
+    "img": "images/items/landmarks/beehive.png",
+    "codes": "landmark, beehive"
+	},
+	{
+    "name": "Field of Medicinal Herbs",
+    "type": "toggle",
+    "img": "images/items/landmarks/field_of_medicinal_herbs.png",
+    "codes": "landmark, field_of_medicinal_herbs"
+	},
+	{
+    "name": "Airs Cairn",
+    "type": "toggle",
+    "img": "images/items/landmarks/airs_cairn.png",
+    "codes": "landmark, airs_cairn"
+	},
+	{
+    "name": "Parasequoia",
+    "type": "toggle",
+    "img": "images/items/landmarks/parasequoia.png",
+    "codes": "landmark, parasequoia"
+	},
+	{
+    "name": "Prismatic Mineral Vein",
+    "type": "toggle",
+    "img": "images/items/landmarks/prismatic_mineral_vein.png",
+    "codes": "landmark, prismatic_mineral_vein"
+	},
+	{
+    "name": "Ancient Tree",
+    "type": "toggle",
+    "img": "images/items/landmarks/ancient_tree.png",
+    "codes": "landmark, ancient_tree"
+	},
+	{
+    "name": "Breath Fountain",
+    "type": "toggle",
+    "img": "images/items/landmarks/breath_fountain.png",
+    "codes": "landmark, breath_fountain"
+	},
+	{
+    "name": "Unicalamites",
+    "type": "toggle",
+    "img": "images/items/landmarks/unicalamites.png",
+    "codes": "landmark, unicalamites"
+	},
+	{
+    "name": "Ship Graveyard",
+    "type": "toggle",
+    "img": "images/items/landmarks/ship_graveyard.png",
+    "codes": "landmark, ship_graveyard"
+	},
+	{
+    "name": "Hidden Pirate's Storehouse",
+    "type": "toggle",
+    "img": "images/items/landmarks/hidden_pirates_storehouse.png",
+    "codes": "landmark, hidden_pirates_storehouse"
+	},
+	{
+    "name": "Lapis Mineral Vein",
+    "type": "toggle",
+    "img": "images/items/landmarks/lapis_mineral_vein.png",
+    "codes": "landmark, lapis_mineral_vein"
+	},
+	{
+    "name": "Soundless Hall",
+    "type": "toggle",
+    "img": "images/items/landmarks/soundless_hall.png",
+    "codes": "landmark, soundless_hall"
+	},
+	{
+    "name": "Sky Garden",
+    "type": "toggle",
+    "img": "images/items/landmarks/sky_garden.png",
+    "codes": "landmark, sky_garden"
+	},
+	{
+    "name": "Magnacarpa",
+    "type": "toggle",
+    "img": "images/items/landmarks/magnacarpa.png",
+    "codes": "landmark, magnacarpa"
+	},
+	{
+    "name": "Graves of Ancient Heroes",
+    "type": "toggle",
+    "img": "images/items/landmarks/graves_of_ancient_heroes.png",
+    "codes": "landmark, graves_of_ancient_heroes"
+	},
+
+
+
+]

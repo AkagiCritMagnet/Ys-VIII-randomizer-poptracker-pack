@@ -1,7 +1,7 @@
 [
   {
     "name": "Mt Gendarme1",
-    "access_rules": ["$access_mountain"],
+    "access_rules": ["@Primordial Passage"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -75,7 +75,7 @@
   },
   {
     "name": "Mt Gendarme2",
-    "access_rules": ["$access_mountain"],
+    "access_rules": ["@Mt Gendarme1"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

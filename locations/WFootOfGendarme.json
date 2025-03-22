@@ -1,7 +1,7 @@
 [
   {
     "name": "West Foot of Gendarme",
-    "access_rules": ["Floating_Shoes, $has|Castaways|11"],
+    "access_rules": ["Floating_Shoes, $has|Castaways|11", "landmark_sanity, airs_cairn"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -21,6 +21,12 @@
       },
 	  {
         "name": "WFoG chest 2",
+		"chest_unopened_img": "images/items/chest_closed.png",
+		"chest_opened_img": "images/items/chest_opened.png",
+      },
+	  {
+        "name": "Airs Cairn Discovery",
+		"visibility_rules": "landmark_sanity",
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },
@@ -64,6 +70,10 @@
           {
             "ref": "West Foot of Gendarme/WFoG chest 2",
             "name": "Chest 2"
+          },
+		  {
+            "ref": "West Foot of Gendarme/Airs Cairn Discovery",
+            "name": "Airs Cairn Discovery"
           }
         ],
         "map_locations": [
