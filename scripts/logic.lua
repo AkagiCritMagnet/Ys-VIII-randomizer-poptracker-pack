@@ -72,7 +72,7 @@ end
 function access_great_river_valley_landmarks()
 	if has("landmark_sanity") then
 		return has("chimney_rock") or has("milky_white_vein") or access_eroded_valley_landmarks() or (access_longhorn_coast_landmarks() and has("Dina")) 
-			or (access_jungle_landmarks() and has("Dina")) or (access_mountain_landmarks() and has("maiden_journal")) or (has("airs_cairn") and has("Floating_Shoes"))
+			or (access_jungle_landmarks() and has("Dina")) or (access_mountain_landmarks() and has("maiden_journal")) or (has("airs_cairn") and has("Floating_Shoes") and has("Castaways", 11))
 	end
 	return false
 end

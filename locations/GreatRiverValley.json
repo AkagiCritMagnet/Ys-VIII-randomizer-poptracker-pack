@@ -60,19 +60,19 @@
         "name": "GRV chest 9",
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
-		"access_rules": ["Floating_Shoes"],
+		"access_rules": ["Floating_Shoes", "landmark_sanity, airs_cairn, $has|Castaways|11"],
       },
 	  	  {
         "name": "GRV chest 10",
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
-		"access_rules": ["Floating_Shoes"],
+		"access_rules": ["Floating_Shoes", "landmark_sanity, airs_cairn, $has|Castaways|11"],
       },
 	  	  {
         "name": "GRV chest 11",
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
-		"access_rules": ["Floating_Shoes"],
+		"access_rules": ["Floating_Shoes", "landmark_sanity, airs_cairn, $has|Castaways|11"],
       },
 	  {
         "name": "GRV near Beast Hills chest",
