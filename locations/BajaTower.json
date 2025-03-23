@@ -115,11 +115,6 @@
 		"chest_opened_img": "images/items/chest_opened.png",
       },
 	  {
-        "name": "Baja Tower 6 chest 6",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
         "name": "Carveros Boss Fight",
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",

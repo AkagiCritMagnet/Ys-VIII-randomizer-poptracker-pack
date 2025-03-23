@@ -1,7 +1,7 @@
 [
   {
     "name": "Mt Gendarme1",
-    "access_rules": ["@Primordial Passage"],
+    "access_rules": ["@Primordial Passage", "landmark_sanity, prismatic_mineral_vein"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

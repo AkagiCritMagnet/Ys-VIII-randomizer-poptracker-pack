@@ -1,7 +1,7 @@
 [
   {
     "name": "Eternal Hill",
-    "access_rules": ["@Valley of Kings, maiden_amulet", "landmark_sanity, graves_of_ancient_heroes"],
+    "access_rules": ["@Valley of Kings1, maiden_amulet", "landmark_sanity, graves_of_ancient_heroes"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

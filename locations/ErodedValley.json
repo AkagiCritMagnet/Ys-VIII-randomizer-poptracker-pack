@@ -200,8 +200,8 @@
         "map_locations": [
           {
             "map": "Eroded_Valley",
-            "x": 372,
-            "y": 515,
+			"x": 276,
+            "y": 482,
 			"size": 20
           }
         ]
@@ -216,8 +216,8 @@
         "map_locations": [
           {
             "map": "Eroded_Valley",
-            "x": 276,
-            "y": 482,
+            "x": 372,
+            "y": 515,
 			"size": 20
           }
         ]
