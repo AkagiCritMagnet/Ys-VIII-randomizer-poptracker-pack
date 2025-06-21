@@ -4,197 +4,109 @@
     "access_rules": ["@Mt Gendarme1"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
-    "item_count": 1,
-    "map_locations": [
-      {
-        "map": "Seiren",
-        "x": 397,
-        "y": 640,
-        "size": 30
-      }
-    ],
-    "sections": [
-      {
-        "name": "MPT upper chest",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "MPT Cave 1 chest",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "MPT lower lvl chest 1",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "MPT lower lvl chest 2",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "MPT lower lvl chest 3",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "MPT lower lvl chest 4",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "MPT lower lvl chest 5",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Prismatic Mineral Vein Discovery",
-		"visibility_rules": "landmark_sanity",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-
- 
-    ]
-  },
-  //Mountain Pinnacle Trail Map Items
-  {
-    "item_count": 1,
     "children": [
       {
-        "sections": [
-          {
-            "ref": "Mountain Pinnacle Trail/MPT upper chest",
-            "name": "Upper Chest"
-          }
-        ],
+        "name": "MPT upper chest",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Mountain_Pinnacle_Trail",
             "x": 42,
             "y": 1432,
-			"size": 30
+			      "size": 30
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Mountain Pinnacle Trail/MPT Cave 1 chest",
-            "name": "Cave 1 Chest"
-          }
-        ],
+        "name": "MPT Cave 1 chest",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Mountain_Pinnacle_Trail",
             "x": 94,
             "y": 1120,
-			"size": 30
+			      "size": 30
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Mountain Pinnacle Trail/MPT lower lvl chest 1",
-            "name": "Lower lvl Chest 1"
-          }
-        ],
+        "name": "MPT lower lvl chest 1",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Mountain_Pinnacle_Trail",
             "x": 566,
             "y": 708,
-			"size": 30
+			      "size": 30
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Mountain Pinnacle Trail/MPT lower lvl chest 2",
-            "name": "Lower lvl Chest 2"
-          }
-        ],
+        "name": "MPT lower lvl chest 2",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Mountain_Pinnacle_Trail",
             "x": 504,
             "y": 676,
-			"size": 30
+			      "size": 30
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Mountain Pinnacle Trail/MPT lower lvl chest 3",
-            "name": "Lower lvl Chest 3"
-          }
-        ],
+        "name": "MPT lower lvl chest 3",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Mountain_Pinnacle_Trail",
             "x": 214,
             "y": 270,
-			"size": 30
+			      "size": 30
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Mountain Pinnacle Trail/MPT lower lvl chest 4",
-            "name": "Lower lvl Chest 4"
-          }
-        ],
+        "name": "MPT lower lvl chest 4",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Mountain_Pinnacle_Trail",
             "x": 922,
             "y": 64,
-			"size": 30
+			      "size": 30
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Mountain Pinnacle Trail/MPT lower lvl chest 5",
-            "name": "Lower lvl Chest 5"
-          }
-        ],
+        "name": "MPT lower lvl chest 5",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Mountain_Pinnacle_Trail",
             "x": 680,
             "y": 160,
-			"size": 30
+			      "size": 30
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Mountain Pinnacle Trail/Prismatic Mineral Vein Discovery",
-            "name": "Prismatic Mineral Vein Discovery"
-          }
-        ],
+        "name": "Prismatic Mineral Vein Discovery",
+        "sections":[{
+          "visibility_rules": "landmark_sanity"
+        }],
         "map_locations": [
           {
             "map": "Mountain_Pinnacle_Trail",
             "x": 342,
             "y": 448,
-			"size": 30
+			      "size": 30
           }
         ]
-      },
+      }
+
  
-      
     ]
-  },
+  }
   
  
 ]

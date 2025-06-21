@@ -4,200 +4,110 @@
     "access_rules": [],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
-    "item_count": 1,
-    "map_locations": [
-      {
-        "map": "Seiren",
-        "x": 248,
-        "y": 414,
-        "size": 30
-      }
-    ],
-    "sections": [
-      {
-        "name": "Bolado Monastery 2F chest 1",
-		"access_rules": ["@Ruins of Eternia, frosted_flower"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Bolado Monastery 2F chest 2",
-		"access_rules": ["@Ruins of Eternia, frosted_flower"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Bolado Monastery B1F chest 1",
-		"access_rules": ["@Ruins of Eternia, frosted_flower"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Bolado Monastery B1F chest 2",
-		"access_rules": ["@Ruins of Eternia, frosted_flower"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Bolado Monastery 1F chest 1",
-		"access_rules": ["@Ruins of Eternia, frosted_flower"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Bolado Monastery 1F chest 2",
-		"access_rules": ["@Ruins of Eternia, frosted_flower"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Bolado Monastery 1F chest 3",
-		"access_rules": ["@Ruins of Eternia, frosted_flower"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Bolado Monastery B1F chest 3",
-		"access_rules": ["@Submerged Cemetery, Hermits_scale"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Bolado Monastery B1F chest 4",
-		"access_rules": ["@Submerged Cemetery, Hermits_scale"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Bolado Monastery B1F chest 5",
-		"access_rules": ["@Submerged Cemetery, Hermits_scale"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-
- 
-    ]
-  },
-  //Bolado Monastery Map Items
-  {
-    "item_count": 1,
     "children": [
       {
-        "sections": [
-          {
-            "ref": "Bolado Monastery/Bolado Monastery 2F chest 1",
-            "name": "2F Chest 1"
-          }
-        ],
+        "name": "Bolado Monastery 2F chest 1",
+        "sections":[{
+          "access_rules": ["@Ruins of Eternia, frosted_flower"]
+        }],
         "map_locations": [
           {
             "map": "Bolado_Monastery",
             "x": 270,
             "y": 352,
-			"size": 35
+			      "size": 35
           }
         ]
-      },
+		},
 	  {
-        "sections": [
-          {
-            "ref": "Bolado Monastery/Bolado Monastery 2F chest 2",
-            "name": "2F Chest 2"
-          }
-        ],
+        "name": "Bolado Monastery 2F chest 2",
+        "sections":[{
+          "access_rules": ["@Ruins of Eternia, frosted_flower"]
+        }],
         "map_locations": [
           {
             "map": "Bolado_Monastery",
             "x": 342,
             "y": 66,
-			"size": 35
+			      "size": 35
           }
         ]
-      },
+		},
 	  {
-        "sections": [
-          {
-            "ref": "Bolado Monastery/Bolado Monastery B1F chest 1",
-            "name": "B1F Chest 1"
-          }
-        ],
+        "name": "Bolado Monastery B1F chest 1",
+        "sections":[{
+          "access_rules": ["@Ruins of Eternia, frosted_flower"]
+        }],
         "map_locations": [
           {
             "map": "Bolado_Monastery",
             "x": 258,
             "y": 1360,
-			"size": 35
+			      "size": 35
           }
         ]
-      },
+		},
 	  {
-        "sections": [
-          {
-            "ref": "Bolado Monastery/Bolado Monastery B1F chest 2",
-            "name": "B1F Chest 2"
-          }
-        ],
+        "name": "Bolado Monastery B1F chest 2",
+        "sections":[{
+          "access_rules": ["@Ruins of Eternia, frosted_flower"]
+        }],
         "map_locations": [
           {
             "map": "Bolado_Monastery",
             "x": 388,
             "y": 1252,
-			"size": 35
+			      "size": 35
           }
         ]
-      },
-	  {
-        "sections": [
-          {
-            "ref": "Bolado Monastery/Bolado Monastery 1F chest 1",
-            "name": "1F Chest 1"
-          },
-		  {
-            "ref": "Bolado Monastery/Bolado Monastery 1F chest 2",
-            "name": "1F Chest 2"
-          },
-		  {
-            "ref": "Bolado Monastery/Bolado Monastery 1F chest 3",
-            "name": "1F Chest 3"
-          },
-        ],
-        "map_locations": [
+		},
+    {
+      "name": "Behind 1F Grid",
+      "access_rules": ["@Ruins of Eternia, frosted_flower"],
+      "sections":[
+        {
+          "name": "Bolado Monastery 1F chest 1"
+        },
+        {
+          "name": "Bolado Monastery 1F chest 2"
+        },
+        {
+          "name": "Bolado Monastery 1F chest 3"
+        }
+      ],
+      "map_locations": [
           {
             "map": "Bolado_Monastery",
             "x": 318,
             "y": 486,
-			"size": 35
+			      "size": 35
           }
         ]
-      },
-	  {
-        "sections": [
-          {
-            "ref": "Bolado Monastery/Bolado Monastery B1F chest 3",
-            "name": "B1F Chest 3"
-          },
-		  {
-            "ref": "Bolado Monastery/Bolado Monastery B1F chest 4",
-            "name": "B1F Chest 4"
-          },
-		  {
-            "ref": "Bolado Monastery/Bolado Monastery B1F chest 5",
-            "name": "B1F Chest 5"
-          },
-        ],
-        "map_locations": [
+    },
+    
+    {
+      "name": "Behind Basement Grid",
+      "access_rules": ["@Submerged Cemetery, Hermits_scale"],
+      "sections":[
+        {
+          "name": "Bolado Monastery B1F chest 3"
+        },
+        {
+          "name": "Bolado Monastery B1F chest 4"
+        },
+        {
+          "name": "Bolado Monastery B1F chest 5"
+        }
+      ],
+      "map_locations": [
           {
             "map": "Bolado_Monastery",
             "x": 302,
             "y": 1016,
-			"size": 35
+			      "size": 35
           }
         ]
-      },
- 
-      
+    }
     ]
-  },
-  
- 
+  }
 ]

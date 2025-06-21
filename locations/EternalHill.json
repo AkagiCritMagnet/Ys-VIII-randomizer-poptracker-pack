@@ -4,80 +4,42 @@
     "access_rules": ["@Valley of Kings1, maiden_amulet", "landmark_sanity, graves_of_ancient_heroes"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
-    "item_count": 1,
-    "map_locations": [
-      {
-        "map": "Seiren",
-        "x": 118,
-        "y": 339,
-        "size": 30
-      }
-    ],
-    "sections": [
-      {
-        "name": "Eternal Hill chest",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Find Griselda",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Grave of Ancient Heroes Discovery",
-		"visibility_rules": ["landmark_sanity"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-
- 
-    ]
-  },
-  //Eternal Hill Map Items
-  {
-    "item_count": 1,
     "children": [
       {
-        "sections": [
-          {
-            "ref": "Eternal Hill/Eternal Hill chest",
-            "name": "Chest"
-          }
-        ],
+        "name": "Eternal Hill chest",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Eternal_Hill",
             "x": 341,
             "y": 71,
-			"size": 20
+			      "size": 20
           }
         ]
       },
-	  {
-        "sections": [
+      {
+        "name": "Grave",
+        "sections":[
           {
-            "ref": "Eternal Hill/Find Griselda",
             "name": "Find Griselda"
           },
-		  {
-            "ref": "Eternal Hill/Grave of Ancient Heroes Discovery",
-            "name": "Grave of Ancient Heroes Discovery"
+          {
+            "name": "Grave of Ancient Heroes Discovery",
+            "visibility_rules": ["landmark_sanity"]
           }
+
         ],
         "map_locations": [
           {
             "map": "Eternal_Hill",
             "x": 500,
             "y": 30,
-			"size": 20
+			      "size": 20
           }
         ]
-      },
+      }
  
-      
     ]
-  },
-  
+  }
  
 ]

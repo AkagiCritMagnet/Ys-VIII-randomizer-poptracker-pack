@@ -4,155 +4,85 @@
     "access_rules": ["@Mt Gendarme1", "NorthSideOpen", "$access_temple_approach_landmarks"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
-    "item_count": 1,
-    "map_locations": [
-      {
-        "map": "Seiren",
-        "x": 447,
-        "y": 406,
-        "size": 30
-      }
-    ],
-    "sections": [
-      {
-        "name": "TPF chest 1",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Unicalamites Discovery",
-		"visibility_rules": "landmark_sanity",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "TPF chest 2",
-		"access_rules":["blue_seal"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "TPF chest 3",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },{
-        "name": "TPF chest 4",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "TPF chest 5",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-
- 
-    ]
-  },
-  //Titis Primeval Forest Map Items
-  {
-    "item_count": 1,
     "children": [
       {
-        "sections": [
-          {
-            "ref": "Titis Primeval Forest/TPF chest 1",
-            "name": "Chest 1"
-          }
-        ],
+        "name": "TPF chest 1",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Titis_Primeval_Forest",
             "x": 66,
             "y": 508,
-			"size": 20
+			      "size": 20
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Titis Primeval Forest/Unicalamites Discovery",
-            "name": "Unicalamites Discovery"
-          }
-        ],
+        "name": "Unicalamites Discovery",
+        "sections":[{
+          "visibility_rules": "landmark_sanity"
+        }],
         "map_locations": [
           {
             "map": "Titis_Primeval_Forest",
             "x": 870,
             "y": 535,
-			"size": 20
+			      "size": 20
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Titis Primeval Forest/TPF chest 2",
-            "name": "Chest 2"
-          }
-        ],
+        "name": "TPF chest 2",
+        "sections":[{
+          "access_rules":["blue_seal"]
+        }],
         "map_locations": [
           {
             "map": "Titis_Primeval_Forest",
             "x": 657,
             "y": 604,
-			"size": 20
+			      "size": 20
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Titis Primeval Forest/TPF chest 3",
-            "name": "Chest 3"
-          }
-        ],
+        "name": "TPF chest 3",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Titis_Primeval_Forest",
             "x": 297,
             "y": 411,
-			"size": 20
+			      "size": 20
           }
         ]
       },
-	  {
-        "sections": [
-          {
-            "ref": "Titis Primeval Forest/TPF chest 4",
-            "name": "Chest 4"
-          }
-        ],
+      {
+        "name": "TPF chest 4",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Titis_Primeval_Forest",
             "x": 407,
             "y": 295,
-			"size": 20
+			      "size": 20
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Titis Primeval Forest/TPF chest 5",
-            "name": "Chest 5"
-          }
-        ],
+        "name": "TPF chest 5",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Titis_Primeval_Forest",
             "x": 959,
             "y": 118,
-			"size": 20
+			      "size": 20
           }
         ]
-      },
+      }
+
  
-      
     ]
-  },
-  
- 
+  }
 ]

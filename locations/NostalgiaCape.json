@@ -4,71 +4,28 @@
     "access_rules": ["@Longhorn Coast, Archaeopteryx_Wing", "$access_nostalgia_cape_landmarks"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
-    "item_count": 1,
-    "map_locations": [
-      {
-        "map": "Seiren",
-        "x": 702,
-        "y": 999,
-        "size": 30
-      }
-    ],
-    "sections": [
-      {
-        "name": "Nostalgia Cape chest",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Nostalgia Cape item in crate",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Ship Graveyard Discovery",
-		"visibility_rules": "landmark_sanity",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Find Ed",
-		"access_rules":["$has|Castaways|16"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-
- 
-    ]
-  },
-  //Nostalgia Cape Map Items
-  {
-    "item_count": 1,
     "children": [
       {
-        "sections": [
-          {
-            "ref": "Nostalgia Cape/Nostalgia Cape chest",
-            "name": "Chest"
-          }
-        ],
+        "name": "Nostalgia Cape chest",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Nostalgia_Cape",
             "x": 89,
             "y": 106,
-			"size": 20
+			      "size": 20
           }
         ]
       },
-	  {
-        "sections": [
+      {
+        "name": "Wreckage",
+        "sections":[
           {
-            "ref": "Nostalgia Cape/Nostalgia Cape item in crate",
-            "name": "Item in crate"
+            "name": "Nostalgia Cape item in crate"
           },
-		  {
-            "ref": "Nostalgia Cape/Ship Graveyard Discovery",
-            "name": "Ship Graveyard Discovery"
+          {
+            "name": "Ship Graveyard Discovery",
+            "visibility_rules": "landmark_sanity"
           }
         ],
         "map_locations": [
@@ -76,30 +33,27 @@
             "map": "Nostalgia_Cape",
             "x": 202,
             "y": 776,
-			"size": 20
+			      "size": 20
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Nostalgia Cape/Find Ed",
-            "name": "Find Ed"
-          }
-        ],
+        "name": "Find Ed",
+        "sections":[{
+          "access_rules":["$has|Castaways|16"]
+        }],
         "map_locations": [
           {
             "map": "Nostalgia_Cape",
             "x": 507,
             "y": 24,
-			"size": 20
+			      "size": 20
           }
         ]
-      },
+      }
+
  
-      
     ]
-  },
-  
+  }  
  
 ]

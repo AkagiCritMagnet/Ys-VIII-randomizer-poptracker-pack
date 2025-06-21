@@ -4,54 +4,16 @@
     "access_rules": ["ship_blueprints", "landmark_sanity, magnacarpa"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
-    "item_count": 1,
-    "map_locations": [
-      {
-        "map": "Seiren",
-        "x": 558,
-        "y": 990,
-        "size": 30
-      }
-    ],
-    "sections": [
-      {
-        "name": "Solitude chest",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Magnacarpa Discovery",
-		"visibility_rules": ["landmark_sanity"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Solitude freestanding item",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Find Big Pikkard",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-
- 
-    ]
-  },
-  // Map Items
-  {
-    "item_count": 1,
     "children": [
       {
-        "sections": [
+        "name":"Magnacarpa",
+        "sections":[
           {
-            "ref": "Solitude Island/Solitude chest",
-            "name": "Chest"
+            "name": "Solitude chest"
           },
-		  {
-            "ref": "Solitude Island/Magnacarpa Discovery",
-            "name": "Magnacarpa Discovery"
+          {
+            "name": "Magnacarpa Discovery",
+            "visibility_rules": ["landmark_sanity"]
           }
         ],
         "map_locations": [
@@ -59,46 +21,36 @@
             "map": "Solitude_Island",
             "x": 252,
             "y": 154,
-			"size": 20
+			      "size": 20
           }
         ]
       },
-	  {
-        "sections": [
-          {
-            "ref": "Solitude Island/Solitude freestanding item",
-            "name": "Item in the sand"
-          }
-        ],
+	    {
+        "name": "Solitude freestanding item",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Solitude_Island",
             "x": 91,
             "y": 132,
-			"size": 20
+			      "size": 20
           }
         ]
       },
-	  {
-        "sections": [
-          {
-            "ref": "Solitude Island/Find Big Pikkard",
-            "name": "Find Big Pikkard"
-          }
-        ],
+	    {
+        "name": "Find Big Pikkard",
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Solitude_Island",
             "x": 393,
             "y": 251,
-			"size": 20
+			      "size": 20
           }
         ]
-      },
+      }
+
  
-      
     ]
-  },
-  
- 
+  }
 ]

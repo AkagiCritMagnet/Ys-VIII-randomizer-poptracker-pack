@@ -165,20 +165,20 @@ end
 
 function access_valley_of_kings_landmarks()
 	if has("landmark_sanity") then
-		return has("graves_of_ancient_heroes") and has("maiden_amulet")
+		return (has("graves_of_ancient_heroes") and has("maiden_amulet"))
 	end
 	return false
 end
 
 function access_submerged_cemetery_landmarks()
 	if has("landmark_sanity") then
-		return ((access_valley_of_kings_landmarks() or has("sky_garden")) and Floating_Shoes and has("Castaways", 22)) or has("soundless_hall")
+		return ((access_valley_of_kings_landmarks() or has("sky_garden")) and (has("Floating_Shoes") or has("Hermits_Scale")) and has("Castaways", 22)) or has("soundless_hall")
 	end
 	return false
 end
 
 function access_octus()
-	if has("Escape") then
+	if has("Escape") or has("Untouchable") then
 		return true
 	end
 	if has("Castaways_toggle") then
@@ -195,6 +195,10 @@ end
 function access_final_boss()
 	if has("Escape") then
 		return has("mistilteinn") and has("seiren_map") and has("ship_blueprints")
+	end
+	
+	if has("Untouchable") then
+		return false
 	end
 	
 	if has("Castaways_toggle") then

@@ -1,0 +1,1459 @@
+[
+ {
+	"name": "Overworld_Dungeons",
+	"children": [
+        {
+		"name": "Ancient Sanctuary Crypt F1",    
+		"sections": [
+          {
+            "ref": "Ancient Sanctuary Crypt F1/ASC F1 chest 1/",
+            "name": "F1 Chest 1"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F1/ASC F1 chest 2/",
+            "name": "F1 Chest 2"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F1/ASC F1 chest 3/",
+            "name": "F1 Chest 3"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F1/ASC F1 chest 4/",
+            "name": "F1 Chest 4"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F1/ASC F1 chest 5/",
+            "name": "F1 Chest 5"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F1/ASC F1 chest 6/",
+            "name": "F1 Chest 6"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F1/ASC F1 chest 7/",
+            "name": "F1 Chest 7"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F1/ASC F1 chest 8/",
+            "name": "F1 Chest 8"
+          }
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 24,
+            "y": 22,
+            "size": 30
+        }
+        ]
+        },
+
+        {
+		"name": "Ancient Sanctuary Crypt F2",    
+		"sections": [
+          {
+            "ref": "Ancient Sanctuary Crypt F2/ASC F2 chest 1/",
+            "name": "F2 Chest 1"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F2/ASC F2 chest 2/",
+            "name": "F2 Chest 2"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F2/ASC F2 chest 3/",
+            "name": "F2 Chest 3"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F2/ASC F2 chest 4/",
+            "name": "F2 Chest 4"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F2/ASC F2 chest 5/",
+            "name": "F2 Chest 5"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F2/ASC F2 chest 6/",
+            "name": "F2 Chest 6"
+          }
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 63,
+            "y": 22,
+            "size": 30
+        }
+        ]
+        },
+
+        {
+		"name": "Ancient Sanctuary Crypt F3",    
+		"sections": [
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 upper chest 1/",
+            "name": "F3 Upper Chest 1"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 upper chest 2/",
+            "name": "F3 Upper Chest 2"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 upper chest 3/",
+            "name": "F3 Upper Chest 3"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 upper chest 4/",
+            "name": "F3 Upper Chest 4"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 upper chest 5/",
+            "name": "F3 Upper Chest 5"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 upper chest 6/",
+            "name": "F3 Upper Chest 6"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 upper chest 7/",
+            "name": "F3 Upper Chest 7"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 upper chest 8/",
+            "name": "F3 Upper Chest 8"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 lower chest 1/",
+            "name": "F3 Lower Chest 1"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 lower chest 2/",
+            "name": "F3 Lower Chest 2"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F3/ASC F3 lower chest 3/",
+            "name": "F3 Lower Chest 3"
+          }
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 102,
+            "y": 22,
+            "size": 30
+        }
+        ]
+        },
+
+        {
+		"name": "Ancient Sanctuary Crypt F4",    
+		"sections": [
+          {
+            "ref": "Ancient Sanctuary Crypt F4/ASC F4 chest 1/",
+            "name": "F4 Chest 1"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F4/ASC F4 chest 2/",
+            "name": "F4 Chest 2"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F4/ASC F4 chest 3/",
+            "name": "F4 Chest 3"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F4/ASC F4 chest 4/",
+            "name": "F4 Chest 4"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F4/ASC F4 chest 5/",
+            "name": "F4 Chest 5"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F4/ASC F4 chest 6/",
+            "name": "F4 Chest 6"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F4/ASC F4 chest 7/",
+            "name": "F4 Chest 7"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F4/ASC F4 chest 8/",
+            "name": "F4 Chest 8"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F4/ASC F4 chest 9/",
+            "name": "F4 Chest 9"
+          }
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 141,
+            "y": 22,
+            "size": 30
+        }
+        ]
+        },
+
+        {
+		"name": "Ancient Sanctuary Crypt F5",    
+		"sections": [
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 1/",
+            "name": "F5 Chest 1"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 2/",
+            "name": "F5 Chest 2"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 3/",
+            "name": "F5 Chest 3"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 4/",
+            "name": "F5 Chest 4"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 5/",
+            "name": "F5 Chest 5"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 6/",
+            "name": "F5 Chest 6"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 7/",
+            "name": "F5 Chest 7"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 8/",
+            "name": "F5 Chest 8"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 9/",
+            "name": "F5 Chest 9"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 10/",
+            "name": "F5 Chest 10"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt F5/ASC F5 chest 11/",
+            "name": "F5 Chest 11"
+          }
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 180,
+            "y": 22,
+            "size": 30
+        }
+        ]
+        },
+
+        {
+		"name": "Ancient Sanctuary Crypt Final Layer",    
+		"sections": [
+          {
+            "ref": "Ancient Sanctuary Crypt Final Layer/ASC final layer near elevator/ASC final layer chest 1/",
+            "name": "Final Layer Chest 1"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt Final Layer/ASC final layer near elevator/ASC final layer chest 2/",
+            "name": "Final Layer Chest 2"
+          },
+		  {
+            "ref": "Ancient Sanctuary Crypt Final Layer/ASC final layer near elevator/ASC final layer chest 3/",
+            "name": "Final Layer Chest 3"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt Final Layer/ASC final layer chest 4/",
+            "name": "Final Layer Chest 4"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt Final Layer/Melaiduma Boss Fight/",
+            "name": "Melaiduma Boss Fight"
+          },
+          {
+            "ref": "Ancient Sanctuary Crypt Final Layer/Ancient Sanctuary Crypt final chest/",
+            "name": "Final Chest"
+          }
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 219,
+            "y": 22,
+            "size": 30
+        }
+        ]
+        },
+
+    {
+		"name": "Archeozoic Chasm1",    
+		"sections": [
+          {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm bottom chest 1/",
+            "name": "Bottom Chest 1"
+          },
+          {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm mid chest 1/",
+            "name": "Mid Chest 1"
+          },
+		      {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm bottom chest 2/",
+            "name": "Bottom Chest 2"
+          },
+          {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm bottom chest 3/",
+            "name": "Bottom Chest 3"
+          },
+          {
+            "ref": "Archeozoic Chasm1/Archeozoic Chasm bottom chest 4/",
+            "name": "Bottom Chest 4"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 198,
+          "y": 250,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Archeozoic Chasm2",    
+		"sections": [
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 5/",
+            "name": "Bottom Chest 5"
+          },
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 6/",
+            "name": "Bottom Chest 6"
+          },
+		      {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 7/",
+            "name": "Bottom Chest 7"
+          },
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 8/",
+            "name": "Bottom Chest 8"
+          },
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 9/",
+            "name": "Bottom Chest 9"
+          },
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 10/",
+            "name": "Bottom Chest 10"
+          },
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 11/",
+            "name": "Bottom Chest 11"
+          },
+          {
+            "ref": "Archeozoic Chasm2/Archeozoic Chasm bottom chest 12/",
+            "name": "Bottom Chest 12"
+          },
+          {
+            "ref": "Archeozoic Chasm2/Final Room/Oceanus Boss Fight",
+            "name": "Oceanus Boss Fight"
+          },
+          {
+            "ref": "Archeozoic Chasm2/Final Room/Lombardia Nameplate",
+            "name": "Lombardia Nameplate"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 232,
+          "y": 250,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Baja Tower1",    
+		"sections": [
+          {
+            "ref": "Baja Tower1/Baja Tower 2-2 chest 1/",
+            "name": "Baja Tower 2-2 Chest 1"
+          },
+          {
+            "ref": "Baja Tower1/Baja Tower 2-2 chest 2/",
+            "name": "Baja Tower 2-2 Chest 2"
+          },
+          {
+            "ref": "Baja Tower1/Baja Tower 2-2 chest 3/",
+            "name": "Baja Tower 2-2 Chest 3"
+          },
+          {
+            "ref": "Baja Tower1/Baja Tower 3 chest 1/",
+            "name": "Baja Tower 3 Chest 1"
+          },
+          {
+            "ref": "Baja Tower1/Baja Tower 3 chest 2/",
+            "name": "Baja Tower 3 Chest 2"
+          },
+          {
+            "ref": "Baja Tower1/Baja Tower 3 chest 3/",
+            "name": "Baja Tower 3 Chest 3"
+          },
+          {
+            "ref": "Baja Tower1/Baja Tower 3 chest 4/",
+            "name": "Baja Tower 3 Chest 4"
+          },
+          {
+            "ref": "Baja Tower1/Exmetal Boss Fight/",
+            "name": "Exmetal Boss Fight"
+          },
+          {
+            "ref": "Baja Tower1/Baja Tower Hallway 1-2 chest/",
+            "name": "Baja Tower Hallway 1-2 Chest"
+          }
+          
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 400,
+          "y": 223,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Baja Tower2",    
+		"sections": [
+          {
+            "ref": "Baja Tower2/Baja Tower 5-1 chest/",
+            "name": "Baja Tower 5-1 Chest"
+          },
+          {
+            "ref": "Baja Tower2/Baja Tower 5-2 chest/",
+            "name": "Baja Tower 5-2 Chest"
+          },
+          {
+            "ref": "Baja Tower2/Baja Tower 6 chest 1/",
+            "name": "Baja Tower 6 Chest 1"
+          },
+          {
+            "ref": "Baja Tower2/Baja Tower 6 chest 2/",
+            "name": "Baja Tower 6 Chest 2"
+          },
+          {
+            "ref": "Baja Tower2/Baja Tower 6 chest 3/",
+            "name": "Baja Tower 6 Chest 3"
+          },
+          {
+            "ref": "Baja Tower2/Baja Tower 6 chest 4/",
+            "name": "Baja Tower 6 Chest 4"
+          },
+          {
+            "ref": "Baja Tower2/Baja Tower 6 chest 5/",
+            "name": "Baja Tower 6 Chest 5"
+          },
+          {
+            "ref": "Baja Tower2/Top of the Tower/Carveros Boss Fight",
+            "name": "Carveros Boss Fight"
+          },
+          {
+            "ref": "Baja Tower2/Top of the Tower/Study history after boss",
+            "name": "Study history after boss"
+          } 
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 434,
+          "y": 223,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Bolado Monastery",    
+		"sections": [
+          {
+            "ref": "Bolado Monastery/Bolado Monastery 2F chest 1/",
+            "name": "2F Chest 1"
+          },
+          {
+            "ref": "Bolado Monastery/Bolado Monastery 2F chest 2/",
+            "name": "2F Chest 2"
+          },
+          {
+            "ref": "Bolado Monastery/Bolado Monastery B1F chest 1/",
+            "name": "B1F Chest 1"
+          },
+          {
+            "ref": "Bolado Monastery/Bolado Monastery B1F chest 2/",
+            "name": "B1F Chest 2"
+          },
+          {
+            "ref": "Bolado Monastery/Behind 1F Grid/Bolado Monastery 1F chest 1",
+            "name": "1F Chest 1"
+          },
+          {
+            "ref": "Bolado Monastery/Behind 1F Grid/Bolado Monastery 1F chest 2",
+            "name": "1F Chest 2"
+          },
+          { 
+            "ref": "Bolado Monastery/Behind 1F Grid/Bolado Monastery 1F chest 3",
+            "name": "1F Chest 3"
+          },
+          {
+            "ref": "Bolado Monastery/Behind Basement Grid/Bolado Monastery B1F chest 3",
+            "name": "B1F Chest 3"
+          },
+          {
+            "ref": "Bolado Monastery/Behind Basement Grid/Bolado Monastery B1F chest 4",
+            "name": "B1F Chest 4"
+          },
+          {
+            "ref": "Bolado Monastery/Behind Basement Grid/Bolado Monastery B1F chest 5",
+            "name": "B1F Chest 5"
+          }
+
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 248,
+          "y": 414,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "East Coast Cave",    
+		"sections": [
+          {
+            "ref": "East Coast Cave/Pirate Storehouse/East Coast Cave chest 1",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "East Coast Cave/Pirate Storehouse/Hidden Pirate's Storehouse",
+            "name": "Hidden Pirate's Storehouse"
+          },
+          {
+            "ref": "East Coast Cave/East Coast Cave chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "East Coast Cave/East Coast Cave chest 3/",
+            "name": "Chest 3"
+          }
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 747,
+        "y": 942,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Eroded Valley1",    
+		"sections": [
+          {
+            "ref": "Eroded Valley1/Eroded Valley chest 17/",
+            "name": "Chest 17"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley Pirate Corpse 1/",
+            "name": "Pirate Corpse 1"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley chest 4/",
+            "name": "Chest 4"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley chest 5/",
+            "name": "Chest 5"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley chest 6/",
+            "name": "Chest 6"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley chest 7/",
+            "name": "Chest 7"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley chest 8/",
+            "name": "Chest 8"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley chest 9/",
+            "name": "Chest 9"
+          },
+          {
+            "ref": "Eroded Valley1/Eroded Valley Pirate Corpse 2/",
+            "name": "Pirate Corpse 2"
+          },
+          {
+            "ref": "Eroded Valley1/Mid-Boss Room/Lombrigius Boss Fight",
+            "name": "Lombrigius Boss Fight"
+          },
+          {
+            "ref": "Eroded Valley1/Mid-Boss Room/Eroded Valley chest 10",
+            "name": "Chest 10"
+          }
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 582,
+        "y": 584,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Eroded Valley2",    
+		"sections": [
+          {
+            "ref": "Eroded Valley2/Eroded Valley chest 11/",
+            "name": "Chest 11"
+          },
+          {
+            "ref": "Eroded Valley2/Eroded Valley chest 12/",
+            "name": "Chest 12"
+          },
+          {
+            "ref": "Eroded Valley2/Eroded Valley chest 13/",
+            "name": "Chest 13"
+          },
+          {
+            "ref": "Eroded Valley2/Eroded Valley chest 14/",
+            "name": "Chest 14"
+          },
+          {
+            "ref": "Eroded Valley2/Eroded Valley chest 15/",
+            "name": "Chest 15"
+          },
+          {
+            "ref": "Eroded Valley2/Eroded Valley chest 16/",
+            "name": "Chest 16"
+          },
+          {
+            "ref": "Eroded Valley2/Eroded Valley Pirate Corpse 3/",
+            "name": "Pirate Corpse 3"
+          },
+          {
+            "ref": "Eroded Valley2/Gargantula Boss Fight/",
+            "name": "Gargantula Boss Fight"
+          },
+          {
+            "ref": "Eroded Valley1/Indigo Mineral Vein Discovery/",
+            "name": "Indigo Mineral Vein Discovery"
+          }
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 615,
+        "y": 538,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Headwater Falls",    
+		"sections": [
+          {
+            "ref": "Headwater Falls/Headwater Falls chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Headwater Falls/Headwater Falls chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Headwater Falls/Headwater Falls chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Headwater Falls/Headwater Falls chest 4/",
+            "name": "Chest 4"
+          },
+          {
+            "ref": "Headwater Falls/Headwater Falls chest 5/",
+            "name": "Chest 5"
+          }
+
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 280,
+        "y": 995,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Pirate Ship Eleftheria1",    
+		"sections": [
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE Crew Quarters chest 1/",
+            "name": "Crew Quarters Chest 1"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE Crew Quarters chest 2/",
+            "name": "Crew Quarters Chest 2"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE Crew Quarters chest 3/",
+            "name": "Crew Quarters Chest 3"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE Crew Quarters chest 4/",
+            "name": "Crew Quarters Chest 4"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE Crew Quarters chest 5/",
+            "name": "Crew Quarters Chest 5"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE accessway chest 1/",
+            "name": "Accessway chest 1"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE accessway chest 2/",
+            "name": "Accessway chest 2"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE accessway chest 3/",
+            "name": "Accessway chest 3"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE accessway chest 4/",
+            "name": "Accessway chest 4"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE hold 1 chest 1/",
+            "name": "Hold 1 chest 1"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE hold 1 chest 2/",
+            "name": "Hold 1 chest 2"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE hold 1 chest 3/",
+            "name": "Hold 1 chest 3"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria1/PSE hold 1 Pirate Corpse/",
+            "name": "Hold 1 Pirate Corpse"
+          }
+
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 775,
+        "y": 984,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Pirate Ship Eleftheria2",    
+		"sections": [
+          {
+            "ref": "Pirate Ship Eleftheria2/PSE hold 2 chest 1/",
+            "name": "Hold 2 Chest 1"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/PSE hold 2 chest 2/",
+            "name": "Hold 2 Chest 2"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/PSE hold 3 chest 1/",
+            "name": "Hold 3 Chest 1"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/PSE hold 3 chest 2/",
+            "name": "Hold 3 Chest 2"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/PSE hold 1 chest 4/",
+            "name": "Hold 1 Chest 4"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/PSE stairwell chest/",
+            "name": "Stairwell chest"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/PSE deckhouse chest 1/",
+            "name": "Deckhouse Chest 1"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/PSE deckhouse chest 2/",
+            "name": "Deckhouse Chest 2"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/PSE deckhouse chest 3/",
+            "name": "Deckhouse Chest 3"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/PSE deckhouse Pirate Corpse/",
+            "name": "Deckhouse Pirate Corpse"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/Ship Deck/Pirate Revenant Boss Fight",
+            "name": "Pirate Revenant Boss Fight"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/Ship Deck/PSE Deck chest",
+            "name": "Deck Chest"
+          }
+
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 807,
+        "y": 984,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Schlamm Jungle1",    
+		"sections": [
+          {
+            "ref": "Schlamm Jungle1/Euron finds you/",
+            "name": "Euron finds you"
+          },
+          {
+            "ref": "Schlamm Jungle1/Jungle chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Schlamm Jungle1/Jungle chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Schlamm Jungle1/Jungle chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Schlamm Jungle1/Mid-Boss Room/Magamandra Boss Fight",
+            "name": "Magamandra Boss Fight"
+          },
+          {
+            "ref": "Schlamm Jungle1/Mid-Boss Room/Jungle chest 4",
+            "name": "Chest 4"
+          },
+          {
+            "ref": "Schlamm Jungle1/Jungle chest 5/",
+            "name": "Chest 5"
+          },
+          {
+            "ref": "Schlamm Jungle1/Jungle Pirate Corpse/",
+            "name": "Pirate Corpse"
+          }
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 618,
+        "y": 723,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Schlamm Jungle2",    
+		"sections": [
+          {
+            "ref": "Schlamm Jungle2/Jungle chest 6/",
+            "name": "Chest 6"
+          },
+          {
+            "ref": "Schlamm Jungle2/Jungle chest 7/",
+            "name": "Chest 7"
+          },
+          {
+            "ref": "Schlamm Jungle2/Field of Herbs/Jungle chest 8",
+            "name": "Chest 8"
+          },
+          {
+            "ref": "Schlamm Jungle2/Field of Herbs/Field of Medicinal Herbs Discovery",
+            "name": "Field of ,Medicinal Herbs Discovery"
+          },
+          {
+            "ref": "Schlamm Jungle2/Jungle chest 9/",
+            "name": "Chest 9"
+          },
+          {
+            "ref": "Schlamm Jungle2/Jungle chest 10/",
+            "name": "Chest 10"
+          },
+          {
+            "ref": "Schlamm Jungle2/Laspisus Boss Fight/",
+            "name": "Laspisus Boss Fight"
+          }
+
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 687,
+        "y": 643,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Silent Tower",    
+		"sections": [
+          {
+            "ref": "Silent Tower/Silent Tower passage 1 chest/",
+            "name": "Passage 1 Chest"
+          },
+          {
+            "ref": "Silent Tower/Silent Tower B1F chest 1/",
+            "name": "B1F Chest 1"
+          },
+          {
+            "ref": "Silent Tower/Silent Tower B1F chest 2/",
+            "name": "B1F Chest 2"
+          },
+          {
+            "ref": "Silent Tower/Silent Tower passage 2 chest/",
+            "name": "Passage 2 Chest"
+          },
+          {
+            "ref": "Silent Tower/Silent Tower B2F chest 1/",
+            "name": "B2F Chest 1"
+          },
+          {
+            "ref": "Silent Tower/Silent Tower B2F chest 2/",
+            "name": "B2F Chest 2"
+          },
+          {
+            "ref": "Silent Tower/Mephorash/Mephorash Boss Fight",
+            "name": "Mephorash Boss Fight"
+          },
+		      {
+            "ref": "Silent Tower/Mephorash/Silent Tower B2F chest 3",
+            "name": "B2F Chest 3"
+          }
+
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 727,
+        "y": 822,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Stone Pillar Wind Cave",    
+		"sections": [
+          {
+            "ref": "Stone Pillar Wind Cave/SPWC chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Stone Pillar Wind Cave/SPWC chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Stone Pillar Wind Cave/SPWC chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Stone Pillar Wind Cave/SPWC chest 4/",
+            "name": "Chest 4"
+          },
+          {
+            "ref": "Stone Pillar Wind Cave/SPWC chest 5/",
+            "name": "Chest 5"
+          }
+
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 495,
+        "y": 297,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Submerged Cemetery",    
+		"sections": [
+          {
+            "ref": "Submerged Cemetery/Submerged Cemetery chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Submerged Cemetery/Soundless Hall/Submerged Cemetery chest 2",
+            "name": "Chest 2"
+          },
+		      {
+            "ref": "Submerged Cemetery/Soundless Hall/Soundless Hall Discovery",
+            "name": "Soundless Hall Discovery"
+          }
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 216,
+        "y": 414,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Towering Coral Forest1",    
+		"sections": [
+          {
+            "ref": "Towering Coral Forest1/TCF upper chest 1/",
+            "name": "Upper Chest 1"
+          },
+          {
+            "ref": "Towering Coral Forest1/TCF upper chest 2/",
+            "name": "Upper Chest 2"
+          },
+          {
+            "ref": "Towering Coral Forest1/TCF upper chest 10/",
+            "name": "Upper Chest 10"
+          },
+          {
+            "ref": "Towering Coral Forest1/TCF upper chest 8/",
+            "name": "Upper Chest 8"
+          },
+          {
+            "ref": "Towering Coral Forest1/TCF lower chest 2/",
+            "name": "Lower Chest 2"
+          },
+          {
+            "ref": "Towering Coral Forest1/TCF upper chest 9/",
+            "name": "Upper Chest 9"
+          },
+          {
+            "ref": "Towering Coral Forest1/TCF lower chest 1/",
+            "name": "Lower Chest 1"
+          },
+          {
+            "ref": "Towering Coral Forest1/Find Kiergaard and Sir Carlan/",
+            "name": "Find Kiergaard and Sir Carlan"
+          },
+          {
+            "ref": "Towering Coral Forest1/Serpentus Boss Fight/",
+            "name": "Serpentus Boss Fight"
+          },
+          {
+            "ref": "Towering Coral Forest1/Grip Gloves on corpse/",
+            "name": "Grip Gloves on corpse"
+          }
+
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 261,
+        "y": 812,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Towering Coral Forest2",    
+		"sections": [
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 3/",
+            "name": "Upper Chest 3"
+          },
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 4/",
+            "name": "Upper Chest 4"
+          },
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 5/",
+            "name": "Upper Chest 5"
+          },
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 6/",
+            "name": "Upper Chest 6"
+          },
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 7/",
+            "name": "Upper Chest 7"
+          },
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 11/",
+            "name": "Upper Chest 11"
+          },
+          {
+            "ref": "Towering Coral Forest2/TCF lower chest 3/",
+            "name": "Lower Chest 3"
+          },
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 12/",
+            "name": "Upper Chest 12"
+          },
+          {
+            "ref": "Towering Coral Forest2/TCF lower chest 4/",
+            "name": "Lower Chest 4"
+          },
+          {
+            "ref": "Towering Coral Forest2/TCF upper chest 13/",
+            "name": "Upper Chest 13"
+          },
+          {
+            "ref": "Towering Coral Forest2/Clareon Boss Fight/",
+            "name": "Clareon Boss Fight"
+          },
+          {
+            "ref": "Towering Coral Forest2/Rainbow Falls Discovery/",
+            "name": "Rainbow Falls Discovery"
+          }
+
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 228,
+        "y": 812,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Towering Coral Forest Night",    
+		"sections": [
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 1/",
+            "name": "Upper Chest 1"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 2/",
+            "name": "Upper Chest 2"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 3/",
+            "name": "Upper Chest 3"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 4/",
+            "name": "Upper Chest 4"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night lower chest 1/",
+            "name": "Lower Chest 1"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night lower chest 2/",
+            "name": "Lower Chest 2"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night lower chest 3/",
+            "name": "Lower Chest 3"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 5/",
+            "name": "Upper Chest 5"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 6/",
+            "name": "Upper Chest 6"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 7/",
+            "name": "Upper Chest 7"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 8/",
+            "name": "Upper Chest 8"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 9/",
+            "name": "Upper Chest 9"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night lower chest 4/",
+            "name": "Lower Chest 4"
+          },
+          {
+            "ref": "Towering Coral Forest Night/TCF Night upper chest 10/",
+            "name": "Upper Chest 10"
+          }
+
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 246,
+        "y": 848,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Underground Water Vein",    
+		"sections": [
+          {
+            "ref": "Underground Water Vein/UWV chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Underground Water Vein/Alcove/UWV chest 2",
+            "name": "Chest 2"
+          },
+		      {
+            "ref": "Underground Water Vein/Alcove/UWV pikkard",
+            "name": "Lost pikkard"
+          },
+          {
+            "ref": "Underground Water Vein/UWV bottom chest/",
+            "name": "Bottom Chest"
+          },
+          {
+            "ref": "Underground Water Vein/UWV item on the ground/",
+            "name": "Item on the ground"
+          },
+          {
+            "ref": "Underground Water Vein/Lapis Mineral Vein Discovery/",
+            "name": "Lapis Mineral Vein Discovery"
+          }
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 260,
+        "y": 962,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Valley of Kings1",    
+		"sections": [
+          {
+            "ref": "Valley of Kings1/Valley of Kings chest/",
+            "name": "Entrance Chest"
+          },
+          {
+            "ref": "Valley of Kings1/VoK lower lvl chest 1/",
+            "name": "Lower lvl Chest 1"
+          },
+          {
+            "ref": "Valley of Kings1/VoK lower lvl chest 2/",
+            "name": "Lower lvl Chest 2"
+          },
+          {
+            "ref": "Valley of Kings1/VoK lower lvl chest 3/",
+            "name": "Lower lvl Chest 3"
+          },
+          {
+            "ref": "Valley of Kings1/VoK depths chest 1/",
+            "name": "Depths Chest 1"
+          },
+          {
+            "ref": "Valley of Kings1/VoK depths chest 2/",
+            "name": "Depths Chest 2"
+          },
+          {
+            "ref": "Valley of Kings1/VoK upper lvl chest 1/",
+            "name": "Upper lvl Chest 1"
+          },
+          {
+            "ref": "Valley of Kings1/VoK upper lvl chest 2/",
+            "name": "Upper lvl Chest 2"
+          },
+          {
+            "ref": "Valley of Kings1/VoK upper lvl chest 3/",
+            "name": "Upper lvl Chest 3"
+          },
+          {
+            "ref": "Valley of Kings1/VoK upper lvl chest 4/",
+            "name": "Upper lvl Chest 4"
+          },
+          {
+            "ref": "Valley of Kings1/Doxa Griel Boss Fight/",
+            "name": "Doxa Griel Boss Fight"
+          }
+          
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 124,
+        "y": 393,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Valley of Kings2",    
+		"sections": [
+          {
+            "ref": "Valley of Kings2/VoK lower lvl chest 4/",
+            "name": "Lower lvl Chest 4"
+          },
+          {
+            "ref": "Valley of Kings2/VoK lower lvl chest 5/",
+            "name": "Lower lvl Chest 5"
+          },
+          {
+            "ref": "Valley of Kings2/VoK lower lvl chest 6/",
+            "name": "Lower lvl Chest 6"
+          },
+          {
+            "ref": "Valley of Kings2/VoK lower lvl chest 7/",
+            "name": "Lower lvl Chest 7"
+          },
+          {
+            "ref": "Valley of Kings2/VoK lower lvl chest 8/",
+            "name": "Lower lvl Chest 8"
+          },
+          {
+            "ref": "Valley of Kings2/VoK lower lvl chest 9/",
+            "name": "Lower lvl Chest 9"
+          },
+          {
+            "ref": "Valley of Kings2/VoK lower lvl chest 10/",
+            "name": "Lower lvl Chest 10"
+          },
+          {
+            "ref": "Valley of Kings2/VoK lower lvl chest 11/",
+            "name": "Lower lvl Chest 11"
+          },
+          {
+            "ref": "Valley of Kings2/Basileus Boss Fight/",
+            "name": "Basileus Boss Fight"
+          },
+          {
+            "ref": "Valley of Kings2/Mistilteinn cutscene/",
+            "name": "Mistilteinn cutscene"
+          }
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 91,
+        "y": 393,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Waterdrop Cave",    
+		"sections": [
+          {
+            "ref": "Waterdrop Cave/Waterdrop chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Waterdrop Cave/Waterdrop chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Waterdrop Cave/Waterdrop chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Waterdrop Cave/Waterdrop pirate corpse/",
+            "name": "Pirate Corpse"
+          },
+          {
+            "ref": "Waterdrop Cave/Byfteriza Boss Fight/",
+            "name": "Byfteriza Boss Fight"
+          }
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 389,
+        "y": 1005,
+        "size": 30
+      }
+    ]
+    },
+
+    {
+		"name": "Waterfall Grotto",    
+		"sections": [
+          {
+            "ref": "Waterfall Grotto/Find Sister Nia/",
+            "name": "Find Sister Nia"
+          },
+          {
+            "ref": "Waterfall Grotto/Waterfall Grotto chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Waterfall Grotto/Waterfall Grotto chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Waterfall Grotto/Milky White Vein Discovery/",
+            "name": "Milky White Vein Discovery"
+          }
+
+    ],
+    "map_locations": [
+      {
+        "map": "Seiren",
+        "x": 359,
+        "y": 820,
+        "size": 30
+      }
+    ]
+    }
+
+
+
+	]
+ }
+]

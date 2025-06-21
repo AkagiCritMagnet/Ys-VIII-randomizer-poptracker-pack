@@ -16,6 +16,13 @@
   },
   
   {
+    "name": "Goal: Untouchable",
+    "type": "toggle",
+    "img": "images/options/Untouchable.png",
+    "codes": "Untouchable"
+  },
+  
+  {
     "name": "Goal: Castaways",
     "type": "toggle",
     "img": "images/options/FindCrew.png",

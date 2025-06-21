@@ -4,83 +4,29 @@
     "access_rules": ["@Weathervane Hills, Hermits_Scale", "landmark_sanity, lapis_mineral_vein"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
-    "item_count": 1,
-    "map_locations": [
-      {
-        "map": "Seiren",
-        "x": 260,
-        "y": 962,
-        "size": 30
-      }
-    ],
-    "sections": [
-      {
-        "name": "UWV chest 1",
-		"access_rules": ["Hermits_Scale"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "UWV chest 2",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "UWV pikkard",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "UWV bottom chest",
-		"access_rules": ["Hermits_Scale"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "UWV item on the ground",
-		"access_rules": ["Hermits_Scale, Grip_Gloves"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-	  {
-        "name": "Lapis Mineral Vein Discovery",
-		"visibility_rules": ["landmark_sanity"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
-
- 
-    ]
-  },
-  //Underground Water Vein Map Items
-  {
-    "item_count": 1,
     "children": [
       {
-        "sections": [
-          {
-            "ref": "Underground Water Vein/UWV chest 1",
-            "name": "Chest 1"
-          }
-        ],
+        "name": "UWV chest 1",
+        "sections":[{
+          "access_rules": ["Hermits_Scale"]
+        }],
         "map_locations": [
           {
             "map": "Underground_Water_Vein",
             "x": 233,
             "y": 428,
-			"size": 20
+			      "size": 20
           }
         ]
       },
-	  {
-        "sections": [
+      {
+        "name": "Alcove",
+        "sections":[
           {
-            "ref": "Underground Water Vein/UWV chest 2",
-            "name": "Chest 2"
+            "name": "UWV chest 2"
           },
-		  {
-            "ref": "Underground Water Vein/UWV pikkard",
-            "name": "Lost pikkard"
+          {
+            "name": "UWV pikkard"
           }
         ],
         "map_locations": [
@@ -88,62 +34,52 @@
             "map": "Underground_Water_Vein",
             "x": 208,
             "y": 139,
-			"size": 20
+			      "size": 20
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Underground Water Vein/UWV bottom chest",
-            "name": "Bottom Chest"
-          }
-        ],
+        "name": "UWV bottom chest",
+        "sections":[{
+          "access_rules": ["Hermits_Scale"]
+        }],
         "map_locations": [
           {
             "map": "Underground_Water_Vein",
             "x": 449,
             "y": 434,
-			"size": 20
+			      "size": 20
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Underground Water Vein/UWV item on the ground",
-            "name": "Item on the ground"
-          }
-        ],
+        "name": "UWV item on the ground",
+        "sections":[{
+          "access_rules": ["Hermits_Scale, Grip_Gloves"]
+        }],
         "map_locations": [
           {
             "map": "Underground_Water_Vein",
             "x": 404,
             "y": 264,
-			"size": 20
+			      "size": 20
           }
         ]
       },
 	  {
-        "sections": [
-          {
-            "ref": "Underground Water Vein/Lapis Mineral Vein Discovery",
-            "name": "Lapis Mineral Vein Discovery"
-          }
-        ],
+        "name": "Lapis Mineral Vein Discovery",
+        "sections":[{
+          "visibility_rules": ["landmark_sanity"]
+        }],
         "map_locations": [
           {
             "map": "Underground_Water_Vein",
             "x": 397,
             "y": 66,
-			"size": 20
+			      "size": 20
           }
         ]
-      },
- 
-      
+      }
     ]
-  },
-  
- 
+  }
 ]

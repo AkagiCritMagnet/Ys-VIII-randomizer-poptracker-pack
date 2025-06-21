@@ -280,7 +280,7 @@
       },
 	  {
         "name": "Final Boss",
-		"access_rules": ["$access_final_boss"],
+		"access_rules": ["$access_final_boss", "Untouchable, @Ancient Sanctuary Crypt Final Layer/Melaiduma Boss Fight"],
 		"chest_unopened_img": "images/items/chest_closed.png",
 		"chest_opened_img": "images/items/chest_opened.png",
       },

@@ -1,0 +1,1266 @@
+[
+ {
+	"name": "Overworld_Outdoor_Areas",
+	"children": [
+        {
+		"name": "Beast Hills",    
+		"sections": [
+          {
+            "ref": "Beast Hills/Hummel/",
+            "name": "Hummel finds you"
+          },
+          {
+            "ref": "Beast Hills/Beast Hills chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Beast Hills/Beast Hills chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Beast Hills/Beast Hills chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Beast Hills/Beast Hills chest 4/",
+            "name": "Chest 4"
+          }
+
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 546,
+            "y": 776,
+            "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Calm Inlet",    
+		"sections": [
+          {
+            "ref": "Calm Inlet/Fight Silvia/",
+            "name": "Fight Silvia"
+          },
+          {
+            "ref": "Calm Inlet/Discoveries/12 Discoveries shown",
+            "name": "12 Discoveries shown"
+          },
+		  {
+            "ref": "Calm Inlet/Discoveries/24 Discoveries shown",
+            "name": "24 Discoveries shown"
+          },
+          {
+            "ref": "Calm Inlet/Exploration/10 Exploration",
+            "name": "10% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/Exploration/20 Exploration",
+            "name": "20% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/Exploration/30 Exploration",
+            "name": "30% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/Exploration/40 Exploration",
+            "name": "40% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/Exploration/50 Exploration",
+            "name": "50% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/Exploration/60 Exploration",
+            "name": "60% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/Exploration/70 Exploration",
+            "name": "70% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/Exploration/80 Exploration",
+            "name": "80% Map Completion"
+          },
+		  {
+            "ref": "Calm Inlet/Exploration/90 Exploration",
+            "name": "90% Map Completion"
+          }
+
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 400,
+            "y": 1081,
+            "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Dina Trades",    
+		"sections": [
+          {
+            "ref": "Dina Trades/Dina trade 1/",
+            "name": "Dina Trade 1"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 2/",
+            "name": "Dina Trade 2"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 3/",
+            "name": "Dina Trade 3"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 4/",
+            "name": "Dina Trade 4"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 5/",
+            "name": "Dina Trade 5"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 6/",
+            "name": "Dina Trade 6"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 7/",
+            "name": "Dina Trade 7"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 8/",
+            "name": "Dina Trade 8"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 9/",
+            "name": "Dina Trade 9"
+          },
+		  {
+            "ref": "Dina Trades/Dina trade 10/",
+            "name": "Dina Trade 10"
+          }
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 400,
+            "y": 1046,
+            "size": 30
+        }
+    ]
+    },
+
+    {
+		"name": "Fish trades",    
+		"sections": [
+          {
+            "ref": "Fish trades/Fish trade 1/",
+            "name": "Fish trade 1"
+          },
+		  {
+            "ref": "Fish trades/Fish trade 2/",
+            "name": "Fish trade 2"
+          },
+		  {
+            "ref": "Fish trades/Fish trade 3/",
+            "name": "Fish trade 3"
+          },
+		  {
+            "ref": "Fish trades/Fish trade 4/",
+            "name": "Fish trade 4"
+          },
+		  {
+            "ref": "Fish trades/Fish trade 5/",
+            "name": "Fish trade 5"
+          },
+		  {
+            "ref": "Fish trades/Fish trade 6/",
+            "name": "Fish trade 6"
+          }
+
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 365,
+            "y": 1070,
+            "size": 30
+        }
+    ]
+    },
+
+    {
+		"name": "Dogi's interceptions",    
+		"sections": [
+            {
+                "ref": "Dogi's interceptions/Agents of the Sea/",
+                "name": "Agents of the Sea"
+            },
+            {
+                "ref": "Dogi's interceptions/Tyrant's Invading Army/",
+                "name": "Tyrant's Invading Army"
+            },
+            {
+                "ref": "Dogi's interceptions/Agents of the Deep Sea/",
+                "name": "Agents of the Deep Sea"
+            },
+            {
+                "ref": "Dogi's interceptions/Creeping Beasts of Yore/",
+                "name": "Creeping Beasts of Yore"
+            },
+            {
+                "ref": "Dogi's interceptions/Wisened Onslaught/",
+                "name": "Wisened Onslaught"
+            }
+
+        ],
+        "map_locations": [
+        {
+            "map": "Seiren",
+            "x": 400,
+            "y": 1115,
+            "size": 30
+        }
+    ]
+    },
+
+    {
+		"name": "Eternal Hill",    
+		"sections": [
+          {
+            "ref": "Eternal Hill/Eternal Hill chest/",
+            "name": "Chest"
+          },
+          {
+            "ref": "Eternal Hill/Grave/Find Griselda",
+            "name": "Find Griselda"
+          },
+		      {
+            "ref": "Eternal Hill/Grave/Grave of Ancient Heroes Discovery",
+            "name": "Grave of Ancient Heroes Discovery"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 118,
+          "y": 339,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Great River Valley",    
+		"sections": [
+          {
+            "ref": "Great River Valley/GRV chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Great River Valley/GRV chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Great River Valley/GRV chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Great River Valley/GRV chest 4/",
+            "name": "Chest 4"
+          },
+          {
+            "ref": "Great River Valley/GRV chest 5/",
+            "name": "Chest 5"
+          },
+          {
+            "ref": "Great River Valley/GRV chest 6/",
+            "name": "Chest 6"
+          },
+          {
+            "ref": "Great River Valley/GRV chest 7/",
+            "name": "Chest 7"
+          },
+          {
+            "ref": "Great River Valley/GRV chest 8/",
+            "name": "Chest 8"
+          },
+          {
+            "ref": "Great River Valley/GRV chest 9/",
+            "name": "Chest 9"
+          },
+          {
+            "ref": "Great River Valley/GRV chest 10/",
+            "name": "Chest 10"
+          },
+          {
+            "ref": "Great River Valley/GRV chest 11/",
+            "name": "Chest 11"
+          },
+          {
+            "ref": "Great River Valley/GRV near Beast Hills chest/",
+            "name": "Chest near Beast Hills"
+          },
+          {
+            "ref": "Great River Valley/Chimney Rock Discovery/",
+            "name": "Chimney Rock Discovery"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 387,
+          "y": 857,
+          "size": 30
+        }
+    ]
+    },
+
+    {
+		"name": "Lodinia Marshland",    
+		"sections": [
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 4/",
+            "name": "Chest 4"
+          },
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 5/",
+            "name": "Chest 5"
+          },
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 6/",
+            "name": "Chest 6"
+          },
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 7/",
+            "name": "Chest 7"
+          },
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 8/",
+            "name": "Chest 8"
+          },
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 9/",
+            "name": "Chest 9"
+          },
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 10/",
+            "name": "Chest 10"
+          },
+          {
+            "ref": "Lodinia Marshland/Lodinia Marshland chest 11/",
+            "name": "Chest 11"
+          },
+          {
+            "ref": "Lodinia Marshland/Top/Climb for tree sap",
+            "name": "Climb for tree sap"
+          },
+		      {
+            "ref": "Lodinia Marshland/Top/Sky Garden Discovery",
+            "name": "Sky Garden Discovery"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 153,
+          "y": 481,
+          "size": 30
+        }
+    ]
+    },
+
+    {
+		"name": "Longhorn Coast",    
+		"sections": [
+          {
+            "ref": "Longhorn Coast/Beehive/Check under stone",
+            "name": "Check under stone"
+          },
+		      {
+            "ref": "Longhorn Coast/Beehive/Beehive Discovery",
+            "name": "Beehive Discovery"
+          },
+          {
+            "ref": "Longhorn Coast/Longhorn Coast chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Longhorn Coast/Find Reja Pikkard/",
+            "name": "Find Reja's Pikkard"
+          },
+          {
+            "ref": "Longhorn Coast/Longhorn Coast chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Longhorn Coast/Longhorn Coast Pirate Corpse/",
+            "name": "Pirate Corpse"
+          },
+          {
+            "ref": "Longhorn Coast/Longhorn Coast chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Longhorn Coast/Longhorn Coast chest 4/",
+            "name": "Chest 4"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 597,
+          "y": 888,
+          "size": 30
+        }
+    ]
+    },
+
+    {
+		"name": "Mountain Pinnacle Trail",    
+		"sections": [
+          {
+            "ref": "Mountain Pinnacle Trail/MPT upper chest/",
+            "name": "Upper Chest"
+          },
+          {
+            "ref": "Mountain Pinnacle Trail/MPT Cave 1 chest/",
+            "name": "Cave 1 Chest"
+          },
+          {
+            "ref": "Mountain Pinnacle Trail/MPT lower lvl chest 1/",
+            "name": "Lower lvl Chest 1"
+          },
+          {
+            "ref": "Mountain Pinnacle Trail/MPT lower lvl chest 2/",
+            "name": "Lower lvl Chest 2"
+          },
+          {
+            "ref": "Mountain Pinnacle Trail/MPT lower lvl chest 3/",
+            "name": "Lower lvl Chest 3"
+          },
+          {
+            "ref": "Mountain Pinnacle Trail/MPT lower lvl chest 4/",
+            "name": "Lower lvl Chest 4"
+          },
+          {
+            "ref": "Mountain Pinnacle Trail/MPT lower lvl chest 5/",
+            "name": "Lower lvl Chest 5"
+          },
+          {
+            "ref": "Mountain Pinnacle Trail/Prismatic Mineral Vein Discovery/",
+            "name": "Prismatic Mineral Vein Discovery"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 397,
+          "y": 640,
+          "size": 30
+        }
+    ]
+    },
+
+    {
+		"name": "Mt Gendarme1",    
+		"sections": [
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme bottom chest 1/",
+            "name": "Bottom Chest 1"
+          },
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 1/",
+            "name": "Mid Chest 1"
+          },
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 2/",
+            "name": "Mid Chest 2"
+          },
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 3/",
+            "name": "Mid Chest 3"
+          },
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 4/",
+            "name": "Mid Chest 4"
+          },
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 5/",
+            "name": "Mid Chest 5"
+          },
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 6/",
+            "name": "Mid Chest 6"
+          },
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 7/",
+            "name": "Mid Chest 7"
+          },
+          {
+            "ref": "Mt Gendarme1/Mt Gendarme mid chest 8/",
+            "name": "Mid Chest 8"
+          },
+          {
+            "ref": "Mt Gendarme1/Wish tree/",
+            "name": "Wish tree"
+          },
+          {
+            "ref": "Mt Gendarme1/Avalodragil Second Fight/",
+            "name": "Avalodragil Second Fight"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 413,
+          "y": 702,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Mt Gendarme2",    
+		"sections": [
+          {
+            "ref": "Mt Gendarme2/Mt Gendarme upper 1 chest 1/",
+            "name": "Upper 1 Chest 1"
+          },
+          {
+            "ref": "Mt Gendarme2/Mt Gendarme upper 1 chest 2/",
+            "name": "Upper 1 Chest 2"
+          },
+          {
+            "ref": "Mt Gendarme2/Mt Gendarme upper 2 chest/",
+            "name": "Upper 2 Chest"
+          },
+          {
+            "ref": "Mt Gendarme2/Giasburn Boss Fight/",
+            "name": "Giasburn Boss Fight"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 446,
+          "y": 693,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Food trades",    
+		"sections": [
+          {
+            "ref": "Food trades/Food trade 1",
+            "name": "Food Trade 1"
+          },
+		      {
+            "ref": "Food trades/Food trade 2",
+            "name": "Food Trade 2"
+          },
+		      {
+            "ref": "Food trades/Food trade 3",
+            "name": "Food Trade 3"
+          },
+		      {
+            "ref": "Food trades/Food trade 4",
+            "name": "Food Trade 4"
+          },
+		      {
+            "ref": "Food trades/Food trade 5",
+            "name": "Food Trade 5"
+          },
+		      {
+            "ref": "Food trades/Food trade 6",
+            "name": "Food Trade 6"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 375,
+          "y": 704,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Master Kong Trainings",    
+		"sections": [
+          {
+            "ref": "Master Kong Trainings/Roaring Seashore training/",
+            "name": "Roaring Seashore training"
+          },
+          {
+            "ref": "Master Kong Trainings/Sunrise Beach training/",
+            "name": "Sunrise Beach training"
+          },
+          {
+            "ref": "Master Kong Trainings/Odd Rock Coast training/",
+            "name": "Odd Rock Coast training"
+          },
+          {
+            "ref": "Master Kong Trainings/Mt Gendarme summit training/",
+            "name": "Mt Gendarme summit training"
+          },
+          {
+            "ref": "Master Kong Trainings/Pangaia Plains training/",
+            "name": "Pangaia Plains training"
+          },
+          {
+            "ref": "Master Kong Trainings/Vista Ridge training/",
+            "name": "Vista Ridge training"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 282,
+          "y": 1093,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Mt Gendarme Night",    
+		"sections": [
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night bottom chest/",
+            "name": "Bottom Chest"
+          },
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 1/",
+            "name": "Mid Chest 1"
+          },
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 2/",
+            "name": "Mid Chest 2"
+          },
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 3/",
+            "name": "Mid Chest 3"
+          },
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 4/",
+            "name": "Mid Chest 4"
+          },
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 5/",
+            "name": "Mid Chest 5"
+          },
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 6/",
+            "name": "Mid Chest 6"
+          },
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night mid chest 7/",
+            "name": "Mid Chest 7"
+          },
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night upper 1 chest/",
+            "name": "Upper 1 Chest"
+          },
+          {
+            "ref": "Mt Gendarme Night/Mt Gendarme Night upper 2 chest/",
+            "name": "Upper 2 Chest"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 483,
+          "y": 673,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Nameless Coast",    
+		"sections": [
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 4/",
+            "name": "Chest 4"
+          },
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 5/",
+            "name": "Chest 5"
+          },
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 6/",
+            "name": "Chest 6"
+          },
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 7/",
+            "name": "Chest 7"
+          },
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 8/",
+            "name": "Chest 8"
+          },
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 9/",
+            "name": "Chest 9"
+          },
+          {
+            "ref": "Nameless Coast/Nameless Coast chest 10/",
+            "name": "Chest 10"
+          },
+          {
+            "ref": "Nameless Coast/Bosses/Avalodragil Boss Fight",
+            "name": "Avalodragil First Fight"
+          },
+		      {
+            "ref": "Nameless Coast/Bosses/Nameless Ripper Boss Fight",
+            "name": "Nameless Ripper Fight"
+          },
+          {
+            "ref": "Nameless Coast/Birdsong Rock Discovery/",
+            "name": "Birdsong Rock Discovery"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 459,
+          "y": 1013,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Nostalgia Cape",    
+		"sections": [
+          {
+            "ref": "Nostalgia Cape/Nostalgia Cape chest/",
+            "name": "Chest"
+          },
+          {
+            "ref": "Nostalgia Cape/Wreckage/Nostalgia Cape item in crate",
+            "name": "Item in crate"
+          },
+		      {
+            "ref": "Nostalgia Cape/Wreckage/Ship Graveyard Discovery",
+            "name": "Ship Graveyard Discovery"
+          },
+          {
+            "ref": "Nostalgia Cape/Find Ed/",
+            "name": "Find Ed"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 702,
+          "y": 999,
+          "size": 30
+        }
+        ]
+    },
+
+
+    {
+		"name": "Pangaia Plains",    
+		"sections": [
+          {
+            "ref": "Pangaia Plains/Pangaia Plains chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Pangaia Plains/Breath Fountain/Find Silvia",
+            "name": "Find Silvia"
+          },
+		      {
+            "ref": "Pangaia Plains/Breath Fountain/Breath Fountain Discovery",
+            "name": "Breath Fountain Discovery"
+          },
+          {
+            "ref": "Pangaia Plains/Pangaia Plains chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Pangaia Plains/Pangaia Plains chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Pangaia Plains/Ancient Tree/Pangaia Plains chest 4",
+            "name": "Chest 4"
+          },
+		      {
+            "ref": "Pangaia Plains/Ancient Tree/Ancient Tree Discovery",
+            "name": "Ancient Tree Discovery"
+          }
+
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 406,
+          "y": 325,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Pangaia Plains Night",    
+		"sections": [
+          {
+            "ref": "Pangaia Plains Night/Pangaia Plains Night chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Pangaia Plains Night/Pangaia Plains Night chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Pangaia Plains Night/Pangaia Plains Night chest 3/",
+            "name": "Chest 3"
+          }
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 446,
+          "y": 325,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Primordial Passage",    
+		"sections": [
+          {
+            "ref": "Primordial Passage/Primordial Passage chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Primordial Passage/Primordial Passage chest 2/",
+            "name": "Chest 2"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 444,
+          "y": 783,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Roaring Seashore",    
+		"sections": [
+          {
+            "ref": "Roaring Seashore/Roaring Seashore chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Roaring Seashore/Metavolicalis/Roaring Seashore chest 2",
+            "name": "Chest 2"
+          },
+		      {
+            "ref": "Roaring Seashore/Metavolicalis/Metavolicalis Discovery",
+            "name": "Metavolicalis Discovery"
+          },
+          {
+            "ref": "Roaring Seashore/Find Kathleen/",
+            "name": "Find Kathleen"
+          },
+          {
+            "ref": "Roaring Seashore/Roaring Seashore chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Roaring Seashore/Parasequoia/Roaring Seashore near Kong chest",
+            "name": "Near Kong Chest"
+          },
+		      {
+            "ref": "Roaring Seashore/Parasequoia/Parasequoia Discovery",
+            "name": "Parasequoia Discovery"
+          }
+
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 134,
+          "y": 915,
+          "size": 30
+        }
+    ]
+    },
+
+    {
+		"name": "Ruins of Eternia",    
+		"sections": [
+          {
+            "ref": "Ruins of Eternia/House near Monastery/Ruins of Eternia chest 1",
+            "name": "Chest 1"
+          },
+		      {
+            "ref": "Ruins of Eternia/House near Monastery/Ruins of Eternia chest 2",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Ruins of Eternia/Ruins of Eternia chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Ruins of Eternia/Ruins of Eternia chest 4/",
+            "name": "Chest 4"
+          },
+          {
+            "ref": "Ruins of Eternia/Locked Room/Ruins of Eternia chest 5",
+            "name": "Chest 5"
+          },
+		      {
+            "ref": "Ruins of Eternia/Locked Room/Ruins of Eternia chest 6",
+            "name": "Chest 6"
+          },
+		      {
+            "ref": "Ruins of Eternia/Locked Room/Ruins of Eternia chest 7",
+            "name": "Chest 7"
+          },
+          {
+            "ref": "Ruins of Eternia/Bird statue in the stupa/",
+            "name": "Bird statue in the stupa"
+          },
+          {
+            "ref": "Ruins of Eternia/Thanatos spooks you/",
+            "name": "Thanatos spooks you"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 283,
+          "y": 370,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Solitude Island",    
+		"sections": [
+          {
+            "ref": "Solitude Island/Magnacarpa/Solitude chest",
+            "name": "Chest"
+          },
+		      {
+            "ref": "Solitude Island/Magnacarpa/Magnacarpa Discovery",
+            "name": "Magnacarpa Discovery"
+          },
+          {
+            "ref": "Solitude Island/Solitude freestanding item/",
+            "name": "Item in the sand"
+          },
+          {
+            "ref": "Solitude Island/Find Big Pikkard/",
+            "name": "Find Big Pikkard"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 558,
+          "y": 990,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Titis Primeval Forest",    
+		"sections": [
+          {
+            "ref": "Titis Primeval Forest/TPF chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Titis Primeval Forest/Unicalamites Discovery/",
+            "name": "Unicalamites Discovery"
+          },
+          {
+            "ref": "Titis Primeval Forest/TPF chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Titis Primeval Forest/TPF chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Titis Primeval Forest/TPF chest 4/",
+            "name": "Chest 4"
+          },
+          {
+            "ref": "Titis Primeval Forest/TPF chest 5/",
+            "name": "Chest 5"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 447,
+          "y": 406,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Towal Highway",    
+		"sections": [
+          {
+            "ref": "Towal Highway/Towal Highway chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Towal Highway/Find Katthew/",
+            "name": "Find Katthew"
+          },
+          {
+            "ref": "Towal Highway/Towal Highway chest 2/",
+            "name": "Chest 2"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 324,
+          "y": 216,
+          "size": 30
+        }
+    ]
+    },
+
+    {
+		"name": "Vista Ridge",    
+		"sections": [
+          {
+            "ref": "Vista Ridge/Vista Ridge chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Vista Ridge/Top/Vista Ridge chest 2",
+            "name": "Chest 2"
+          },
+		      {
+            "ref": "Vista Ridge/Top/Find Franz",
+            "name": "Find Franz"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 222,
+          "y": 529,
+          "size": 30
+        }
+        ]
+    },
+
+    {
+		"name": "Water and Wood Hills",    
+		"sections": [
+          {
+            "ref": "Water and Wood Hills/WWH chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Water and Wood Hills/Miralda/",
+            "name": "Find Miralda"
+          },
+          {
+            "ref": "Water and Wood Hills/WWH chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Water and Wood Hills/WWH chest 3/",
+            "name": "Chest 3"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 729,
+          "y": 870,
+          "size": 30
+        }
+    ]
+    },
+
+    {
+		"name": "Weathervane Hills",    
+		"sections": [
+          {
+            "ref": "Weathervane Hills/Weathervane Hills chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "Weathervane Hills/Weathervane Hills chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "Weathervane Hills/Weathervane Hills chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "Weathervane Hills/Zephyr Hill Discovery/",
+            "name": "Zephyr Hill Discovery"
+          }
+
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 330,
+          "y": 985,
+          "size": 30
+        }
+        ]   
+    },
+
+    {
+		"name": "West Foot of Gendarme",    
+		"sections": [
+          {
+            "ref": "West Foot of Gendarme/WFoG chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "West Foot of Gendarme/Cairn/WFoG chest 2",
+            "name": "Chest 2"
+          },
+		      {
+            "ref": "West Foot of Gendarme/Cairn/Airs Cairn Discovery",
+            "name": "Airs Cairn Discovery"
+          },
+          {
+            "ref": "West Foot of Gendarme/Save Austin from wolves/",
+            "name": "Save Austin from wolves"
+          },
+          {
+            "ref": "West Foot of Gendarme/Orichalcum Ore in cave/",
+            "name": "Orichalcum Ore in cave"
+          }
+
+
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 215,
+          "y": 722,
+          "size": 30
+        }
+    ]  
+    },
+
+    {
+		"name": "White Sand Coast",    
+		"sections": [
+          {
+            "ref": "White Sand Coast/WSC chest 1/",
+            "name": "Chest 1"
+          },
+          {
+            "ref": "White Sand Coast/WSC chest 2/",
+            "name": "Chest 2"
+          },
+          {
+            "ref": "White Sand Coast/WSC chest 3/",
+            "name": "Chest 3"
+          },
+          {
+            "ref": "White Sand Coast/WSC chest 4/",
+            "name": "Chest 4"
+          },
+          {
+            "ref": "White Sand Coast/WSC chest 5/",
+            "name": "Chest 5"
+          },
+          {
+            "ref": "White Sand Coast/WSC chest 6/",
+            "name": "Chest 6"
+          },
+          {
+            "ref": "White Sand Coast/WSC chest 7/",
+            "name": "Chest 7"
+          },
+          {
+            "ref": "White Sand Coast/Find Alison/",
+            "name": "Find Alison"
+          },
+          {
+            "ref": "White Sand Coast/Cobalt Crag Discovery/",
+            "name": "Cobalt Crag Discovery"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 485,
+          "y": 1098,
+          "size": 30
+        }
+        ]
+    }
+
+    
+
+	]
+
+ }
+]
