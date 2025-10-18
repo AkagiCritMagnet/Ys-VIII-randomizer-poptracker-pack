@@ -1,7 +1,7 @@
 {
   "name": "Ys VIII Randomizer Track Pack",
   "game_name": "Ys VIII",
-  "package_version": "0.1",
+  "package_version": "1.0",
   "package_uid": "Ys_VIII_track_pack",
   "author": "CRIT MAGNET",
   "variants": {
@@ -16,5 +16,7 @@
       ]
     }
   },
-  "min_poptracker_version": "0.25.3"
+  "min_poptracker_version": "0.25.3",
+  "target_poptracker_version": "0.32.0",
+  "versions_url": "https://github.com/AkagiCritMagnet/Ys-VIII-randomizer-poptracker-pack/blob/master/versions.json"
 }

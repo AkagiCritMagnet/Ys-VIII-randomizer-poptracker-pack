@@ -1,0 +1,11 @@
+{
+	"versions": [
+		{
+			"package_version": "1.0",
+			"download_url": "https://github.com/AkagiCritMagnet/Ys-VIII-randomizer-poptracker-pack/releases/download/V1.0/Ys.VIII.Pack.zip",
+			"sha256": "bb243f8b45057294164a5c9ce6eac1d701be4e9f4220e47f8285ac97c9985895",
+			"changelog": ["Added auto-update + fixed White Sand Cape name"]
+		}
+	]
+
+}

@@ -1208,42 +1208,42 @@
     },
 
     {
-		"name": "White Sand Coast",    
+		"name": "White Sand Cape",    
 		"sections": [
           {
-            "ref": "White Sand Coast/WSC chest 1/",
+            "ref": "White Sand Cape/WSC chest 1/",
             "name": "Chest 1"
           },
           {
-            "ref": "White Sand Coast/WSC chest 2/",
+            "ref": "White Sand Cape/WSC chest 2/",
             "name": "Chest 2"
           },
           {
-            "ref": "White Sand Coast/WSC chest 3/",
+            "ref": "White Sand Cape/WSC chest 3/",
             "name": "Chest 3"
           },
           {
-            "ref": "White Sand Coast/WSC chest 4/",
+            "ref": "White Sand Cape/WSC chest 4/",
             "name": "Chest 4"
           },
           {
-            "ref": "White Sand Coast/WSC chest 5/",
+            "ref": "White Sand Cape/WSC chest 5/",
             "name": "Chest 5"
           },
           {
-            "ref": "White Sand Coast/WSC chest 6/",
+            "ref": "White Sand Cape/WSC chest 6/",
             "name": "Chest 6"
           },
           {
-            "ref": "White Sand Coast/WSC chest 7/",
+            "ref": "White Sand Cape/WSC chest 7/",
             "name": "Chest 7"
           },
           {
-            "ref": "White Sand Coast/Find Alison/",
+            "ref": "White Sand Cape/Find Alison/",
             "name": "Find Alison"
           },
           {
-            "ref": "White Sand Coast/Cobalt Crag Discovery/",
+            "ref": "White Sand Cape/Cobalt Crag Discovery/",
             "name": "Cobalt Crag Discovery"
           }
 
