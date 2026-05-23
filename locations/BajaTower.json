@@ -91,7 +91,14 @@
 		},
 	  {
         "name": "Exmetal Boss Fight",
-        "sections": [{}],
+        "sections": [
+          {
+            "name": "Exmetal's Skill 1"
+          },
+          {
+            "name": "Exmetal's Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Baja_Tower",
@@ -211,7 +218,10 @@
       "name": "Top of the Tower",
       "sections":[
         {
-        "name": "Carveros Boss Fight"
+        "name": "Carveros' Skill 1"
+		    },
+        {
+        "name": "Carveros' Skill 2"
 		    },
 	      {
         "name": "Study history after boss"

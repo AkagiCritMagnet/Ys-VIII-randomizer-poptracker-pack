@@ -131,9 +131,15 @@
       },
 	  {
         "name": "Doxa Griel Boss Fight",
-        "sections":[{
-          "access_rules": ["Purifying_Bell"]
-        }],
+        "access_rules": ["Purifying_Bell"],
+        "sections":[
+          {
+            "name": "Doxa Griel's Skill 1"
+          },
+          {
+            "name": "Doxa Griel's Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Valley_of_Kings",
@@ -255,7 +261,17 @@
       },
 	  {
         "name": "Basileus Boss Fight",
-        "sections":[{}],
+        "sections":[
+          {
+            "name": "Kill Basileus"
+          },
+          {
+            "name": "Basileus Skill 1"
+          },
+          {
+            "name": "Basileus Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Valley_of_Kings",

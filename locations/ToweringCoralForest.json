@@ -94,8 +94,14 @@
         ]
       },
 	  {
-        "name": "Find Kiergaard and Sir Carlan",
-        "sections":[{}],
+        "name": "Find Castaways",
+        "sections":[
+          {
+            "name": "Sir Carlan Join"
+          },
+          {
+            "name": "Kiergaard Join"
+          }],
         "map_locations": [
           {
             "map": "Towering_Coral_Forest",
@@ -107,7 +113,14 @@
       },
 	  {
         "name": "Serpentus Boss Fight",
-        "sections":[{}],
+        "sections":[
+          {
+            "name": "Serpentus' Skill 1"
+          },
+          {
+            "name": "Serpentus' Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Towering_Coral_Forest",
@@ -282,9 +295,15 @@
       },
 	  {
         "name": "Clareon Boss Fight",
-        "sections":[{
-          "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"]
-        }],
+        "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"],
+        "sections":[
+          {
+            "name":"Clareon's Skill 1"
+          },
+          {
+            "name":"Clareon's Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Towering_Coral_Forest",

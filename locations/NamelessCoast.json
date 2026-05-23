@@ -6,6 +6,18 @@
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
       {
+        "name": "Laxia Join",
+        "sections":[{}],
+        "map_locations": [
+          {
+            "map": "Calm_Inlet",
+            "x": 411,
+            "y": 66,
+			      "size": 10
+          }
+        ]
+      },
+      {
         "name": "Nameless Coast chest 1",
         "sections":[{}],
         "map_locations": [
@@ -145,11 +157,21 @@
         "name": "Bosses",
         "sections":[
           {
-            "name": "Avalodragil Boss Fight"
+            "name": "Avalodragil Skill"
           },
           {
-            "name": "Nameless Ripper Boss Fight",
+            "name": "Sahad Join"
+          },
+          {
+            "name": "Nameless Ripper's Skill 1",
             "access_rules": "@Odd Rock Coast/Find Licht"
+          },
+          {
+            "name": "Nameless Ripper's Skill 2",
+            "access_rules": "@Odd Rock Coast/Find Licht"
+          },
+          {
+            "name": "Quina Join"
           }
         ],
         "map_locations": [

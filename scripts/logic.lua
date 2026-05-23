@@ -28,6 +28,16 @@ function hasnot(item)
 	end
 end
 
+function intercept_access(stage)
+	local interceptAvailable = Tracker:FindObjectForCode("Dogi").CurrentStage
+	stage = tonumber(stage)
+	if interceptAvailable > stage then
+		return true
+	else return false
+	end
+
+end
+
 
 function access_nameless_coast()
 	return has("Castaways", 6) or has("Grip_Gloves")

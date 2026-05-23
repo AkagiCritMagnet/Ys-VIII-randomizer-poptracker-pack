@@ -55,7 +55,14 @@
       },
 	  	{
         "name": "Byfteriza Boss Fight",
-        "sections":[{}],
+        "sections":[
+          {
+            "name": "Captain Barbaros Join"
+          },
+          {
+            "name": "Byfteriza Skill"
+          }
+        ],
         "map_locations": [
           {
             "map": "Waterdrop_Cave",

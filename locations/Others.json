@@ -15,16 +15,12 @@
     ],
     "sections": [
       {
-        "name": "Find Dina",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Find Dina"
       },
 	  {
         "name": "Beached Remains Discovery",
-		"visibility_rules": ["landmark_sanity"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
+		"visibility_rules": ["landmark_sanity"]
+      }
 
  
     ]
@@ -32,7 +28,7 @@
   
   {
     "name": "Odd Rock Coast",
-    "access_rules": ["@Schlamm Jungle2, Floating_Shoes"],
+    "access_rules": ["@Schlamm Jungle2, Floating_Shoes, Dina"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -46,10 +42,8 @@
     ],
     "sections": [
       {
-        "name": "Find Licht",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
+        "name": "Find Licht"
+      }
 
  
     ]
@@ -71,20 +65,23 @@
     ],
     "sections": [
       {
-        "name": "Pot in Dana's room",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Pot in Dana's room"
+      },
+	    {
+        "name": "Brachion's Skill 1"
+      },
+      {
+        "name": "Brachion's Skill 2"
       },
 	  {
-        "name": "Brachion Boss Fight",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Dana Join"
       },
-	  {
-        "name": "Sleeping Beauty",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+      {
+        "name": "Dana's Flame Stone"
       },
+      {
+        "name": "Thanatos Join"
+      }
 
  
     ]
@@ -106,26 +103,22 @@
     ],
     "sections": [
       {
-        "name": "Sky Path Chest 1",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Sky Path Chest 1"
       },
 	  {
-        "name": "Sky Path Chest 2",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Sky Path Chest 2"
       },
 	  {
-        "name": "Sky Path Chest 3",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Sky Path Chest 3"
       },
-	  {
-        "name": "Psyche Ura",
-		"visibility_rules": ["$hasnot|Psyches_toggle"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+      {
+        "name": "Psyche Ura's Skill 1",
+        "visibility_rules": ["$hasnot|Psyches_toggle"]
       },
+      {
+        "name": "Psyche Ura's Skill 2",
+        "visibility_rules": ["$hasnot|Psyches_toggle"]
+      }
 
  
     ]
@@ -147,21 +140,19 @@
     ],
     "sections": [
       {
-        "name": "Ocean Path Chest 1",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Ocean Path Chest 1"
       },
 	  {
-        "name": "Ocean Path Chest 2",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Ocean Path Chest 2"
       },
-	  {
-        "name": "Psyche Hydra",
-		"visibility_rules": ["$hasnot|Psyches_toggle"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+	    {
+        "name": "Psyche Hydra's Skill 1",
+		    "visibility_rules": ["$hasnot|Psyches_toggle"]
       },
+      {
+        "name": "Psyche Hydra's Skill 2",
+		    "visibility_rules": ["$hasnot|Psyches_toggle"]
+      }
 
  
     ]
@@ -183,26 +174,22 @@
     ],
     "sections": [
       {
-        "name": "Frozen Path Chest 1",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Frozen Path Chest 1"
       },
 	  {
-        "name": "Frozen Path Chest 2",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Frozen Path Chest 2"
       },
 	  {
-        "name": "Frozen Path Chest 3",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Frozen Path Chest 3"
       },
-	  {
-        "name": "Psyche Minos",
-		"visibility_rules": ["$hasnot|Psyches_toggle"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+	    {
+        "name": "Psyche Minos' Skill 1",
+		    "visibility_rules": ["$hasnot|Psyches_toggle"]
       },
+      {
+        "name": "Psyche Minos' Skill 2",
+		    "visibility_rules": ["$hasnot|Psyches_toggle"]
+      }
 
  
     ]
@@ -223,26 +210,22 @@
     ],
     "sections": [
       {
-        "name": "Insectoid Path Chest 1",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+        "name": "Insectoid Path Chest 1"
       },
-	  {
-        "name": "Insectoid Path Chest 2",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+	    {
+        "name": "Insectoid Path Chest 2"
       },
-	  {
-        "name": "Insectoid Path Chest 3",
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+	    {
+        "name": "Insectoid Path Chest 3"
       },
-	  {
-        "name": "Psyche Nestor",
-		"visibility_rules": ["$hasnot|Psyches_toggle"],
-		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+	    {
+        "name": "Psyche Nestor's Skill 1",
+		    "visibility_rules": ["$hasnot|Psyches_toggle"]
       },
+      {
+        "name": "Psyche Nestor's Skill 2",
+		    "visibility_rules": ["$hasnot|Psyches_toggle"]
+      }
 
  
     ]
@@ -266,28 +249,28 @@
       {
         "name": "Selection Sphere Chest 1",
 		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+		"chest_opened_img": "images/items/chest_opened.png"
       },
 	  {
         "name": "Selection Sphere Chest 2",
 		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+		"chest_opened_img": "images/items/chest_opened.png"
       },
 	  {
         "name": "Selection Sphere Chest 3",
 		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
+		"chest_opened_img": "images/items/chest_opened.png"
       },
 	  {
         "name": "Final Boss",
 		"access_rules": ["$access_final_boss", "Untouchable, @Ancient Sanctuary Crypt Final Layer/Melaiduma Boss Fight"],
 		"chest_unopened_img": "images/items/chest_closed.png",
-		"chest_opened_img": "images/items/chest_opened.png",
-      },
+		"chest_opened_img": "images/items/chest_opened.png"
+      }
 
  
     ]
-  },
+  }
   
  
 ]

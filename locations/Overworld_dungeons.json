@@ -310,6 +310,14 @@
             "name": "Bottom Chest 3"
           },
           {
+            "ref": "Archeozoic Chasm1/Coelacantos Boss Fight/Coelacantos' Skill 1",
+            "name": "Coelacantos' Skill 1"
+          },
+          {
+            "ref": "Archeozoic Chasm1/Coelacantos Boss Fight/Coelacantos' Skill 2",
+            "name": "Coelacantos' Skill 2"
+          },
+          {
             "ref": "Archeozoic Chasm1/Archeozoic Chasm bottom chest 4/",
             "name": "Bottom Chest 4"
           }
@@ -364,6 +372,14 @@
             "name": "Oceanus Boss Fight"
           },
           {
+            "ref": "Archeozoic Chasm2/Final Room/Oceanus' Skill 1",
+            "name": "Oceanus' Skill 1"
+          },
+          {
+            "ref": "Archeozoic Chasm2/Final Room/Oceanus' Skill 2",
+            "name": "Oceanus' Skill 2"
+          },
+          {
             "ref": "Archeozoic Chasm2/Final Room/Lombardia Nameplate",
             "name": "Lombardia Nameplate"
           }
@@ -410,8 +426,12 @@
             "name": "Baja Tower 3 Chest 4"
           },
           {
-            "ref": "Baja Tower1/Exmetal Boss Fight/",
-            "name": "Exmetal Boss Fight"
+            "ref": "Baja Tower1/Exmetal Boss Fight/Exmetal's Skill 1",
+            "name": "Exmetal's Skill 1"
+          },
+          {
+            "ref": "Baja Tower1/Exmetal Boss Fight/Exmetal's Skill 2",
+            "name": "Exmetal's Skill 2"
           },
           {
             "ref": "Baja Tower1/Baja Tower Hallway 1-2 chest/",
@@ -461,8 +481,12 @@
             "name": "Baja Tower 6 Chest 5"
           },
           {
-            "ref": "Baja Tower2/Top of the Tower/Carveros Boss Fight",
-            "name": "Carveros Boss Fight"
+            "ref": "Baja Tower2/Top of the Tower/Carveros' Skill 1",
+            "name": "Carveros' Skill 1"
+          },
+          {
+            "ref": "Baja Tower2/Top of the Tower/Carveros' Skill 2",
+            "name": "Carveros' Skill 2"
           },
           {
             "ref": "Baja Tower2/Top of the Tower/Study history after boss",
@@ -617,8 +641,12 @@
             "name": "Pirate Corpse 2"
           },
           {
-            "ref": "Eroded Valley1/Mid-Boss Room/Lombrigius Boss Fight",
-            "name": "Lombrigius Boss Fight"
+            "ref": "Eroded Valley1/Mid-Boss Room/Lombrigius' Skill 1",
+            "name": "Lombrigius' Skill 1"
+          },
+          {
+            "ref": "Eroded Valley1/Mid-Boss Room/Lombrigius' Skill 2",
+            "name": "Lombrigius' Skill 2"
           },
           {
             "ref": "Eroded Valley1/Mid-Boss Room/Eroded Valley chest 10",
@@ -667,8 +695,16 @@
             "name": "Pirate Corpse 3"
           },
           {
-            "ref": "Eroded Valley2/Gargantula Boss Fight/",
+            "ref": "Eroded Valley2/Gargantula Boss Fight/Kill it with fire",
             "name": "Gargantula Boss Fight"
+          },
+          {
+            "ref": "Eroded Valley2/Gargantula Boss Fight/Gargantula Skill 1",
+            "name": "Gargantula Skill 1"
+          },
+          {
+            "ref": "Eroded Valley2/Gargantula Boss Fight/Gargantula Skill 2",
+            "name": "Gargantula Skill 2"
           },
           {
             "ref": "Eroded Valley1/Indigo Mineral Vein Discovery/",
@@ -837,6 +873,10 @@
           {
             "ref": "Pirate Ship Eleftheria2/Ship Deck/PSE Deck chest",
             "name": "Deck Chest"
+          },
+          {
+            "ref": "Pirate Ship Eleftheria2/Ship Deck/Seiren Chart",
+            "name": "Seiren Chart"
           }
 
     ],
@@ -870,8 +910,12 @@
             "name": "Chest 3"
           },
           {
-            "ref": "Schlamm Jungle1/Mid-Boss Room/Magamandra Boss Fight",
-            "name": "Magamandra Boss Fight"
+            "ref": "Schlamm Jungle1/Mid-Boss Room/Magamandra's Skill 1",
+            "name": "Magamandra's Skill 1"
+          },
+          {
+            "ref": "Schlamm Jungle1/Mid-Boss Room/Magamandra's Skill 2",
+            "name": "Magamandra's Skill 2"
           },
           {
             "ref": "Schlamm Jungle1/Mid-Boss Room/Jungle chest 4",
@@ -924,8 +968,12 @@
             "name": "Chest 10"
           },
           {
-            "ref": "Schlamm Jungle2/Laspisus Boss Fight/",
-            "name": "Laspisus Boss Fight"
+            "ref": "Schlamm Jungle2/Laspisus Boss Fight/Laspisus' Skill 1",
+            "name": "Laspisus' Skill 1"
+          },
+          {
+            "ref": "Schlamm Jungle2/Laspisus Boss Fight/Laspisus' Skill 2",
+            "name": "Laspisus' Skill 2"
           }
 
     ],
@@ -967,8 +1015,8 @@
             "name": "B2F Chest 2"
           },
           {
-            "ref": "Silent Tower/Mephorash/Mephorash Boss Fight",
-            "name": "Mephorash Boss Fight"
+            "ref": "Silent Tower/Mephorash/Mephorash Skill",
+            "name": "Mephorash Skill"
           },
 		      {
             "ref": "Silent Tower/Mephorash/Silent Tower B2F chest 3",
@@ -1079,12 +1127,20 @@
             "name": "Lower Chest 1"
           },
           {
-            "ref": "Towering Coral Forest1/Find Kiergaard and Sir Carlan/",
-            "name": "Find Kiergaard and Sir Carlan"
+            "ref": "Towering Coral Forest1/Find Castaways/Sir Carlan Join",
+            "name": "Sir Carlan Join"
           },
           {
-            "ref": "Towering Coral Forest1/Serpentus Boss Fight/",
-            "name": "Serpentus Boss Fight"
+            "ref": "Towering Coral Forest1/Find Castaways/Kiergaard Join",
+            "name": "Kiergaard Join"
+          },
+          {
+            "ref": "Towering Coral Forest1/Serpentus Boss Fight/Serpentus' Skill 1",
+            "name": "Serpentus' Skill 1"
+          },
+          {
+            "ref": "Towering Coral Forest1/Serpentus Boss Fight/Serpentus' Skill 2",
+            "name": "Serpentus' Skill 2"
           },
           {
             "ref": "Towering Coral Forest1/Grip Gloves on corpse/",
@@ -1146,8 +1202,12 @@
             "name": "Upper Chest 13"
           },
           {
-            "ref": "Towering Coral Forest2/Clareon Boss Fight/",
-            "name": "Clareon Boss Fight"
+            "ref": "Towering Coral Forest2/Clareon Boss Fight/Clareon's Skill 1",
+            "name": "Clareon's Skill 1"
+          },
+          {
+            "ref": "Towering Coral Forest2/Clareon Boss Fight/Clareon's Skill 2",
+            "name": "Clareon's Skill 2"
           },
           {
             "ref": "Towering Coral Forest2/Rainbow Falls Discovery/",
@@ -1318,8 +1378,12 @@
             "name": "Upper lvl Chest 4"
           },
           {
-            "ref": "Valley of Kings1/Doxa Griel Boss Fight/",
-            "name": "Doxa Griel Boss Fight"
+            "ref": "Valley of Kings1/Doxa Griel Boss Fight/Doxa Griel's Skill 1",
+            "name": "Doxa Griel's Skill 1"
+          },
+          {
+            "ref": "Valley of Kings1/Doxa Griel Boss Fight/Doxa Griel's Skill 2",
+            "name": "Doxa Griel's Skill 2"
           }
           
     ],
@@ -1369,8 +1433,16 @@
             "name": "Lower lvl Chest 11"
           },
           {
-            "ref": "Valley of Kings2/Basileus Boss Fight/",
+            "ref": "Valley of Kings2/Basileus Boss Fight/Kill Basileus",
             "name": "Basileus Boss Fight"
+          },
+          {
+            "ref": "Valley of Kings2/Basileus Boss Fight/Basileus Skill 1",
+            "name": "Basileus Skill 1"
+          },
+          {
+            "ref": "Valley of Kings2/Basileus Boss Fight/Basileus Skill 2",
+            "name": "Basileus Skill 2"
           },
           {
             "ref": "Valley of Kings2/Mistilteinn cutscene/",
@@ -1407,8 +1479,12 @@
             "name": "Pirate Corpse"
           },
           {
-            "ref": "Waterdrop Cave/Byfteriza Boss Fight/",
-            "name": "Byfteriza Boss Fight"
+            "ref": "Waterdrop Cave/Byfteriza Boss Fight/Captain Barbaros Join",
+            "name": "Captain Barbaros Join"
+          },
+          {
+            "ref": "Waterdrop Cave/Byfteriza Boss Fight/Byfteriza Skill",
+            "name": "Byfteriza Skill"
           }
     ],
     "map_locations": [

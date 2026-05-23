@@ -82,11 +82,12 @@
         "visibility_rules": ["mephorash_fight"],
         "sections":[
           {
-            "name": "Mephorash Boss Fight"
+            "name": "Mephorash Skill"
           },
           {
             "name": "Silent Tower B2F chest 3"
           }
+          
         ],
         "map_locations": [
           {

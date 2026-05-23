@@ -7,10 +7,16 @@
     "children": [
       {
         "name": "Fight Silvia",
-        "sections":[{
-          "visibility_rules": ["silvia_fight"],
-		      "access_rules": ["Silvia"]
-        }],
+        "visibility_rules": ["silvia_fight"],
+		    "access_rules": ["Silvia"],
+        "sections":[
+          {
+            "name": "Silvia's Skill 1"
+          },
+          {
+            "name": "Silvia's Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Calm_Inlet",
@@ -20,15 +26,30 @@
         ]
       },
       {
+        "name": "Shoebill Join",
+        "sections":[{
+		    "access_rules": ["Ricotta"]
+        }],
+        "map_locations": [
+          {
+            "map": "Calm_Inlet",
+            "x": 136,
+            "y": 151
+          }
+        ]
+      },
+      {
         "name": "Discoveries",
         "access_rules": ["Austin"],
         "sections":[
           {
             "name": "12 Discoveries shown",
+            "access_rules": ["$has|landmark|12"],
 		        "visibility_rules": ["$has|Discoveries|12"]
           },
           {
             "name": "24 Discoveries shown",
+            "access_rules": ["$has|landmark|24"],
 		        "visibility_rules": ["$has|Discoveries|24"]
           }
       
@@ -80,6 +101,10 @@
           {
             "name": "90 Exploration",
 		        "visibility_rules": ["$has|exploration|90"]
+          },
+          {
+            "name": "100 Exploration",
+		        "visibility_rules": ["$has|exploration|100"]
           }
         ],
         "map_locations": [
@@ -90,6 +115,28 @@
           }
         ]
 
+      },
+      {
+        "name": "After Avalodragil",
+        "sections":[
+          {
+            "name": "Little Paro Join"
+          },
+          {
+            "name": "Dogi Join"
+          },
+          {
+            "name": "Fishing tutorial"
+          }
+      
+        ],
+        "map_locations": [
+          {
+            "map": "Calm_Inlet",
+            "x": 330,
+            "y": 120
+          }
+        ]
       }
  
  
@@ -108,81 +155,63 @@
             "y": 100
           }
         ],
-    "children": [
+    "sections": [
 	  
 	  {
         "name": "Dina trade 1",
-        "sections":[{
           "visibility_rules": ["$prismatic_logic|1"]
-        }]
       },
 
 	  {
         "name": "Dina trade 2",
-        "sections":[{
           "visibility_rules": ["$prismatic_logic|1"]
-        }]
       },
 	  
 	  {
         "name": "Dina trade 3",
-	        "sections":[{
           "visibility_rules": ["$prismatic_logic|2"]
-        }]
       },
 	  
 	  {
         "name": "Dina trade 4",
-        "sections":[{
           "visibility_rules": ["$prismatic_logic|4"]
-        }]
       },
 
 	  {
         "name": "Dina trade 5",
-        "sections":[{
           "visibility_rules": ["$prismatic_logic|5"]
-        }]
       },
 
 	  {
         "name": "Dina trade 6",
-        "sections":[{
           "visibility_rules": ["$prismatic_logic|1"]
-        }]
       },
 
 	  {
         "name": "Dina trade 7",
-        "sections":[{
           "visibility_rules": ["$prismatic_logic|1"]
-        }]
       },
 
 	  {
         "name": "Dina trade 8",
-        "sections":[{
           "visibility_rules": ["$prismatic_logic|2"]
-        }]
       },
 
 	  {
         "name": "Dina trade 9",
-        "sections":[{
           "visibility_rules": ["$prismatic_logic|2"]
-        }]
       },
 
 	  {
         "name": "Dina trade 10",
-        "sections":[{
           "visibility_rules": ["$prismatic_logic|3"]
-        }]
       }
 	  
  
     ]
   },
+
+  
   
   {
     "name": "Fish trades",
@@ -196,48 +225,37 @@
             "y": 151
           }
         ],
-    "children": [
+    "sections": [
 	  
 	  {
         "name": "Fish trade 1",
-        "sections":[{
           "visibility_rules": ["$has|fish_trades|1"]
-        }]
+        
       },
 
 	  {
         "name": "Fish trade 2",
-        "sections":[{
           "visibility_rules": ["$has|fish_trades|2"]
-        }]
       },
 	  
 	  {
         "name": "Fish trade 3",
-        "sections":[{
           "visibility_rules": ["$has|fish_trades|3"]
-        }]
       },
 	  
 	  {
         "name": "Fish trade 4",
-        "sections":[{
           "visibility_rules": ["$has|fish_trades|4"]
-        }]
       },
 
 	  {
         "name": "Fish trade 5",
-        "sections":[{
           "visibility_rules": ["$has|fish_trades|5"]
-        }]
       },
 
 	  {
         "name": "Fish trade 6",
-        "sections":[{
           "visibility_rules": ["$has|fish_trades|6"]
-        }]
       }
 	  
  
@@ -249,38 +267,61 @@
     "visibility_rules": ["$has|intercept_rewards"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
-    "children": [
+    "map_locations": [
+          {
+            "map": "Calm_Inlet",
+            "x": 337,
+            "y": 210
+          }
+        ],
+    "sections": [
 // Interceptions 2, 3, 5, 7, 9
 	  {
         "name": "Agents of the Sea",
-        "sections":[{
-          "access_rules":["$has|Tnotes"]
-        }]
+          "access_rules":["$intercept_access|1"]
       },
 	  {
         "name": "Tyrant's Invading Army",
-        "sections":[{
-          "access_rules":["$has|Tnotes"]
-        }]
+          "access_rules":["$intercept_access|1"]
       },
 	  {
         "name": "Agents of the Deep Sea",
-        "sections":[{
-          "access_rules":["$has|Tnotes"]
-        }]
+          "access_rules":["$intercept_access|2"]
       },
 	  {
         "name": "Creeping Beasts of Yore",
-        "sections":[{
-          "access_rules":["$has|Tnotes"]
-        }]
+          "access_rules":["$intercept_access|2"]
       },
 	  {
         "name": "Wisened Onslaught",
-        "sections":[{
-          "access_rules":["$has|Tnotes|3"]
-        }]
+          "access_rules":["$intercept_access|3"]
       }	  
+	  
+ 
+    ]
+  },
+
+  {
+    "name": "Blank",
+    "access_rules":["fishing_rod"],
+    "visibility_rules":[false],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "map_locations": [
+          {
+            "map": "Calm_Inlet",
+            "x": 0,
+            "y": 0
+          }
+        ],
+    "children": [
+	  
+	    {
+        "name": "Blank",
+        "sections":[{
+        "visibility_rules": ["$has|fish_trades|1"]
+        }]
+      }
 	  
  
     ]

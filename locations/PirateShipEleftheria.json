@@ -208,9 +208,11 @@
           }
         ]
       },
-	  {
+	    {
         "name": "PSE hold 3 chest 2",
-        "sections":[{"access_rules": ["Hermits_Scale"]}],
+        "sections":[{
+          "access_rules": ["Hermits_Scale"]
+        }],
         "map_locations": [
           {
             "map": "Pirate_Ship_Eleftheria",
@@ -296,10 +298,19 @@
         "name": "Ship Deck",
         "sections": [
             {
-            "name": "Pirate Revenant Boss Fight"
+              "name": "Pirate Revenant Boss Fight"
             },
             {
-            "name": "PSE Deck chest"
+              "name": "Pirate Revenant's Skill 1"
+            },
+            {
+              "name": "Pirate Revenant's Skill 2"
+            },
+            {
+              "name": "PSE Deck chest"
+            },
+            {
+              "name": "Seiren Chart"
             }
         ],
         "map_locations": [

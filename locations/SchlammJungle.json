@@ -1,7 +1,7 @@
 [
   {
     "name": "Schlamm Jungle1",
-    "access_rules": ["@Great River Valley, Dina", "landmark_sanity, field_of_medicinal_herbs"],
+    "access_rules": ["@Great River Valley, Dina", "landmark_sanity, field_of_medicinal_herbs, Dina"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -61,7 +61,10 @@
         "name": "Mid-Boss Room",
         "sections": [
           {
-            "name": "Magamandra Boss Fight"
+            "name": "Magamandra's Skill 1"
+          },
+          {
+            "name": "Magamandra's Skill 2"
           },
           {
             "name": "Jungle chest 4"
@@ -117,7 +120,7 @@
 	  {
         "name": "Jungle chest 6",
         "sections":[{
-          "access_rules": ["Grip_Gloves, Floating_Shoes", "Grip_Gloves, Archaeopteryx_Wing"]
+          "access_rules": ["Grip_Gloves, Floating_Shoes, Dina", "Grip_Gloves, Archaeopteryx_Wing, Dina"]
           }],
         "map_locations": [
           {
@@ -130,7 +133,7 @@
       },
 	  {
         "name": "Jungle chest 7",
-        "sections":[{}],
+        "sections":[{"access_rules": "Dina"}],
         "map_locations": [
           {
             "map": "Schlamm_Jungle",
@@ -142,7 +145,7 @@
       },
       {
         "name": "Field of Herbs",
-        "access_rules": ["Grip_Gloves, Floating_Shoes", "landmark_sanity, field_of_medicinal_herbs"],
+        "access_rules": ["Grip_Gloves, Floating_Shoes, Dina", "landmark_sanity, field_of_medicinal_herbs"],
         "sections": [
           {
             "name": "Jungle chest 8"
@@ -164,7 +167,7 @@
 	  {
         "name": "Jungle chest 9",
         "sections":[{
-          "access_rules": ["Grip_Gloves, Floating_Shoes", "Archaeopteryx_Wing"]
+          "access_rules": ["Grip_Gloves, Floating_Shoes, Dina", "Archaeopteryx_Wing, Dina"]
           }],
         "map_locations": [
           {
@@ -178,7 +181,7 @@
 	  {
         "name": "Jungle chest 10",
         "sections":[{
-          "access_rules": ["Floating_Shoes"]
+          "access_rules": ["Floating_Shoes, Dina"]
         }],
         "map_locations": [
           {
@@ -191,9 +194,15 @@
       },
 	  {
         "name": "Laspisus Boss Fight",
-        "sections":[{
-          "access_rules": ["Floating_Shoes"]
-        }],
+        "access_rules": ["Floating_Shoes, Dina"],
+        "sections":[
+          {
+            "name": "Laspisus' Skill 1"
+          },
+          {
+            "name": "Laspisus' Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Schlamm_Jungle",

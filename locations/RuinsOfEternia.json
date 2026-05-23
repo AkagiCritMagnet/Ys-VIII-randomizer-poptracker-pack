@@ -90,7 +90,8 @@
       },
 	  {
         "name": "Thanatos spooks you",
-        "sections":[{}],
+        "sections":[
+        ],
         "map_locations": [
           {
             "map": "Ruins_of_Eternia",

@@ -153,7 +153,10 @@
       "name": "Mid-Boss Room",
       "sections":[
         {
-        "name": "Lombrigius Boss Fight"
+        "name": "Lombrigius' Skill 1"
+		    },
+        {
+        "name": "Lombrigius' Skill 2"
 		    },
         {
         "name": "Eroded Valley chest 10"
@@ -280,7 +283,17 @@
 		},
 	  {
         "name": "Gargantula Boss Fight",
-        "sections":[{}],
+        "sections":[
+          {
+            "name": "Kill it with fire"
+          },
+          {
+            "name": "Gargantula Skill 1"
+          },
+          {
+            "name": "Gargantula Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Eroded_Valley",

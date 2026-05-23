@@ -18,7 +18,7 @@
         ]
       },
 	    {
-        "name": "Miralda",
+        "name": "Miralda Join",
         "sections":[{
           "access_rules": ["$has|Castaways|12"]
         }],

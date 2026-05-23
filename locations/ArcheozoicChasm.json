@@ -67,7 +67,14 @@
       },
 	    {
         "name": "Coelacantos Boss Fight",
-        "sections": [{}],
+        "sections": [
+          {
+            "name": "Coelacantos' Skill 1"
+          },
+          {
+            "name": "Coelacantos' Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Archeozoic_Chasm",
@@ -200,6 +207,12 @@
         "sections":[
         {
           "name": "Oceanus Boss Fight" 
+        },
+        {
+          "name": "Oceanus' Skill 1" 
+        },
+        {
+          "name": "Oceanus' Skill 2" 
         },
         {
           "name": "Lombardia Nameplate"

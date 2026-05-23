@@ -29,13 +29,13 @@
 	  {
         "name": "Odd Rock Coast training",
         "sections":[{
-          "access_rules":["@Master Kong Trainings/Sunrise Beach training, @Schlamm Jungle2, Floating_Shoes, Dana"]
+          "access_rules":["@Master Kong Trainings/Sunrise Beach training/, @Schlamm Jungle2, Floating_Shoes, Dana, Dina"]
         }]
       },
 	  {
         "name": "Mt Gendarme summit training",
         "sections":[{
-          "access_rules":["@Master Kong Trainings/Odd Rock Coast training, @Mt Gendarme2, Laxia"]
+          "access_rules":["@Master Kong Trainings/Odd Rock Coast training/, @Mt Gendarme2, Laxia"]
         }],
         "map_locations": [
           {
@@ -49,7 +49,7 @@
 	  {
         "name": "Pangaia Plains training",
         "sections":[{
-          "access_rules":["@Master Kong Trainings/Mt Gendarme summit training, Hummel"]
+          "access_rules":["@Master Kong Trainings/Mt Gendarme summit training/, Hummel"]
         }],
         "map_locations": [
           {
@@ -62,9 +62,15 @@
       },
 	  {
         "name": "Vista Ridge training",
-        "sections":[{
-          "access_rules":["@Master Kong Trainings/Pangaia Plains training, @Temple of the Great Tree, Adol"]
-        }],
+        "access_rules":["@Master Kong Trainings/Pangaia Plains training/, @Temple of the Great Tree, Adol"],
+        "sections":[
+          {
+            "name":"Adol Training"
+          },
+          {
+            "name":"Master Kong Join"
+          }
+        ],
         "map_locations": [
           {
             "map": "Vista_Ridge",

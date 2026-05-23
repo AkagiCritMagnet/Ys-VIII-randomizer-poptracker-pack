@@ -31,3 +31,6 @@ Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/options.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+
+-- AutoTracking for Poptracker
+ScriptHost:LoadScript("scripts/autotracking.lua")

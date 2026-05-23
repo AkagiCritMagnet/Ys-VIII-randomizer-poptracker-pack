@@ -47,70 +47,69 @@
     "name": "Adol",
     "type": "toggle",
     "img": "images/items/Adol.png",
-    "codes": "Adol"
+    "codes": "castaway_count, Adol"
   },
   {
     "name": "Laxia",
     "type": "toggle",
     "img": "images/items/Laxia.png",
-    "codes": "Laxia"
+    "codes": "castaway_count, Laxia"
   },
   {
     "name": "Sahad",
     "type": "toggle",
     "img": "images/items/Sahad.png",
-    "codes": "Sahad"
+    "codes": "castaway_count, Sahad"
   },
   {
     "name": "Hummel",
     "type": "toggle",
     "img": "images/items/Hummel.png",
-    "codes": "Hummel"
+    "codes": "castaway_count, Hummel"
   },
   {
     "name": "Ricotta",
     "type": "toggle",
     "img": "images/items/Ricotta.png",
-    "codes": "Ricotta"
+    "codes": "castaway_count, Ricotta"
   },
   {
     "name": "Dana",
     "type": "toggle",
     "img": "images/items/Dana.png",
-    "codes": "Dana"
+    "codes": "castaway_count, Dana"
   },
   {
     "name": "Dina",
     "type": "toggle",
     "img": "images/items/Dina.png",
-    "codes": "Dina"
+    "codes": "castaway_count, Dina"
   },
   {
     "name": "Euron",
     "type": "toggle",
     "img": "images/items/Euron.png",
-    "codes": "Euron"
+    "codes": "castaway_count, Euron"
   },
   {
     "name": "Austin",
     "type": "toggle",
     "img": "images/items/Austin.png",
-    "codes": "Austin"
+    "codes": "castaway_count, Austin"
   },
   {
     "name": "Silvia",
     "type": "toggle",
     "img": "images/items/Silvia.png",
-    "codes": "Silvia"
+    "codes": "castaway_count, Silvia"
   },
   {
     "name": "Castaways",
     "type": "consumable",
     "img": "images/items/Castaways.png",
     "codes": "Castaways",
-	"initial_quantity": 1,
     "overlay_background": "#000000",
-    "max_quantity": 26
+    "max_quantity": 28
   },
   {
     "name": "Maiden Journal",
@@ -203,28 +202,190 @@
     "codes": "fishing_rod"
   },
   {
+    "name": "Essence Keys",
+    "type": "consumable",
+    "img": "images/items/EssenceKey.png",
+    "codes": "essence_keys",
+    "overlay_background": "#000000",
+    "max_quantity": 9
+  },
+  {
     "name": "Recipe books",
     "type": "consumable",
+    "initial_quantity": 1,
     "img": "images/items/Recipes.png",
     "codes": "recipes",
     "overlay_background": "#000000",
-    "max_quantity": 5
+    "max_quantity": 6
   },
   {
     "name": "Ship Log N°1",
     "type": "toggle",
     "img": "images/items/ShipLog.png",
-    "codes": "ship_log",
+    "codes": "ship_log"
   },
   {
-    "name": "T's Notes",
-    "type": "consumable",
-    "img": "images/items/TsNotes.png",
-    "codes": "Tnotes",
+    "name": "Dogi's Intercept",
+    "type": "progressive",
+    "codes": "Dogi, castaway_count",
     "overlay_background": "#000000",
-    "max_quantity": 4
+    "stages": [
+      {"img": "images/items/Dogi.jpg"},
+	    {"img": "images/items/Dogi23.jpg"},
+      {"img": "images/items/Dogi57.jpg"},
+      {"img": "images/items/DogiALL.jpg"}
+    ]
   },
-  
+
+
+  {
+    "name": "Captain Barbatos",
+    "type": "toggle",
+    "codes": "castaway_count, Captain Barbatos"
+  },
+  {
+    "name": "Little Paro",
+    "type": "toggle",
+    "codes": "castaway_count, Little Paro"
+  },
+  {
+    "name": "Kathleen",
+    "type": "toggle",
+    "codes": "castaway_count, Kathleen"
+  },
+  {
+    "name": "Alison",
+    "type": "toggle",
+    "codes": "castaway_count, Alison"
+  },
+  {
+    "name": "Sir Carlan",
+    "type": "toggle",
+    "codes": "castaway_count, Sir Carlan"
+  },
+  {
+    "name": "Kiergaard",
+    "type": "toggle",
+    "codes": "castaway_count, Kiergaard"
+  },
+  {
+    "name": "Sister Nia",
+    "type": "toggle",
+    "codes": "castaway_count, Sister Nia"
+  },
+  {
+    "name": "Reja",
+    "type": "toggle",
+    "codes": "castaway_count, Reja"
+  },
+  {
+    "name": "Licht",
+    "type": "toggle",
+    "codes": "castaway_count, Licht"
+  },
+  {
+    "name": "Quina",
+    "type": "toggle",
+    "codes": "castaway_count, Quina"
+  },
+  {
+    "name": "Miralda",
+    "type": "toggle",
+    "codes": "castaway_count, Miralda"
+  },
+  {
+    "name": "Thanatos",
+    "type": "toggle",
+    "codes": "castaway_count, Thanatos"
+  },
+  {
+    "name": "Katthew",
+    "type": "toggle",
+    "codes": "castaway_count, Katthew"
+  },
+  {
+    "name": "Ed",
+    "type": "toggle",
+    "codes": "castaway_count, Ed"
+  },
+  {
+    "name": "Franz",
+    "type": "toggle",
+    "codes": "castaway_count, Franz"
+  },
+  {
+    "name": "Shoebill",
+    "type": "toggle",
+    "codes": "castaway_count, Shoebill"
+  },
+  {
+    "name": "Griselda",
+    "type": "toggle",
+    "codes": "castaway_count, Griselda"
+  },
+  {
+    "name": "Master Kong",
+    "type": "toggle",
+    "codes": "castaway_count, Master Kong"
+  },
+
+
+
+  {
+    "name": "Recipe Book Mushroom Omelet",
+    "type": "toggle",
+    "codes": "recipe_books, Mushroom Omelet"
+  },
+  {
+    "name": "Recipe Book Hearty Ratatouille",
+    "type": "toggle",
+    "codes": "recipe_books, Hearty Ratatouille"
+  },
+  {
+    "name": "Recipe Book Colorful Meuniere",
+    "type": "toggle",
+    "codes": "recipe_books, Colorful Meuniere"
+  },
+  {
+    "name": "Recipe Book Seafood Quiche",
+    "type": "toggle",
+    "codes": "recipe_books, Seafood Quiche"
+  },
+  {
+    "name": "Recipe Book Cabbage Rolls",
+    "type": "toggle",
+    "codes": "recipe_books, Cabbage Rolls"
+  },
+  {
+    "name": "Recipe Book Meat-Wrapped Mushrooms",
+    "type": "toggle",
+    "codes": "recipe_books, Meat-Wrapped Mushrooms"
+  },
+  {
+    "name": "Recipe Book Fish Fry",
+    "type": "toggle",
+    "codes": "recipe_books, Fish Fry"
+  },
+  {
+    "name": "Recipe Book Pirate's Platter",
+    "type": "toggle",
+    "codes": "recipe_books, Pirate's Platter"
+  },
+  {
+    "name": "Recipe Book Luxury Coleslaw",
+    "type": "toggle",
+    "codes": "recipe_books, Luxury Coleslaw"
+  },
+  {
+    "name": "Recipe Book Heartfelt Bolognese",
+    "type": "toggle",
+    "codes": "recipe_books, Heartfelt Bolognese"
+  },
+  {
+    "name": "Recipe Book Great Pumpkin Pie",
+    "type": "toggle",
+    "codes": "recipe_books, Great Pumpkin Pie"
+  }
   
  
   

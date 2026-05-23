@@ -41,8 +41,21 @@
 		"name": "Calm Inlet",    
 		"sections": [
           {
-            "ref": "Calm Inlet/Fight Silvia/",
-            "name": "Fight Silvia"
+            "ref": "Calm Inlet/Fight Silvia/Silvia's Skill 1",
+            "name": "Silvia's Skill 1"
+          },
+          {
+            "ref": "Calm Inlet/Fight Silvia/Silvia's Skill 2",
+            "name": "Silvia's Skill 2"
+          },
+          
+          {
+            "ref": "Calm Inlet/Little Paro Join/",
+            "name": "Little Paro Join"
+          },
+          {
+            "ref": "Calm Inlet/Shoebill Join/",
+            "name": "Shoebill Join"
           },
           {
             "ref": "Calm Inlet/Discoveries/12 Discoveries shown",
@@ -87,6 +100,10 @@
 		  {
             "ref": "Calm Inlet/Exploration/90 Exploration",
             "name": "90% Map Completion"
+          },
+          {
+            "ref": "Calm Inlet/Exploration/100 Exploration",
+            "name": "100% Map Completion"
           }
 
         ],
@@ -104,43 +121,43 @@
 		"name": "Dina Trades",    
 		"sections": [
           {
-            "ref": "Dina Trades/Dina trade 1/",
+            "ref": "Dina Trades/Dina trade 1",
             "name": "Dina Trade 1"
           },
 		  {
-            "ref": "Dina Trades/Dina trade 2/",
+            "ref": "Dina Trades/Dina trade 2",
             "name": "Dina Trade 2"
           },
 		  {
-            "ref": "Dina Trades/Dina trade 3/",
+            "ref": "Dina Trades/Dina trade 3",
             "name": "Dina Trade 3"
           },
 		  {
-            "ref": "Dina Trades/Dina trade 4/",
+            "ref": "Dina Trades/Dina trade 4",
             "name": "Dina Trade 4"
           },
 		  {
-            "ref": "Dina Trades/Dina trade 5/",
+            "ref": "Dina Trades/Dina trade 5",
             "name": "Dina Trade 5"
           },
 		  {
-            "ref": "Dina Trades/Dina trade 6/",
+            "ref": "Dina Trades/Dina trade 6",
             "name": "Dina Trade 6"
           },
 		  {
-            "ref": "Dina Trades/Dina trade 7/",
+            "ref": "Dina Trades/Dina trade 7",
             "name": "Dina Trade 7"
           },
 		  {
-            "ref": "Dina Trades/Dina trade 8/",
+            "ref": "Dina Trades/Dina trade 8",
             "name": "Dina Trade 8"
           },
 		  {
-            "ref": "Dina Trades/Dina trade 9/",
+            "ref": "Dina Trades/Dina trade 9",
             "name": "Dina Trade 9"
           },
 		  {
-            "ref": "Dina Trades/Dina trade 10/",
+            "ref": "Dina Trades/Dina trade 10",
             "name": "Dina Trade 10"
           }
         ],
@@ -158,27 +175,27 @@
 		"name": "Fish trades",    
 		"sections": [
           {
-            "ref": "Fish trades/Fish trade 1/",
+            "ref": "Fish trades/Fish trade 1",
             "name": "Fish trade 1"
           },
 		  {
-            "ref": "Fish trades/Fish trade 2/",
+            "ref": "Fish trades/Fish trade 2",
             "name": "Fish trade 2"
           },
 		  {
-            "ref": "Fish trades/Fish trade 3/",
+            "ref": "Fish trades/Fish trade 3",
             "name": "Fish trade 3"
           },
 		  {
-            "ref": "Fish trades/Fish trade 4/",
+            "ref": "Fish trades/Fish trade 4",
             "name": "Fish trade 4"
           },
 		  {
-            "ref": "Fish trades/Fish trade 5/",
+            "ref": "Fish trades/Fish trade 5",
             "name": "Fish trade 5"
           },
 		  {
-            "ref": "Fish trades/Fish trade 6/",
+            "ref": "Fish trades/Fish trade 6",
             "name": "Fish trade 6"
           }
 
@@ -197,23 +214,23 @@
 		"name": "Dogi's interceptions",    
 		"sections": [
             {
-                "ref": "Dogi's interceptions/Agents of the Sea/",
+                "ref": "Dogi's interceptions/Agents of the Sea",
                 "name": "Agents of the Sea"
             },
             {
-                "ref": "Dogi's interceptions/Tyrant's Invading Army/",
+                "ref": "Dogi's interceptions/Tyrant's Invading Army",
                 "name": "Tyrant's Invading Army"
             },
             {
-                "ref": "Dogi's interceptions/Agents of the Deep Sea/",
+                "ref": "Dogi's interceptions/Agents of the Deep Sea",
                 "name": "Agents of the Deep Sea"
             },
             {
-                "ref": "Dogi's interceptions/Creeping Beasts of Yore/",
+                "ref": "Dogi's interceptions/Creeping Beasts of Yore",
                 "name": "Creeping Beasts of Yore"
             },
             {
-                "ref": "Dogi's interceptions/Wisened Onslaught/",
+                "ref": "Dogi's interceptions/Wisened Onslaught",
                 "name": "Wisened Onslaught"
             }
 
@@ -402,8 +419,8 @@
             "name": "Chest 1"
           },
           {
-            "ref": "Longhorn Coast/Find Reja Pikkard/",
-            "name": "Find Reja's Pikkard"
+            "ref": "Longhorn Coast/Reja Join/",
+            "name": "Reja Join"
           },
           {
             "ref": "Longhorn Coast/Longhorn Coast chest 2/",
@@ -523,8 +540,8 @@
             "name": "Wish tree"
           },
           {
-            "ref": "Mt Gendarme1/Avalodragil Second Fight/",
-            "name": "Avalodragil Second Fight"
+            "ref": "Mt Gendarme1/Avalodragil Second Fight/Ricotta Join",
+            "name": "Ricotta Join"
           }
         ],
         "map_locations": [
@@ -553,8 +570,12 @@
             "name": "Upper 2 Chest"
           },
           {
-            "ref": "Mt Gendarme2/Giasburn Boss Fight/",
-            "name": "Giasburn Boss Fight"
+            "ref": "Mt Gendarme2/Giasburn Boss Fight/Giasburn's Skill 1",
+            "name": "Giasburn's Skill 1"
+          },
+          {
+            "ref": "Mt Gendarme2/Giasburn Boss Fight/Giasburn's Skill 2",
+            "name": "Giasburn's Skill 2"
           }
         ],
         "map_locations": [
@@ -629,8 +650,12 @@
             "name": "Pangaia Plains training"
           },
           {
-            "ref": "Master Kong Trainings/Vista Ridge training/",
+            "ref": "Master Kong Trainings/Vista Ridge training/Adol Training",
             "name": "Vista Ridge training"
+          },
+          {
+            "ref": "Master Kong Trainings/Vista Ridge training/Master Kong Join",
+            "name": "Master Kong Join"
           }
         ],
         "map_locations": [
@@ -701,6 +726,10 @@
 		"name": "Nameless Coast",    
 		"sections": [
           {
+            "ref": "Nameless Coast/Laxia Join/",
+            "name": "Laxia Join"
+          },
+          {
             "ref": "Nameless Coast/Nameless Coast chest 1/",
             "name": "Chest 1"
           },
@@ -741,17 +770,30 @@
             "name": "Chest 10"
           },
           {
-            "ref": "Nameless Coast/Bosses/Avalodragil Boss Fight",
-            "name": "Avalodragil First Fight"
+            "ref": "Nameless Coast/Bosses/Avalodragil Skill",
+            "name": "Avalodragil Skill"
+          },
+          {
+            "ref": "Nameless Coast/Bosses/Sahad Join",
+            "name": "Sahad Join"
           },
 		      {
-            "ref": "Nameless Coast/Bosses/Nameless Ripper Boss Fight",
-            "name": "Nameless Ripper Fight"
+            "ref": "Nameless Coast/Bosses/Nameless Ripper's Skill 1",
+            "name": "Nameless Ripper's Skill 1"
+          },
+          {
+            "ref": "Nameless Coast/Bosses/Nameless Ripper's Skill 2",
+            "name": "Nameless Ripper's Skill 2"
+          },
+          {
+            "ref": "Nameless Coast/Bosses/Quina Join",
+            "name": "Quina Join"
           },
           {
             "ref": "Nameless Coast/Birdsong Rock Discovery/",
             "name": "Birdsong Rock Discovery"
           }
+          
         ],
         "map_locations": [
         {
@@ -968,8 +1010,12 @@
             "name": "Bird statue in the stupa"
           },
           {
-            "ref": "Ruins of Eternia/Thanatos spooks you/",
+            "ref": "Ruins of Eternia/Thanatos spooks you/Thanatos Join",
             "name": "Thanatos spooks you"
+          },
+          {
+            "ref": "Ruins of Eternia/Thanatos spooks you/Ship Blueprint",
+            "name": "Ship Blueprint"
           }
 
         ],
@@ -1115,7 +1161,7 @@
             "name": "Chest 1"
           },
           {
-            "ref": "Water and Wood Hills/Miralda/",
+            "ref": "Water and Wood Hills/Miralda Join/",
             "name": "Find Miralda"
           },
           {

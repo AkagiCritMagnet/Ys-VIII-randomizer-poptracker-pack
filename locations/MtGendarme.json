@@ -1,7 +1,7 @@
 [
   {
     "name": "Mt Gendarme1",
-    "access_rules": ["@Primordial Passage", "landmark_sanity, prismatic_mineral_vein"],
+    "access_rules": ["@Primordial Passage", "@Mountain Pinnacle Trail"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -127,7 +127,17 @@
       },
 	  {
         "name": "Avalodragil Second Fight",
-        "sections":[{}],
+        "sections":[
+          {
+            "name": "Ricotta Join"
+          },
+          {
+            "name": "Avalodragil 2 Skill 1"
+          },
+          {
+            "name": "Avalodragil 2 Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Mt_Gendarme",
@@ -185,7 +195,14 @@
       },
 	  {
         "name": "Giasburn Boss Fight",
-        "sections":[{}],
+        "sections":[
+          {
+            "name": "Giasburn's Skill 1"
+          },
+          {
+            "name": "Giasburn's Skill 2"
+          }
+        ],
         "map_locations": [
           {
             "map": "Mt_Gendarme",
@@ -202,7 +219,7 @@
   
   {
     "name": "Food trades",
-    "access_rules": ["$access_mountain"],
+    "access_rules": ["@Mt Gendarme1/Avalodragil Second Fight/Ricotta Join"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "map_locations": [
@@ -217,49 +234,50 @@
 	  
 	  {
         "name": "Food trade 1",
-        "sections":[{
-          "visibility_rules": ["$has|food_trades|1"]
+        "access_rules":["$has|recipes|1"],
+          "visibility_rules": ["$has|food_trades|1"],
+        "sections":[{ 
         }]
 	  },
 
 	  {
         "name": "Food trade 2",
+        "access_rules":["$has|recipes|2"],
+		      "visibility_rules": ["$has|food_trades|2"],
         "sections":[{
-          "access_rules":["$has|recipes|1"],
-		      "visibility_rules": ["$has|food_trades|2"]
         }]
 	  },
 	  
 	  {
         "name": "Food trade 3",
+        "access_rules":["$has|recipes|3"],
+		      "visibility_rules": ["$has|food_trades|3"],
         "sections":[{
-          "access_rules":["$has|recipes|2"],
-		      "visibility_rules": ["$has|food_trades|3"]
         }]
 	  },
 	  
 	  {
         "name": "Food trade 4",
+        "access_rules":["$has|recipes|4"],
+		    "visibility_rules": ["$has|food_trades|4"],
         "sections":[{
-          "access_rules":["$has|recipes|3"],
-		      "visibility_rules": ["$has|food_trades|4"]
         }]
 	  },
 
 	  {
         "name": "Food trade 5",
+        "access_rules":["$has|recipes|5"],
+		      "visibility_rules": ["$has|food_trades|5"],
         "sections":[{
-          "access_rules":["$has|recipes|4"],
-		      "visibility_rules": ["$has|food_trades|5"]
         }]
 
 	  },
 
 	  {
         "name": "Food trade 6",
+        "access_rules":["$has|recipes|6"],
+		      "visibility_rules": ["$has|food_trades|6"],
         "sections":[{
-          "access_rules":["$has|recipes|5"],
-		      "visibility_rules": ["$has|food_trades|6"]
         }]
 	  }
 	  

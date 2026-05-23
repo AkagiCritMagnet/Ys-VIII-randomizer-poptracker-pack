@@ -55,7 +55,7 @@
         ]
       },
 	  {
-        "name": "Find Reja Pikkard",
+        "name": "Reja Join",
         "sections":[{}],
         "map_locations": [
           {
@@ -63,7 +63,13 @@
             "x": 245,
             "y": 207,
 			      "size": 20
-          },
+          }
+        ]
+      },
+      {
+        "name": "Reja's Pikkard",
+        "sections":[{}],
+        "map_locations": [
 		      {
             "map": "Longhorn_Coast",
             "x": 665,
