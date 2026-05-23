@@ -16,5 +16,5 @@
   },
   "min_poptracker_version": "0.25.3",
   "target_poptracker_version": "0.32.0",
-  "versions_url": "https://github.com/AkagiCritMagnet/Ys-VIII-randomizer-poptracker-pack/blob/master/versions.json"
+  "versions_url": "https://raw.githubusercontent.com/AkagiCritMagnet/Ys-VIII-randomizer-poptracker-pack/refs/heads/master/versions.json"
 }
