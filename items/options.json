@@ -73,11 +73,11 @@
     "type": "progressive",
     "stages": [
       {"disabled_img": "images/options/JewelNone.png",
-	"img": "images/options/Jewel1.png"},
+	    "img": "images/options/Jewel1.png"},
       {"img": "images/options/Jewel2.png"},
       {"img": "images/options/Jewel3.png"},
       {"img": "images/options/Jewel10.png"},
-      {"img": "images/options/JewelAll.png"},
+      {"img": "images/options/JewelAll.png"}
     ]
   },
    {
@@ -85,7 +85,7 @@
     "type": "consumable",
     "img": "images/options/FishTrades.png",
 	"initial_quantity": 6,
-    "codes": "fish_trades",
+    "codes": "fishes",
     "overlay_background": "#000000",
     "max_quantity": 6
   },
@@ -94,7 +94,7 @@
     "type": "consumable",
     "img": "images/options/FoodTrades.png",
 	"initial_quantity": 6,
-    "codes": "food_trades",
+    "codes": "foods",
     "overlay_background": "#000000",
     "max_quantity": 6
   },

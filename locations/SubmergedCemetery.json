@@ -1,7 +1,11 @@
 [
   {
     "name": "Submerged Cemetery",
-    "access_rules": ["$access_submerged_cemetery_landmarks", "@Temple of the Great Tree, treasure_chest_key, Grip_Gloves, Floating_Shoes", "@Temple of the Great Tree, treasure_chest_key, Grip_Gloves, Archaeopteryx_Wing"],
+    "access_rules": ["$access_submerged_cemetery_landmarks", 
+                     "@Valley of Kings1, Floating_Shoes",
+                     "@Valley of Kings1, Hermits_Scale",
+                     "@Temple of the Great Tree, treasure_chest_key, Grip_Gloves, Floating_Shoes, $has|Castaways|22", 
+                     "@Temple of the Great Tree, treasure_chest_key, Grip_Gloves, Archaeopteryx_Wing, $has|Castaways|22"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

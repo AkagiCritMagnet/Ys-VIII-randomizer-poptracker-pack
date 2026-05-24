@@ -86,17 +86,144 @@ function onClear(slot_data)
     SLOT_DATA = slot_data
 
 
-    if slot_data['game_version'] then
-        print (slot_data['game_version'])
-        local version=slot_data['game_version']
-        local obj = Tracker:FindObjectForCode('SotFS')
-        if obj then
-            if version==0 then
-            obj.Active = true 
-            else obj.Active = false
+
+
+
+    local slotdata = dump(slot_data)
+    print("Slot data print")
+    print (slotdata)
+    
+    if slot_data["options"]['final_boss_access'] then
+        local goal=slot_data["options"]['final_boss_access']
+        if goal == 3 then
+            Tracker:FindObjectForCode("Untouchable").Active = true 
+        
+        else
+            if goal == 2 then
+                Tracker:FindObjectForCode("Psyches_toggle").Active = true
+                if slot_data["options"]["octus_count_psyches_mode"] and slot_data["options"]["goal_count_psyches_final_boss"] then
+                    local octus_psyche = Tracker:FindObjectForCode("Psyches_Octus")
+                    octus_psyche.AcquiredCount = slot_data["options"]["octus_count_psyches_mode"]
+                    local goal_psyche = Tracker:FindObjectForCode("Psyches_Goal")
+                    goal_psyche.AcquiredCount = slot_data["options"]["goal_count_psyches_final_boss"]
+                else print("Missing information fo Psyche objectives")
+                end
+
+            else
+                if goal == 1 then
+                    Tracker:FindObjectForCode("Escape").Active = true
+
+                else
+                    if goal == 0 then
+                        Tracker:FindObjectForCode("Castaways_toggle").Active = true
+                        
+                        if slot_data["options"]["octus_count_crew_mode"] and slot_data["options"]["goal_count_crew_final_boss"] then
+                            local octus_psyche = Tracker:FindObjectForCode("Castaways_Octus")
+                            octus_psyche.AcquiredCount = slot_data["options"]["octus_count_crew_mode"]
+                            local goal_psyche = Tracker:FindObjectForCode("Castaways_Goal")
+                            goal_psyche.AcquiredCount = slot_data["options"]["goal_count_crew_final_boss"]
+                        else print("Missing information fo Crew objectives")
+                        end
+                    end
+                
+                
+                end
+            
             end
         end
     end
+
+
+
+    if slot_data["options"]['jewel_trade_items'] then
+        local jewels_max=slot_data["options"]['jewel_trade_items']
+        if jewels_max==0 then
+            Tracker:FindObjectForCode("Prismatic").CurrentStage = 0
+        end
+        if jewels_max==1 then
+            Tracker:FindObjectForCode("Prismatic").CurrentStage = 1
+        end
+        if jewels_max==2 then
+            Tracker:FindObjectForCode("Prismatic").CurrentStage = 2
+        end
+        if jewels_max==3 then
+            Tracker:FindObjectForCode("Prismatic").CurrentStage = 3
+        end
+        if jewels_max==10 then
+            Tracker:FindObjectForCode("Prismatic").CurrentStage = 4
+        end
+        if jewels_max==25 then
+            Tracker:FindObjectForCode("Prismatic").CurrentStage = 5
+        end
+    
+    end
+
+
+    if slot_data["options"]['fish_trades'] then
+        Tracker:FindObjectForCode("fishes").AcquiredCount = slot_data["options"]['fish_trades']
+    end
+
+    if slot_data["options"]['food_trades'] then
+        Tracker:FindObjectForCode("foods").AcquiredCount = slot_data["options"]['food_trades']
+    end
+
+    if slot_data["options"]['map_completion'] then
+        Tracker:FindObjectForCode("exploration").AcquiredCount = slot_data["options"]['map_completion']
+    end
+
+    if slot_data["options"]['discoveries'] then
+        Tracker:FindObjectForCode("discoveries").AcquiredCount = slot_data["options"]['discoveries']*12
+    end
+
+    if slot_data["options"]['dogi_intercept_rewards'] then
+        if slot_data["options"]['dogi_intercept_rewards'] == 1 then
+            Tracker:FindObjectForCode("intercept_rewards").Active = true
+        else Tracker:FindObjectForCode("intercept_rewards").Active = false
+        end
+    end
+
+    if slot_data["options"]['master_kong_rewards'] then
+        if slot_data["options"]['master_kong_rewards'] == 1 then
+            Tracker:FindObjectForCode("kong_rewards").Active = true
+        else Tracker:FindObjectForCode("kong_rewards").Active = false
+        end
+    end
+
+    if slot_data["options"]['silvia_progression'] then
+        if slot_data["options"]['silvia_progression'] == 1 then
+            Tracker:FindObjectForCode("silvia_fight").Active = true
+        else Tracker:FindObjectForCode("silvia_fight").Active = false
+        end
+    end
+
+    if slot_data["options"]['mephorash_progression'] then
+        if slot_data["options"]['mephorash_progression'] == 1 then
+            Tracker:FindObjectForCode("mephorash_fight").Active = true
+        else Tracker:FindObjectForCode("mephorash_fight").Active = false
+        end
+    end
+
+    if slot_data["options"]['former_sanctuary_crypt'] then
+        if slot_data["options"]['former_sanctuary_crypt'] == 1 then
+            Tracker:FindObjectForCode("FSC Access").Active = true
+        else Tracker:FindObjectForCode("FSC Access").Active = false
+        end
+    end
+
+    if slot_data["options"]['north_side_open'] then
+        if slot_data["options"]['north_side_open'] == 1 then
+            Tracker:FindObjectForCode("NorthSideOpen").Active = true
+        else Tracker:FindObjectForCode("NorthSideOpen").Active = false
+        end
+    end
+
+    if slot_data["options"]['discovery_sanity'] then
+        if slot_data["options"]['discovery_sanity'] == 1 then
+            Tracker:FindObjectForCode("landmark_sanity").Active = true
+        else Tracker:FindObjectForCode("landmark_sanity").Active = false
+        end
+    end
+
 
     
 end
@@ -198,3 +325,25 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+
+
+function dump(o, depth)
+    if depth == nil then
+        depth = 0
+    end
+    if type(o) == 'table' then
+        local tabs = ('\t'):rep(depth)
+        local tabs2 = ('\t'):rep(depth + 1)
+        local s = '{\n'
+        for k, v in pairs(o) do
+            if type(k) ~= 'number' then
+                k = '"' .. k .. '"'
+            end
+            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump(v, depth + 1) .. ',\n'
+        end
+        return s .. tabs .. '}'
+    else
+        return tostring(o)
+    end
+end
+

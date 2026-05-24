@@ -34,7 +34,7 @@
 	  {
         "name": "WSC chest 2",
         "sections":[{
-          "access_rules": ["Archaeopteryx_Wing"]
+          "access_rules": ["Archaeopteryx_Wing", "^$canSB"]
         }],
         "map_locations": [
           {

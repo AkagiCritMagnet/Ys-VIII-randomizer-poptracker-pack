@@ -28,6 +28,10 @@ function hasnot(item)
 	end
 end
 
+function canSB()
+    return AccessibilityLevel.SequenceBreak
+end
+
 function intercept_access(stage)
 	local interceptAvailable = Tracker:FindObjectForCode("Dogi").CurrentStage
 	stage = tonumber(stage)

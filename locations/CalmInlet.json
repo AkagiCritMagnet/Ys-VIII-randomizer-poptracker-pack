@@ -229,33 +229,33 @@
 	  
 	  {
         "name": "Fish trade 1",
-          "visibility_rules": ["$has|fish_trades|1"]
+          "visibility_rules": ["$has|fishes|1"]
         
       },
 
 	  {
         "name": "Fish trade 2",
-          "visibility_rules": ["$has|fish_trades|2"]
+          "visibility_rules": ["$has|fishes|2"]
       },
 	  
 	  {
         "name": "Fish trade 3",
-          "visibility_rules": ["$has|fish_trades|3"]
+          "visibility_rules": ["$has|fishes|3"]
       },
 	  
 	  {
         "name": "Fish trade 4",
-          "visibility_rules": ["$has|fish_trades|4"]
+          "visibility_rules": ["$has|fishes|4"]
       },
 
 	  {
         "name": "Fish trade 5",
-          "visibility_rules": ["$has|fish_trades|5"]
+          "visibility_rules": ["$has|fishes|5"]
       },
 
 	  {
         "name": "Fish trade 6",
-          "visibility_rules": ["$has|fish_trades|6"]
+          "visibility_rules": ["$has|fishes|6"]
       }
 	  
  

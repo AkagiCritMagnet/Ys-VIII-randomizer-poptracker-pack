@@ -128,7 +128,11 @@
 	    {
         "name": "Nameless Coast chest 9",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "Archaeopteryx_Wing, $has|Castaways|6", "$access_nameless_coast_landmarks"]
+          "access_rules": ["Grip_Gloves", 
+                           "Archaeopteryx_Wing, $has|Castaways|6", 
+                           "Archaeopteryx_Wing, $access_nameless_coast_landmarks", 
+                           "$has|Castaways|6, ^$canSB",
+                           "$access_nameless_coast_landmarks, ^$canSB"]
         }],
         "map_locations": [
           {
@@ -171,7 +175,8 @@
             "access_rules": "@Odd Rock Coast/Find Licht"
           },
           {
-            "name": "Quina Join"
+            "name": "Quina Join",
+            "access_rules": "@Odd Rock Coast/Find Licht"
           }
         ],
         "map_locations": [
