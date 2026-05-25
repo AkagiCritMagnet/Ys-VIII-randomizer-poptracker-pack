@@ -9,7 +9,7 @@
       {
         "name": "Roaring Seashore training",
         "sections":[{
-          "access_rules":["$access_roaring_seashore_upper_landmarks, Ricotta"]
+          "access_rules":["@Roaring Seashore up, Ricotta"]
         }],
         "map_locations": [
           {

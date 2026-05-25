@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.3",
+			"download_url": "https://github.com/AkagiCritMagnet/Ys-VIII-randomizer-poptracker-pack/releases/download/v1.3/Ys.8.Pack.zip",
+			"sha256": "50ebb14427dcb5a81e0aa9f7cd95630ee404852525ea42a88b3b1fb6c50978da",
+			"changelog": ["Started to rewrite logic"]
+		},
+		{
 			"package_version": "1.2",
 			"download_url": "https://github.com/AkagiCritMagnet/Ys-VIII-randomizer-poptracker-pack/releases/download/v1.2/Ys.8.pack.zip",
 			"sha256": "303c0019ade502258f86f4b53e74d9aea970cb96c42c4f97f9be4441b2c637ba",

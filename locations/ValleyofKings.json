@@ -1,7 +1,9 @@
 [
   {
-    "name": "Valley of Kings1",
-    "access_rules": ["@Temple of the Great Tree, treasure_chest_key, Grip_Gloves, Floating_Shoes", "$access_lodinia_marsh_landmarks, Floating_Shoes", "$access_lodinia_marsh_landmarks, Hermits_Scale", "$access_valley_of_kings_landmarks"],
+    "name": "Valley of Kings Entrance",
+    "access_rules": ["@Lodinia Marshland 2nd half, Floating_Shoes", 
+                     "@Lodinia Marshland 2nd half, Hermits_Scale", 
+                     "@Eternal Hill, maiden_amulet"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -18,7 +20,17 @@
 			      "size": 20
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Valley of Kings1",
+    "access_rules": ["@Lodinia Marshland 2nd half, Floating_Shoes", 
+                     "@Lodinia Marshland 2nd half, Hermits_Scale", 
+                     "@Eternal Hill, maiden_amulet"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "children": [
 	  {
         "name": "VoK lower lvl chest 1",
         "sections":[{}],

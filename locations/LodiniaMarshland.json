@@ -1,14 +1,14 @@
 [
   {
-    "name": "Lodinia Marshland",
-    "access_rules": ["@Temple of the Great Tree", "$access_lodinia_marsh_landmarks"],
+    "name": "Lodinia Marshland 1st half",
+    "access_rules": ["@Temple of the Great Tree", "@Lodinia Marshland 2nd half, treasure_chest_key"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
       {
         "name": "Lodinia Marshland chest 1",
         "sections":[{
-          "access_rules": ["@Temple of the Great Tree", "treasure_chest_key, Hermits_Scale", "treasure_chest_key, Floating_Shoes"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -22,7 +22,7 @@
 	  {
         "name": "Lodinia Marshland chest 2",
         "sections":[{
-          "access_rules": ["@Temple of the Great Tree, Archaeopteryx_Wing", "@Temple of the Great Tree, Floating_Shoes", "treasure_chest_key, Hermits_Scale", "treasure_chest_key, Floating_Shoes"]
+          "access_rules": ["@Temple of the Great Tree, Archaeopteryx_Wing", "@Temple of the Great Tree, Floating_Shoes", "@Lodinia Marshland 2nd half"]
         }],
         "map_locations": [
           {
@@ -36,7 +36,7 @@
 	  {
         "name": "Lodinia Marshland chest 3",
         "sections":[{
-          "access_rules": ["@Temple of the Great Tree, Archaeopteryx_Wing", "@Temple of the Great Tree, Floating_Shoes", "treasure_chest_key, Hermits_Scale", "treasure_chest_key, Floating_Shoes"]
+          "access_rules": ["@Temple of the Great Tree, Archaeopteryx_Wing", "@Temple of the Great Tree, Floating_Shoes", "@Lodinia Marshland 2nd half"]
         }],
         "map_locations": [
           {
@@ -50,7 +50,7 @@
 	  {
         "name": "Lodinia Marshland chest 4",
         "sections":[{
-          "access_rules": ["@Temple of the Great Tree, Floating_Shoes", "treasure_chest_key, Floating_Shoes"]
+          "access_rules": ["Floating_Shoes"]
         }],
         "map_locations": [
           {
@@ -64,7 +64,7 @@
 	  {
         "name": "Lodinia Marshland chest 5",
         "sections":[{
-          "access_rules": ["@Temple of the Great Tree, Floating_Shoes", "treasure_chest_key, Floating_Shoes"]
+          "access_rules": ["Floating_Shoes"]
         }],
         "map_locations": [
           {
@@ -78,7 +78,7 @@
 	  {
         "name": "Lodinia Marshland chest 6",
         "sections":[{
-          "access_rules": ["@Temple of the Great Tree, Floating_Shoes", "treasure_chest_key, Floating_Shoes"]
+          "access_rules": ["Floating_Shoes"]
         }],
         "map_locations": [
           {
@@ -88,11 +88,39 @@
 			      "size": 20
           }
         ]
-      },
+      }
+	  
+    ]
+  },
+  {
+    "name": "Lodinia Marshland 2nd half",
+    "access_rules": ["@Lodinia Marshland 1st half, Grip_Gloves, Hermits_Scale", 
+                     "@Lodinia Marshland 1st half, Grip_Gloves, Archaeopteryx_Wing",
+                     "landmark_sanity, sky_garden", 
+                     "@Submerged Cemetery, Hermits_Scale, $has|Castaways|22",
+                     "@Valley of Kings Entrance", 
+                     "@Eternal Hill, maiden_amulet"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "children": [
 	  {
+        "name": "Lodinia Marshland chest 8",
+        "sections":[{
+          "access_rules": ["Floating_Shoes", "Hermits_Scale"]
+        }],
+        "map_locations": [
+          {
+            "map": "Lodinia_Marshland",
+            "x": 292,
+            "y": 285,
+			      "size": 20
+          }
+        ]
+      },
+      {
         "name": "Lodinia Marshland chest 7",
         "sections":[{
-          "access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key", "$access_lodinia_marsh_landmarks, Floating_Shoes", "$access_lodinia_marsh_landmarks, Hermits_Scale"]
+          "access_rules": ["Floating_Shoes", "Hermits_Scale"]
         }],
         "map_locations": [
           {
@@ -104,23 +132,9 @@
         ]
       },
 	  {
-        "name": "Lodinia Marshland chest 8",
-        "sections":[{
-          "access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key", "$access_lodinia_marsh_landmarks, Floating_Shoes", "$access_lodinia_marsh_landmarks, Hermits_Scale"]
-        }],
-        "map_locations": [
-          {
-            "map": "Lodinia_Marshland",
-            "x": 292,
-            "y": 285,
-			      "size": 20
-          }
-        ]
-      },
-	  {
         "name": "Lodinia Marshland chest 9",
         "sections":[{
-          "access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key", "$access_lodinia_marsh_landmarks, Floating_Shoes", "$access_lodinia_marsh_landmarks, Hermits_Scale"]
+          "access_rules": ["Floating_Shoes", "Hermits_Scale"]
         }],
         "map_locations": [
           {
@@ -133,8 +147,9 @@
       },
 	  {
         "name": "Lodinia Marshland chest 10",
+        "access_rules": ["Floating_Shoes", "Hermits_Scale"],
         "sections":[{
-          "access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key", "$access_lodinia_marsh_landmarks, Floating_Shoes", "$access_lodinia_marsh_landmarks, Hermits_Scale", "$access_valley_of_kings_landmarks"]
+          
         }],
         "map_locations": [
           {
@@ -148,7 +163,7 @@
 	  {
         "name": "Lodinia Marshland chest 11",
         "sections":[{
-          "access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key", "$access_lodinia_marsh_landmarks, Floating_Shoes", "$access_lodinia_marsh_landmarks, Hermits_Scale"]
+          "access_rules": ["Floating_Shoes", "Hermits_Scale"]
         }],
         "map_locations": [
           {
@@ -161,7 +176,8 @@
       },
       {
         "name": "Top",
-        "access_rules": ["Floating_Shoes, Grip_Gloves, Treasure_Chest_Key, Archaeopteryx_Wing", "landmark_sanity, sky_garden"],        "sections":[
+        "access_rules": ["Floating_Shoes, Grip_Gloves, Archaeopteryx_Wing", "landmark_sanity, sky_garden"],        
+        "sections":[
           {
             "name": "Sky Garden Discovery",
             "visibility_rules": ["landmark_sanity"]

@@ -1,6 +1,6 @@
 [
   {
-    "name": "Nameless Coast",
+    "name": "Nameless Coast south",
     "access_rules": [],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
@@ -69,94 +69,7 @@
         ]
       },
 	  
-	    {
-        "name": "Nameless Coast chest 5",
-        "sections":[{
-          "access_rules": ["Grip_Gloves", "$has|Castaways|6", "$access_nameless_coast_landmarks"]
-        }],
-        "map_locations": [
-          {
-            "map": "Nameless_Coast",
-            "x": 637,
-            "y": 297,
-			      "size": 20
-          }
-        ]
-      },
-	    {
-        "name": "Nameless Coast chest 6",
-        "sections":[{
-          "access_rules": ["Grip_Gloves", "$has|Castaways|6", "$access_nameless_coast_landmarks"]
-        }],
-        "map_locations": [
-          {
-            "map": "Nameless_Coast",
-            "x": 473,
-            "y": 330,
-			      "size": 20
-          }
-        ]
-      },
-	    {
-        "name": "Nameless Coast chest 7",
-        "sections":[{
-          "access_rules": ["Grip_Gloves", "$has|Castaways|6", "$access_nameless_coast_landmarks"]
-        }],
-        "map_locations": [
-          {
-            "map": "Nameless_Coast",
-            "x": 224,
-            "y": 193,
-			      "size": 20
-          }
-        ]
-      },
-	    {
-        "name": "Nameless Coast chest 8",
-        "sections":[{
-          "access_rules": ["Grip_Gloves", "$has|Castaways|6", "$access_nameless_coast_landmarks"]
-        }],
-        "map_locations": [
-          {
-            "map": "Nameless_Coast",
-            "x": 346,
-            "y": 103,
-			      "size": 20
-          }
-        ]
-      },
-	    {
-        "name": "Nameless Coast chest 9",
-        "sections":[{
-          "access_rules": ["Grip_Gloves", 
-                           "Archaeopteryx_Wing, $has|Castaways|6", 
-                           "Archaeopteryx_Wing, $access_nameless_coast_landmarks", 
-                           "$has|Castaways|6, ^$canSB",
-                           "$access_nameless_coast_landmarks, ^$canSB"]
-        }],
-        "map_locations": [
-          {
-            "map": "Nameless_Coast",
-            "x": 266,
-            "y": 362,
-			      "size": 20
-          }
-        ]
-      },
-	    {
-        "name": "Nameless Coast chest 10",
-        "sections":[{
-          "access_rules": ["Archaeopteryx_Wing, $has|Castaways|6", "Archaeopteryx_Wing, Grip_Gloves", "$has|Castaways|8", "$access_great_river_valley_landmarks"]
-        }],
-        "map_locations": [
-          {
-            "map": "Nameless_Coast",
-            "x": 289,
-            "y": 71,
-			      "size": 20
-          }
-        ]
-      },
+	    
       {
         "name": "Bosses",
         "sections":[
@@ -187,12 +100,108 @@
 			      "size": 20
           }
         ]
+      }
+    ]
+  },
+
+  
+  {
+    "name": "Nameless Coast north",
+    "access_rules": ["Grip_Gloves", "$has|Castaways|6", "@Towering Coral Forest1", "@Great River Valley"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "children": [
+      {
+        "name": "Nameless Coast chest 5",
+        "sections":[{
+          "access_rules": []
+        }],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 637,
+            "y": 297,
+			      "size": 20
+          }
+        ]
       },
 	    {
+        "name": "Nameless Coast chest 6",
+        "sections":[{
+          "access_rules": []
+        }],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 473,
+            "y": 330,
+			      "size": 20
+          }
+        ]
+      },
+	    {
+        "name": "Nameless Coast chest 7",
+        "sections":[{
+          "access_rules": []
+        }],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 224,
+            "y": 193,
+			      "size": 20
+          }
+        ]
+      },
+	    {
+        "name": "Nameless Coast chest 8",
+        "sections":[{
+          "access_rules": []
+        }],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 346,
+            "y": 103,
+			      "size": 20
+          }
+        ]
+      },
+	    {
+        "name": "Nameless Coast chest 9",
+        "sections":[{
+          "access_rules": ["Grip_Gloves", 
+                           "Archaeopteryx_Wing",
+                           "^$canSB"]
+        }],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 266,
+            "y": 362,
+			      "size": 20
+          }
+        ]
+      },
+	    {
+        "name": "Nameless Coast chest 10",
+        "sections":[{
+          "access_rules": ["Archaeopteryx_Wing", "@Great River Valley"]
+        }],
+        "map_locations": [
+          {
+            "map": "Nameless_Coast",
+            "x": 289,
+            "y": 71,
+			      "size": 20
+          }
+        ]
+      },
+      {
         "name": "Birdsong Rock Discovery",
         "sections":[{
           "visibility_rules": "landmark_sanity",
-		      "access_rules": ["Grip_Gloves", "$has|Castaways|6", "$access_nameless_coast_landmarks"]
+		      "access_rules": []
         }],
         "map_locations": [
           {
@@ -203,13 +212,6 @@
           }
         ]
       }
-	  
-	        
-
-	  
- 
     ]
   }
-  
- 
 ]

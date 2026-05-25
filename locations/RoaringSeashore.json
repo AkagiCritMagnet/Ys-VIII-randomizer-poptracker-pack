@@ -1,14 +1,16 @@
 [
   {
-    "name": "Roaring Seashore",
-    "access_rules": [],
+    "name": "Roaring Seashore beach",
+    "access_rules": ["@Towering Coral Forest2/Clareon Boss Fight", 
+                     "@Roaring Seashore up, $has|Castaways|14",
+                     "landmark_sanity, metavolicalis"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
       {
         "name": "Roaring Seashore chest 1",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -21,7 +23,7 @@
       },
       {
         "name":"Metavolicalis",
-        "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"],
+        "access_rules": [],
         "sections":[
           {
             "name": "Roaring Seashore chest 2"
@@ -43,7 +45,7 @@
 	  {
         "name": "Find Kathleen",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -53,8 +55,20 @@
 			      "size": 20
           }
         ]
-      },
-	  	  {
+      }
+	  	  
+	
+ 
+    ]
+  },
+  {
+    "name": "Roaring Seashore up",
+    "access_rules": ["@Roaring Seashore beach, $has|Castaways|14",
+                     "landmark_sanity, parasequoia"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "children": [
+      {
         "name": "Roaring Seashore chest 3",
         "sections":[{
           "access_rules":["$access_roaring_seashore_upper_landmarks"]
@@ -89,8 +103,7 @@
           }
         ]
       }
-	
- 
+
     ]
   }
 ]

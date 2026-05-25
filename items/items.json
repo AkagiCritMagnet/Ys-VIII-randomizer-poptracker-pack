@@ -230,8 +230,8 @@
     "codes": "Dogi, castaway_count",
     "overlay_background": "#000000",
     "stages": [
-      {"img": "images/items/Dogi.jpg"},
-	    {"img": "images/items/Dogi23.jpg"},
+      {"disabled_img": "images/items/Dogi.jpg",
+	    "img": "images/items/Dogi23.jpg"},
       {"img": "images/items/Dogi57.jpg"},
       {"img": "images/items/DogiALL.jpg"}
     ]

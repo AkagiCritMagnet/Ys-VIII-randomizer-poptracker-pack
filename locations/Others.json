@@ -51,7 +51,7 @@
   
   {
     "name": "Temple of the Great Tree",
-    "access_rules": ["@Ruins of Eternia, green_seal", "@Titis Primeval Forest, Dana", "$access_temple_landmarks"],
+    "access_rules": ["@Ruins of Eternia, green_seal", "@Titis Primeval Forest, Dana", "@Lodinia Marshland 1st half"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

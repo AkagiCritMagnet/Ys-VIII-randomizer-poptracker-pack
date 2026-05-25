@@ -1162,23 +1162,23 @@
 		"name": "Towering Coral Forest2",    
 		"sections": [
           {
-            "ref": "Towering Coral Forest2/TCF upper chest 3/",
+            "ref": "Towering Coral Forest Rainbow Falls/TCF upper chest 3/",
             "name": "Upper Chest 3"
           },
           {
-            "ref": "Towering Coral Forest2/TCF upper chest 4/",
+            "ref": "Towering Coral Forest Rainbow Falls/TCF upper chest 4/",
             "name": "Upper Chest 4"
           },
           {
-            "ref": "Towering Coral Forest2/TCF upper chest 5/",
+            "ref": "Towering Coral Forest Rainbow Falls/TCF upper chest 5/",
             "name": "Upper Chest 5"
           },
           {
-            "ref": "Towering Coral Forest2/TCF upper chest 6/",
+            "ref": "Towering Coral Forest Rainbow Falls/TCF upper chest 6/",
             "name": "Upper Chest 6"
           },
           {
-            "ref": "Towering Coral Forest2/TCF upper chest 7/",
+            "ref": "Towering Coral Forest Rainbow Falls/TCF upper chest 7/",
             "name": "Upper Chest 7"
           },
           {
@@ -1338,7 +1338,7 @@
 		"name": "Valley of Kings1",    
 		"sections": [
           {
-            "ref": "Valley of Kings1/Valley of Kings chest/",
+            "ref": "Valley of Kings Entrance/Valley of Kings chest/",
             "name": "Entrance Chest"
           },
           {

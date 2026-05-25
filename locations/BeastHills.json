@@ -1,13 +1,13 @@
 [
   {
-    "name": "Beast Hills",
-    "access_rules": [],
+    "name": "Beast Hills north",
+    "access_rules": ["@Great River Valley", "@Eroded Valley1", "@Beast Hills south, Dina"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
 	  {
         "name": "Hummel",
-        "sections":[{"access_rules":["@Great River Valley", "landmark_sanity, indigo_mineral_vein", "@Longhorn Coast, Dina", "@Schlamm Jungle1, Dina"]}],
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Beast_Hills",
@@ -19,7 +19,7 @@
       },
       {
         "name": "Beast Hills chest 1",
-        "sections":[{"access_rules":["@Great River Valley", "landmark_sanity, indigo_mineral_vein", "@Longhorn Coast, Dina", "@Schlamm Jungle1, Dina"]}],
+        "sections":[{}],
         "map_locations": [
           {
             "map": "Beast_Hills",
@@ -28,11 +28,19 @@
 			      "size": 20
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Beast Hills south",
+    "access_rules": ["@Beast Hills north, Dina", "@Longhorn Coast"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "children": [
 	  {
         "name": "Beast Hills chest 2",
         "sections":[{
-          "access_rules": ["@Great River Valley, Dina", "landmark_sanity, indigo_mineral_vein, Dina", "@Longhorn Coast", "@Schlamm Jungle1, Dina"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -46,7 +54,7 @@
 	  {
         "name": "Beast Hills chest 3",
         "sections":[{
-          "access_rules": ["@Great River Valley, Dina", "landmark_sanity, indigo_mineral_vein, Dina", "@Longhorn Coast", "@Schlamm Jungle1, Dina"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -60,7 +68,7 @@
 	  {
         "name": "Beast Hills chest 4",
         "sections":[{
-          "access_rules": ["@Great River Valley, Dina, $has|Castaways|15", "landmark_sanity, indigo_mineral_vein, Dina, $has|Castaways|15", "@Longhorn Coast, $has|Castaways|15", "@Schlamm Jungle1, Dina, $has|Castaways|15"]
+          "access_rules": ["$has|Castaways|15"]
         }],
         "map_locations": [
           {
@@ -73,6 +81,7 @@
       }
     ]
   }
+  
   
  
 ]

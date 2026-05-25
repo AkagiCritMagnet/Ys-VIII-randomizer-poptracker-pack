@@ -35,7 +35,7 @@ end
 function intercept_access(stage)
 	local interceptAvailable = Tracker:FindObjectForCode("Dogi").CurrentStage
 	stage = tonumber(stage)
-	if interceptAvailable > stage then
+	if interceptAvailable >= stage then
 		return true
 	else return false
 	end

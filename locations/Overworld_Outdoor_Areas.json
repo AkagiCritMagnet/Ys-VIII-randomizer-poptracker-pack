@@ -6,23 +6,23 @@
 		"name": "Beast Hills",    
 		"sections": [
           {
-            "ref": "Beast Hills/Hummel/",
+            "ref": "Beast Hills north/Hummel/",
             "name": "Hummel finds you"
           },
           {
-            "ref": "Beast Hills/Beast Hills chest 1/",
+            "ref": "Beast Hills north/Beast Hills chest 1/",
             "name": "Chest 1"
           },
           {
-            "ref": "Beast Hills/Beast Hills chest 2/",
+            "ref": "Beast Hills south/Beast Hills chest 2/",
             "name": "Chest 2"
           },
           {
-            "ref": "Beast Hills/Beast Hills chest 3/",
+            "ref": "Beast Hills south/Beast Hills chest 3/",
             "name": "Chest 3"
           },
           {
-            "ref": "Beast Hills/Beast Hills chest 4/",
+            "ref": "Beast Hills south/Beast Hills chest 4/",
             "name": "Chest 4"
           }
 
@@ -341,55 +341,55 @@
 		"name": "Lodinia Marshland",    
 		"sections": [
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 1/",
+            "ref": "Lodinia Marshland 1st half/Lodinia Marshland chest 1/",
             "name": "Chest 1"
           },
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 2/",
+            "ref": "Lodinia Marshland 1st half/Lodinia Marshland chest 2/",
             "name": "Chest 2"
           },
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 3/",
+            "ref": "Lodinia Marshland 1st half/Lodinia Marshland chest 3/",
             "name": "Chest 3"
           },
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 4/",
+            "ref": "Lodinia Marshland 1st half/Lodinia Marshland chest 4/",
             "name": "Chest 4"
           },
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 5/",
+            "ref": "Lodinia Marshland 1st half/Lodinia Marshland chest 5/",
             "name": "Chest 5"
           },
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 6/",
+            "ref": "Lodinia Marshland 1st half/Lodinia Marshland chest 6/",
             "name": "Chest 6"
           },
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 7/",
+            "ref": "Lodinia Marshland 2nd half/Lodinia Marshland chest 7/",
             "name": "Chest 7"
           },
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 8/",
+            "ref": "Lodinia Marshland 2nd half/Lodinia Marshland chest 8/",
             "name": "Chest 8"
           },
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 9/",
+            "ref": "Lodinia Marshland 2nd half/Lodinia Marshland chest 9/",
             "name": "Chest 9"
           },
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 10/",
+            "ref": "Lodinia Marshland 2nd half/Lodinia Marshland chest 10/",
             "name": "Chest 10"
           },
           {
-            "ref": "Lodinia Marshland/Lodinia Marshland chest 11/",
+            "ref": "Lodinia Marshland 2nd half/Lodinia Marshland chest 11/",
             "name": "Chest 11"
           },
           {
-            "ref": "Lodinia Marshland/Top/Climb for tree sap",
+            "ref": "Lodinia Marshland 2nd half/Top/Climb for tree sap",
             "name": "Climb for tree sap"
           },
 		      {
-            "ref": "Lodinia Marshland/Top/Sky Garden Discovery",
+            "ref": "Lodinia Marshland 2nd half/Top/Sky Garden Discovery",
             "name": "Sky Garden Discovery"
           }
         ],
@@ -726,71 +726,71 @@
 		"name": "Nameless Coast",    
 		"sections": [
           {
-            "ref": "Nameless Coast/Laxia Join/",
+            "ref": "Nameless Coast south/Laxia Join/",
             "name": "Laxia Join"
           },
           {
-            "ref": "Nameless Coast/Nameless Coast chest 1/",
+            "ref": "Nameless Coast south/Nameless Coast chest 1/",
             "name": "Chest 1"
           },
           {
-            "ref": "Nameless Coast/Nameless Coast chest 2/",
+            "ref": "Nameless Coast south/Nameless Coast chest 2/",
             "name": "Chest 2"
           },
           {
-            "ref": "Nameless Coast/Nameless Coast chest 3/",
+            "ref": "Nameless Coast south/Nameless Coast chest 3/",
             "name": "Chest 3"
           },
           {
-            "ref": "Nameless Coast/Nameless Coast chest 4/",
+            "ref": "Nameless Coast south/Nameless Coast chest 4/",
             "name": "Chest 4"
           },
           {
-            "ref": "Nameless Coast/Nameless Coast chest 5/",
+            "ref": "Nameless Coast north/Nameless Coast chest 5/",
             "name": "Chest 5"
           },
           {
-            "ref": "Nameless Coast/Nameless Coast chest 6/",
+            "ref": "Nameless Coast north/Nameless Coast chest 6/",
             "name": "Chest 6"
           },
           {
-            "ref": "Nameless Coast/Nameless Coast chest 7/",
+            "ref": "Nameless Coast north/Nameless Coast chest 7/",
             "name": "Chest 7"
           },
           {
-            "ref": "Nameless Coast/Nameless Coast chest 8/",
+            "ref": "Nameless Coast north/Nameless Coast chest 8/",
             "name": "Chest 8"
           },
           {
-            "ref": "Nameless Coast/Nameless Coast chest 9/",
+            "ref": "Nameless Coast north/Nameless Coast chest 9/",
             "name": "Chest 9"
           },
           {
-            "ref": "Nameless Coast/Nameless Coast chest 10/",
+            "ref": "Nameless Coast north/Nameless Coast chest 10/",
             "name": "Chest 10"
           },
           {
-            "ref": "Nameless Coast/Bosses/Avalodragil Skill",
+            "ref": "Nameless Coast south/Bosses/Avalodragil Skill",
             "name": "Avalodragil Skill"
           },
           {
-            "ref": "Nameless Coast/Bosses/Sahad Join",
+            "ref": "Nameless Coast south/Bosses/Sahad Join",
             "name": "Sahad Join"
           },
 		      {
-            "ref": "Nameless Coast/Bosses/Nameless Ripper's Skill 1",
+            "ref": "Nameless Coast south/Bosses/Nameless Ripper's Skill 1",
             "name": "Nameless Ripper's Skill 1"
           },
           {
-            "ref": "Nameless Coast/Bosses/Nameless Ripper's Skill 2",
+            "ref": "Nameless Coast south/Bosses/Nameless Ripper's Skill 2",
             "name": "Nameless Ripper's Skill 2"
           },
           {
-            "ref": "Nameless Coast/Bosses/Quina Join",
+            "ref": "Nameless Coast south/Bosses/Quina Join",
             "name": "Quina Join"
           },
           {
-            "ref": "Nameless Coast/Birdsong Rock Discovery/",
+            "ref": "Nameless Coast north/Birdsong Rock Discovery/",
             "name": "Birdsong Rock Discovery"
           }
           
@@ -934,31 +934,31 @@
 		"name": "Roaring Seashore",    
 		"sections": [
           {
-            "ref": "Roaring Seashore/Roaring Seashore chest 1/",
+            "ref": "Roaring Seashore beach/Roaring Seashore chest 1/",
             "name": "Chest 1"
           },
           {
-            "ref": "Roaring Seashore/Metavolicalis/Roaring Seashore chest 2",
+            "ref": "Roaring Seashore beach/Metavolicalis/Roaring Seashore chest 2",
             "name": "Chest 2"
           },
 		      {
-            "ref": "Roaring Seashore/Metavolicalis/Metavolicalis Discovery",
+            "ref": "Roaring Seashore beach/Metavolicalis/Metavolicalis Discovery",
             "name": "Metavolicalis Discovery"
           },
           {
-            "ref": "Roaring Seashore/Find Kathleen/",
+            "ref": "Roaring Seashore beach/Find Kathleen/",
             "name": "Find Kathleen"
           },
           {
-            "ref": "Roaring Seashore/Roaring Seashore chest 3/",
+            "ref": "Roaring Seashore up/Roaring Seashore chest 3/",
             "name": "Chest 3"
           },
           {
-            "ref": "Roaring Seashore/Parasequoia/Roaring Seashore near Kong chest",
+            "ref": "Roaring Seashore up/Parasequoia/Roaring Seashore near Kong chest",
             "name": "Near Kong Chest"
           },
 		      {
-            "ref": "Roaring Seashore/Parasequoia/Parasequoia Discovery",
+            "ref": "Roaring Seashore up/Parasequoia/Parasequoia Discovery",
             "name": "Parasequoia Discovery"
           }
 

@@ -1,7 +1,7 @@
 [
   {
     "name": "Towering Coral Forest1",
-    "access_rules": ["$access_nameless_coast", "$access_nameless_coast_landmarks"],
+    "access_rules": ["@Nameless Coast north", "@Towering Coral Forest Rainbow Falls", "@Towering Coral Forest2"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -148,15 +148,15 @@
     ]
   },
   {
-    "name": "Towering Coral Forest2",
-    "access_rules": ["Grip_Gloves", "$access_nameless_coast_landmarks"],
+    "name": "Towering Coral Forest Rainbow Falls",
+    "access_rules": ["@Towering Coral Forest1, Grip_Gloves", "@Towering Coral Forest2, Grip_Gloves", "landmark_sanity, rainbow_falls"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
 	  "children": [
       {
         "name": "TCF upper chest 3",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "landmark_sanity, rainbow_falls"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -170,7 +170,7 @@
 	  {
         "name": "TCF upper chest 4",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "landmark_sanity, rainbow_falls"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -184,7 +184,7 @@
 	  {
         "name": "TCF upper chest 5",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "landmark_sanity, rainbow_falls"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -198,7 +198,7 @@
 	  {
         "name": "TCF upper chest 6",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "landmark_sanity, rainbow_falls"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -212,7 +212,7 @@
 	  {
         "name": "TCF upper chest 7",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "landmark_sanity, rainbow_falls"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -223,24 +223,34 @@
           }
          ]
       },
-	  {
-        "name": "TCF upper chest 11",
+      {
+        "name": "Rainbow Falls Discovery",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"]
+          "visibility_rules": ["landmark_sanity"],
+		      "access_rules": []
         }],
         "map_locations": [
           {
             "map": "Towering_Coral_Forest",
-            "x": 173,
-            "y": 150,
+            "x": 77,
+            "y": 200,
 			      "size": 30
           }
          ]
-      },
-	  {
+      }
+    ]
+  },
+  {
+    "name": "Towering Coral Forest2",
+    "access_rules": ["@Towering Coral Forest Rainbow Falls, Grip_Gloves", "@Roaring Seashore beach"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+	  "children": [
+      
+	    {
         "name": "TCF lower chest 3",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -251,24 +261,10 @@
           }
          ]
       },
-	  {
-        "name": "TCF upper chest 12",
-        "sections":[{
-          "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"]
-        }],
-        "map_locations": [
-          {
-            "map": "Towering_Coral_Forest",
-            "x": 320,
-            "y": 132,
-			      "size": 30
-          }
-         ]
-      },
-	  {
+      {
         "name": "TCF lower chest 4",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -279,10 +275,39 @@
           }
          ]
       },
+      {
+        "name": "TCF upper chest 11",
+        "sections":[{
+          "access_rules": []
+        }],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 173,
+            "y": 150,
+			      "size": 30
+          }
+         ]
+      },
+	    {
+        "name": "TCF upper chest 12",
+        "sections":[{
+          "access_rules": []
+        }],
+        "map_locations": [
+          {
+            "map": "Towering_Coral_Forest",
+            "x": 320,
+            "y": 132,
+			      "size": 30
+          }
+         ]
+      },
+	  
 	  {
         "name": "TCF upper chest 13",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"]
+          "access_rules": []
         }],
         "map_locations": [
           {
@@ -295,7 +320,7 @@
       },
 	  {
         "name": "Clareon Boss Fight",
-        "access_rules": ["Grip_Gloves", "$access_roaring_seashore_lower_landmarks"],
+        "access_rules": [],
         "sections":[
           {
             "name":"Clareon's Skill 1"
@@ -312,22 +337,8 @@
 			      "size": 30
           }
          ]
-      },
-	  {
-        "name": "Rainbow Falls Discovery",
-        "sections":[{
-          "visibility_rules": ["landmark_sanity"],
-		      "access_rules": ["Grip_Gloves", "landmark_sanity, rainbow_falls"]
-        }],
-        "map_locations": [
-          {
-            "map": "Towering_Coral_Forest",
-            "x": 77,
-            "y": 200,
-			      "size": 30
-          }
-         ]
       }
+	  
 	]
 
 
