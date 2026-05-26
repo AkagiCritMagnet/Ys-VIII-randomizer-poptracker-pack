@@ -1,7 +1,7 @@
 [
   {
     "name": "Sunrise Beach",
-    "access_rules": ["@Great River Valley"],
+    "access_rules": ["@Eroded Valley2"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -51,7 +51,7 @@
   
   {
     "name": "Temple of the Great Tree",
-    "access_rules": ["@Ruins of Eternia, green_seal", "@Titis Primeval Forest, Dana", "@Lodinia Marshland 1st half"],
+    "access_rules": ["@Ruins of Eternia, green_seal", "@Titis Primeval Forest, Dana", "@Vista Ridge"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

@@ -23,7 +23,7 @@
 	  {
         "name": "Sunrise Beach training",
         "sections":[{
-          "access_rules":["@Master Kong Trainings/Roaring Seashore training, $access_great_river_valley , Sahad", "@Master Kong Trainings/Roaring Seashore training, $access_great_river_valley_landmarks , Sahad"]
+          "access_rules":["@Master Kong Trainings/Roaring Seashore training, @Sunrise Beach , Sahad"]
         }]
       },
 	  {

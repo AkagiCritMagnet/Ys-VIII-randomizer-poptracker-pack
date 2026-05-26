@@ -1,7 +1,9 @@
 [
   {
     "name": "Great River Valley",
-    "access_rules": ["$access_great_river_valley", "$access_great_river_valley_landmarks"],
+    "access_rules": ["@Nameless Coast north, $has|Castaways|8", 
+                     "@Nameless Coast north, Archaeopteryx_Wing",
+                     "landmark_sanity, chimney_rock"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -105,48 +107,6 @@
           }
         ]
       },
-	  	  {
-        "name": "GRV chest 9",
-        "sections":[{
-          "access_rules": ["Floating_Shoes", "landmark_sanity, airs_cairn, $has|Castaways|11"]
-        }],
-        "map_locations": [
-          {
-            "map": "Great_River_Valley",
-            "x": 316,
-            "y": 94,
-			      "size": 20
-          }
-        ]
-      },
-	  	  {
-        "name": "GRV chest 10",
-        "sections":[{
-          "access_rules": ["Floating_Shoes", "landmark_sanity, airs_cairn, $has|Castaways|11"]
-        }],
-        "map_locations": [
-          {
-            "map": "Great_River_Valley",
-            "x": 185,
-            "y": 106,
-			      "size": 20
-          }
-        ]
-      },
-	  	  {
-        "name": "GRV chest 11",
-        "sections":[{
-          "access_rules": ["Floating_Shoes", "landmark_sanity, airs_cairn, $has|Castaways|11"]
-        }],
-        "map_locations": [
-          {
-            "map": "Great_River_Valley",
-            "x": 243,
-            "y": 189,
-			      "size": 20
-          }
-        ]
-      },
 	  {
         "name": "GRV near Beast Hills chest",
         "sections":[{}],
@@ -175,6 +135,53 @@
       }
 
  
+    ]
+  },
+  {
+    "name": "Great River Valley northwest",
+    "access_rules": ["@Great River Valley, Floating_Shoes", "@West Foot of Gendarme, $has|Castaways|11"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "children": [
+      {
+        "name": "GRV chest 9",
+        "sections":[{
+        }],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 316,
+            "y": 94,
+			      "size": 20
+          }
+        ]
+      },
+	  	  {
+        "name": "GRV chest 10",
+        "sections":[{
+        }],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 185,
+            "y": 106,
+			      "size": 20
+          }
+        ]
+      },
+	  	  {
+        "name": "GRV chest 11",
+        "sections":[{
+        }],
+        "map_locations": [
+          {
+            "map": "Great_River_Valley",
+            "x": 243,
+            "y": 189,
+			      "size": 20
+          }
+        ]
+      }
     ]
   }
 ]

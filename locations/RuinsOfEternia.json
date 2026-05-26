@@ -1,7 +1,9 @@
 [
   {
     "name": "Ruins of Eternia",
-    "access_rules": ["@Titis Primeval Forest, blue_seal", "@Titis Primeval Forest, green_seal, Dana", "$access_eternia_landmarks"],
+    "access_rules": ["@Pangaia Plains, blue_seal", 
+                     "@Temple of the Great Tree, green_seal", 
+                     "@Towal Highway, Dana"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

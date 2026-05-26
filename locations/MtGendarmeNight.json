@@ -43,7 +43,7 @@
       },
 	  {
         "name": "Mt Gendarme Night mid chest 3",
-        "sections":[{}],
+        "sections":[{"access_rules": ["Grip_Gloves"]}],
         "map_locations": [
           {
             "map": "Mt_Gendarme_Night",
@@ -55,7 +55,7 @@
       },
 	  {
         "name": "Mt Gendarme Night mid chest 4",
-        "sections":[{}],
+        "sections":[{"access_rules": ["Grip_Gloves"]}],
         "map_locations": [
           {
             "map": "Mt_Gendarme_Night",

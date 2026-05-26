@@ -1,7 +1,7 @@
 [
   {
     "name": "Vista Ridge",
-    "access_rules": ["@Temple of the Great Tree"],
+    "access_rules": ["@Temple of the Great Tree", "@Vista Ridge north, Archaeopteryx_Wing"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -41,6 +41,14 @@
       }
 
  
+    ]
+  },
+  {
+    "name": "Vista Ridge north",
+    "access_rules": ["@Vista Ridge", "@Lodinia Marshland 1st half"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "children": [
     ]
   }
 ]

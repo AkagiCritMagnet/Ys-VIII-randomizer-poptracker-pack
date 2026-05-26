@@ -1,7 +1,7 @@
 [
   {
     "name": "West Foot of Gendarme",
-    "access_rules": ["Floating_Shoes, $has|Castaways|11", "landmark_sanity, airs_cairn"],
+    "access_rules": ["@Great River Valley northwest, $has|Castaways|11", "landmark_sanity, airs_cairn"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

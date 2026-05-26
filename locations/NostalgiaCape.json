@@ -1,7 +1,9 @@
 [
   {
     "name": "Nostalgia Cape",
-    "access_rules": ["@Longhorn Coast, Archaeopteryx_Wing", "$access_nostalgia_cape_landmarks"],
+    "access_rules": ["@Longhorn Coast, Archaeopteryx_Wing", 
+                     "@East Coast Cave",
+                     "landmark_sanity, ship_graveyard"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

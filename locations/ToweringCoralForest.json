@@ -44,7 +44,7 @@
 	  {
         "name": "TCF upper chest 8",
         "sections":[{
-          "access_rules": ["Grip_Gloves"]
+          "access_rules": ["Grip_Gloves", "Archaeopteryx_Wing"]
         }],
         "map_locations": [
           {
@@ -70,7 +70,7 @@
 	  {
         "name": "TCF upper chest 9",
         "sections":[{
-          "access_rules": ["Grip_Gloves", "Archaeopteryx_Wing", "$access_roaring_seashore_lower_landmarks"]
+          "access_rules": ["Grip_Gloves", "Archaeopteryx_Wing", "@Towering Coral Forest2, ^$canSB"]
         }],
         "map_locations": [
           {

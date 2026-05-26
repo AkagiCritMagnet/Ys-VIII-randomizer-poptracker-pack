@@ -109,7 +109,7 @@
     "img": "images/items/Castaways.png",
     "codes": "Castaways",
     "overlay_background": "#000000",
-    "max_quantity": 28
+    "max_quantity": 29
   },
   {
     "name": "Maiden Journal",
@@ -227,11 +227,12 @@
   {
     "name": "Dogi's Intercept",
     "type": "progressive",
-    "codes": "Dogi, castaway_count",
+    "codes": "Dogi",
     "overlay_background": "#000000",
     "stages": [
       {"disabled_img": "images/items/Dogi.jpg",
-	    "img": "images/items/Dogi23.jpg"},
+	    "img": "images/items/Dogi23.jpg",
+      "codes":"castaway_count"},
       {"img": "images/items/Dogi57.jpg"},
       {"img": "images/items/DogiALL.jpg"}
     ]

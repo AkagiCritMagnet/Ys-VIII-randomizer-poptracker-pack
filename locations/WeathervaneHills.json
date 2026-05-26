@@ -1,7 +1,7 @@
 [
   {
     "name": "Weathervane Hills",
-    "access_rules": ["$access_weathervane_hills", "$access_weathervane_hills_landmarks"],
+    "access_rules": ["@Nameless Coast south, Grip_Gloves, $has|Castaways|11", "landmark_sanity, zephyr_hill", "@Headwater Falls"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

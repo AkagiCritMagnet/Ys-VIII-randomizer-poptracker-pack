@@ -25,9 +25,7 @@
   },
   {
     "name": "Valley of Kings1",
-    "access_rules": ["@Lodinia Marshland 2nd half, Floating_Shoes", 
-                     "@Lodinia Marshland 2nd half, Hermits_Scale", 
-                     "@Eternal Hill, maiden_amulet"],
+    "access_rules": ["@Valley of Kings Entrance"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

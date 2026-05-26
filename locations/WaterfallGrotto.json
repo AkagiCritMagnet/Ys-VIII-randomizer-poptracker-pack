@@ -19,7 +19,7 @@
       },
 	  {
         "name": "Waterfall Grotto chest 1",
-        "sections":[{}],
+        "sections":[{"access_rules": ["Glow_Stone"]}],
         "map_locations": [
           {
             "map": "Waterfall_Grotto",
@@ -31,7 +31,7 @@
       },
 	  {
         "name": "Waterfall Grotto chest 2",
-        "sections":[{}],
+        "sections":[{"access_rules": ["Glow_Stone"]}],
         "map_locations": [
           {
             "map": "Waterfall_Grotto",
@@ -44,6 +44,7 @@
 	  {
         "name": "Milky White Vein Discovery",
         "sections":[{
+          "access_rules": ["Glow_Stone", "landmark_sanity, milky_white_vein"],
           "visibility_rules": ["landmark_sanity"]
         }],
         "map_locations": [

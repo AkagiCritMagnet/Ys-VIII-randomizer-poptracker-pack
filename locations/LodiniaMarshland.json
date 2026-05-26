@@ -1,7 +1,7 @@
 [
   {
     "name": "Lodinia Marshland 1st half",
-    "access_rules": ["@Temple of the Great Tree", "@Lodinia Marshland 2nd half, treasure_chest_key"],
+    "access_rules": ["@Vista Ridge north", "@Lodinia Marshland 2nd half, treasure_chest_key"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

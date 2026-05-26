@@ -1,12 +1,13 @@
 [
   {
     "name": "Eroded Valley1",
-    "access_rules": ["@Great River Valley"],
+    "access_rules": ["@Beast Hills north", "@Eroded Valley2"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
     {
         "name": "Eroded Valley chest 17",
+        "access_rules": ["Glow_Stone"],
         "sections":[{}],
         "map_locations": [
           {
@@ -175,6 +176,7 @@
 	  {
         "name": "Indigo Mineral Vein Discovery",
         "sections":[{
+          "access_rules": ["Glow_Stone", "landmark_sanity, indigo_mineral_vein"],
           "visibility_rules": ["landmark_sanity"]
         }],
         "map_locations": [
@@ -193,7 +195,7 @@
   },
   {
     "name": "Eroded Valley2",
-    "access_rules": ["@Great River Valley"],
+    "access_rules": ["@Eroded Valley1, Glow_Stone", "@Sunrise Beach, Glow_Stone"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

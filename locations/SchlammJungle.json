@@ -1,7 +1,7 @@
 [
   {
     "name": "Schlamm Jungle1",
-    "access_rules": ["@Great River Valley, Dina", "landmark_sanity, field_of_medicinal_herbs, Dina"],
+    "access_rules": ["@Beast Hills, Dina", "@Schlamm Jungle2"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -112,8 +112,37 @@
     ]
   },
   {
+    "name": "Field of Herbs area",
+    "access_rules": ["@Schlamm Jungle2, Dina, Floating_Shoes, Grip_Gloves", "landmark_sanity, field_of_medicinal_herbs"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "children": [
+      {
+        "name": "Field of Herbs",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Jungle chest 8"
+          },
+          {
+            "name": "Field of Medicinal Herbs Discovery",
+            "visibility_rules": "landmark_sanity"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Schlamm_Jungle",
+            "x": 841,
+            "y": 588,
+			      "size": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Schlamm Jungle2",
-    "access_rules": ["@Great River Valley, Dina, Floating_Shoes", "@Great River Valley, Dina, Archaeopteryx_Wing", "landmark_sanity, field_of_medicinal_herbs"],
+    "access_rules": ["@Schlamm Jungle1, Floating_Shoes", "@Field of Herbs area, Dina, Floating_Shoes"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -139,27 +168,6 @@
             "map": "Schlamm_Jungle",
             "x": 557,
             "y": 408,
-			      "size": 20
-          }
-        ]
-      },
-      {
-        "name": "Field of Herbs",
-        "access_rules": ["Grip_Gloves, Floating_Shoes, Dina", "landmark_sanity, field_of_medicinal_herbs"],
-        "sections": [
-          {
-            "name": "Jungle chest 8"
-          },
-          {
-            "name": "Field of Medicinal Herbs Discovery",
-            "visibility_rules": "landmark_sanity"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Schlamm_Jungle",
-            "x": 841,
-            "y": 588,
 			      "size": 20
           }
         ]
@@ -194,7 +202,7 @@
       },
 	  {
         "name": "Laspisus Boss Fight",
-        "access_rules": ["Floating_Shoes, Dina"],
+        "access_rules": ["Floating_Shoes"],
         "sections":[
           {
             "name": "Laspisus' Skill 1"

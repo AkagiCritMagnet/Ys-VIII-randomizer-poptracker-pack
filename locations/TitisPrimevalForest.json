@@ -1,7 +1,11 @@
 [
   {
     "name": "Titis Primeval Forest",
-    "access_rules": ["@Mt Gendarme1", "NorthSideOpen", "$access_temple_approach_landmarks"],
+    "access_rules": ["@Mountain Pinnacle Trail", 
+                     "NorthSideOpen", 
+                     "landmark_sanity, unicalamites", 
+                     "@Pangaia Plains",
+                     "@Temple of the Great Tree, Dana"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

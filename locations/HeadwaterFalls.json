@@ -1,7 +1,7 @@
 [
   {
     "name": "Headwater Falls",
-    "access_rules": ["@Weathervane Hills"],
+    "access_rules": ["@Weathervane Hills", "@Underground Water Vein, Hermits_Scale"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

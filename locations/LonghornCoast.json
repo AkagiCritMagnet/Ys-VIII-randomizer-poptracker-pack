@@ -1,7 +1,9 @@
 [
   {
     "name": "Longhorn Coast",
-    "access_rules": ["@Great River Valley, Dina", "$access_longhorn_coast_landmarks"],
+    "access_rules": ["@Beast Hills south", 
+                     "@Water and Wood Hills",
+                     "@Nostalgia Cape"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

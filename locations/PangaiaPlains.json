@@ -1,7 +1,10 @@
 [
   {
     "name": "Pangaia Plains",
-    "access_rules": ["@Titis Primeval Forest"],
+    "access_rules": ["@Titis Primeval Forest", 
+                     "landmark_sanity, breath_fountain", 
+                     "landmark_sanity, ancient_tree",
+                     "@Ruins of Eternia, blue_seal"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

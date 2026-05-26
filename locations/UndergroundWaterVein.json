@@ -1,7 +1,7 @@
 [
   {
     "name": "Underground Water Vein",
-    "access_rules": ["@Weathervane Hills, Hermits_Scale", "landmark_sanity, lapis_mineral_vein"],
+    "access_rules": ["@Headwater Falls, Hermits_Scale", "landmark_sanity, lapis_mineral_vein"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
