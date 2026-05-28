@@ -159,5 +159,13 @@
     "type": "toggle",
     "img": "images/options/LandmarkSanity.png",
     "codes": "landmark_sanity"
+  },
+
+
+  {
+    "name": "Enable/Disable Map Auto-Switcher",
+    "type": "toggle",
+    "img": "images/options/TabSwitch.png",
+    "codes": "tab_switch"
   }
 ]

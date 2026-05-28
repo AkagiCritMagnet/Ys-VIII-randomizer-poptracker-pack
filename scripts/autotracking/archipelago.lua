@@ -1,6 +1,8 @@
 
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
+require("scripts/autotracking/tab_mapping")
+
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -81,11 +83,26 @@ function onClear(slot_data)
             end
         end
     end
+
+    
+
+
     PLAYER_ID = Archipelago.PlayerNumber or -1
-    TEAM_NUMBER = Archipelago.TeamNumber or 0
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
 
+	DATA_STORAGE_ID = "Ys8_"..TEAM_NUMBER.."_"..PLAYER_ID.."_current_map"
+	
 
+	if Archipelago.PlayerNumber>-1 then
+		print("Current slot data is", PLAYER_ID, TEAM_NUMBER)
+		EVENT_ID="Ys8_"..TEAM_NUMBER.."_"..PLAYER_ID.."_current_map"
+		print(string.format("SET NOTIFY %s",EVENT_ID))
+		Archipelago:SetNotify({EVENT_ID})
+		Archipelago:Get({EVENT_ID})
+	end
+
+    Tracker:FindObjectForCode("tab_switch").Active = 1
 
 
 
@@ -132,6 +149,7 @@ function onClear(slot_data)
             end
         end
     end
+
 
 
 
@@ -307,11 +325,40 @@ function onEventsLaunch(key, value)
 end
 
 function onNotify(key, value, old_value)
-    print("onNotify", key, value, old_value)
+	print(string.format("called onNotify: %s, %s, %s",key,value,old_value))
+	if key == DATA_STORAGE_ID then
+		updateTab(value)
+	end
 end
 
 function onNotifyLaunch(key, value)
-    print("onNotifyLaunch", key, value)
+	print(string.format("called onNotifyLaunch: %s, %s",key,value))
+	if key == DATA_STORAGE_ID then
+		updateTab(value)
+	end
+end
+
+function updateTab(value)
+	if value ~= nil then
+	    print("updateTab", value)
+		local tabswitch = Tracker:FindObjectForCode("tab_switch")
+		if tabswitch.Active then
+            print ("value")
+            print (value)
+            print ("TAB_MAPPING[value]")
+            print (TAB_MAPPING[value])
+			if TAB_MAPPING[value] then
+				CURRENT_MAP = TAB_MAPPING[value]
+                 do
+					Tracker:UiHint("ActivateTab", CURRENT_MAP)
+					print(string.format("Updating  Tab to %s",CURRENT_MAP))
+                end
+			else
+				CURRENT_ROOM = TAB_MAPPING[0x00]
+				print(string.format("Failed to find ID %s",value))
+			end
+		end
+	end
 end
 
 

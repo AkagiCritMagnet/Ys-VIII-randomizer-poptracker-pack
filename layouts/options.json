@@ -57,6 +57,24 @@
               ]
             }
           ]
+        },
+
+        {
+          "title": "Display",
+          "content": [
+            {
+              "type": "itemgrid",
+              "item_h_alignment": "left",
+              "item_size": "400, 35",
+              "rows": [
+                [ "tab_switch" ]
+				
+				
+				
+
+              ]
+            }
+          ]
         }
 		]
 		}

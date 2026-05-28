@@ -82,7 +82,7 @@
 	  {
         "name": "Jungle chest 5",
         "sections":[{
-          "access_rules": ["Floating_Shoes", "Archaeopteryx_Wing"]
+          "access_rules": ["Floating_Shoes", "Archaeopteryx_Wing", "^$canSB"]
         }],
         "map_locations": [
           {
@@ -96,7 +96,7 @@
 	  {
         "name": "Jungle Pirate Corpse",
         "sections":[{
-          "access_rules": ["Floating_Shoes", "Archaeopteryx_Wing"]
+          "access_rules": ["Floating_Shoes", "Archaeopteryx_Wing", "^$canSB"]
         }],
         "map_locations": [
           {
