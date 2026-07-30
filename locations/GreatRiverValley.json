@@ -3,7 +3,8 @@
     "name": "Great River Valley",
     "access_rules": ["@Nameless Coast north, $has|Castaways|8", 
                      "@Nameless Coast north, Archaeopteryx_Wing",
-                     "landmark_sanity, chimney_rock"],
+                     "landmark_sanity, chimney_rock",
+                     "@Beast Hills north"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

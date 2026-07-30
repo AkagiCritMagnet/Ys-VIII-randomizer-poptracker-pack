@@ -16,6 +16,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 
 -- Items
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/DungeonEntranceHostedItems.jsonc")
 Tracker:AddItems("items/landmarks.json")
 Tracker:AddItems("items/options.json")
 
@@ -27,9 +28,16 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
 end
 
 -- Layout
-Tracker:AddLayouts("layouts/items.json")
+if (string.find(Tracker.ActiveVariantUID,"standard")) then
+    Tracker:AddLayouts("layouts/items.json")
+    Tracker:AddLayouts("layouts/tracker.json")
+end
+if (string.find(Tracker.ActiveVariantUID,"small")) then
+    Tracker:AddLayouts("layouts/items small.json")
+    Tracker:AddLayouts("layouts/tracker small.json")
+end
+
 Tracker:AddLayouts("layouts/options.json")
-Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
 -- AutoTracking for Poptracker

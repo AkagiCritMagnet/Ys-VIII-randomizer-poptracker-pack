@@ -45,7 +45,7 @@
       },
 	  	  {
         "name": "TCF Night upper chest 4",
-        "sections":[{}],
+        "sections":[{"access_rules": ["Grip_Gloves", "Archaeopteryx_Wing"]}],
         "map_locations": [
           {
             "map": "Towering_Coral_Forest_Night",

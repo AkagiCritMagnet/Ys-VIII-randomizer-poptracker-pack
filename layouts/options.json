@@ -50,7 +50,8 @@
 				[ "mephorash_fight" ],
 				[ "FSC access" ],
 				[ "NorthSideOpen" ],
-				[ "landmark_sanity" ]
+				[ "landmark_sanity" ],
+        [ "DungeonRandomized" ]
 				
 				
 
@@ -67,7 +68,8 @@
               "item_h_alignment": "left",
               "item_size": "400, 35",
               "rows": [
-                [ "tab_switch" ]
+                [ "tab_switch" ],
+                [ "DungeonEntrancesVisibility" ]
 				
 				
 				

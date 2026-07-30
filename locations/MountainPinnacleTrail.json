@@ -1,7 +1,11 @@
 [
   {
     "name": "Mountain Pinnacle Trail",
-    "access_rules": ["@Mt Gendarme2", "@Titis Primeval Forest", "landmark_sanity, prismatic_mineral_vein"],
+    "access_rules": ["@Mt Gendarme2, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, MountainPinnacleTrailTop", 
+                     "@Titis Primeval Forest", 
+                     "landmark_sanity, prismatic_mineral_vein",
+                     "DungeonRandomized, TempleoftheGreatTreeEntryBridge, Dana"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

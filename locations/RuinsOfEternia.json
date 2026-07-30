@@ -2,8 +2,11 @@
   {
     "name": "Ruins of Eternia",
     "access_rules": ["@Pangaia Plains, blue_seal", 
-                     "@Temple of the Great Tree, green_seal", 
-                     "@Towal Highway, Dana"],
+                     "@Temple of the Great Tree, green_seal, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, TempleoftheGreatTreeEntryBridge, green_seal", 
+                     "@Towal Highway, Dana",
+                     "DungeonRandomized, RuinsofEterniaPalaceRuins",
+                     "DungeonRandomized, RuinsofEterniaCentralStupa"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

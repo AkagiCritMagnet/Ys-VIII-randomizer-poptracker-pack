@@ -3,7 +3,8 @@
     "name": "Longhorn Coast",
     "access_rules": ["@Beast Hills south", 
                      "@Water and Wood Hills",
-                     "@Nostalgia Cape"],
+                     "@Nostalgia Cape",
+                     "landmark_sanity, beehive"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

@@ -1,7 +1,7 @@
 [
   {
     "name": "Pirate Ship Eleftheria1",
-    "access_rules": ["@Nostalgia Cape, Archaeopteryx_Wing, ship_log"],
+    "access_rules": ["@East Coast Cave, Archaeopteryx_Wing, ship_log"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -168,7 +168,7 @@
   
   {
     "name": "Pirate Ship Eleftheria2",
-    "access_rules": ["@Nostalgia Cape, Archaeopteryx_Wing, $has|ship_log"],
+    "access_rules": ["@Pirate Ship Eleftheria1"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

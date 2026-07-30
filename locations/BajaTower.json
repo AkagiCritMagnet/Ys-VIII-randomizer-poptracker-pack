@@ -1,7 +1,8 @@
 [
   {
     "name": "Baja Tower1",
-    "access_rules": ["@Towal Highway, golden_seal, Grip_Gloves"],
+    "access_rules": ["@Towal Highway, golden_seal, Grip_Gloves, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, BajaTowerFront"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

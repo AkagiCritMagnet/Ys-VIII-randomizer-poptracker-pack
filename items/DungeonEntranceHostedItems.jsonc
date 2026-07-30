@@ -1,0 +1,209 @@
+[
+  {
+    "name": "NamelessCoastCamp",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "NamelessCoastCamp"
+  },
+  {
+    "name": "WaterdropCaveFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "WaterdropCaveFront"
+  },
+  {
+    "name": "ToweringCoralForestFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "ToweringCoralForestFront"
+  },
+  {
+    "name": "ToweringCoralForestBack",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "ToweringCoralForestBack"
+  },
+  {
+    "name": "SchlammJungleFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "SchlammJungleFront"
+  },
+  {
+    "name": "SchlammJungleBack",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "SchlammJungleBack"
+  },
+  {
+    "name": "ErodedValleyFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "ErodedValleyFront"
+  },
+  {
+    "name": "ErodedValleyBack",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "ErodedValleyBack"
+  },
+  {
+    "name": "MtGendarmeFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "MtGendarmeFront"
+  },
+  {
+    "name": "MtGendarmeTop",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "MtGendarmeTop"
+  },
+  {
+    "name": "Beast Hills SouthCamp",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "BeastHillsSouthCamp"
+  },
+  {
+    "name": "BeastHillsNorthCamp",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "BeastHillsNorthCamp"
+  },
+  {
+    "name": "PrimordialPassageCamp",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "PrimordialPassageCamp"
+  },
+  {
+    "name": "RoaringSeashoreMetavolicalis",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "RoaringSeashoreMetavolicalis"
+  },
+  {
+    "name": "OddRockCoast",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "OddRockCoast"
+  },
+  {
+    "name": "SunriseBeach",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "SunriseBeach"
+  },
+  {
+    "name": "WaterandWoodHillsnearSilentTower",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "WaterandWoodHillsnearSilentTower"
+  },
+  {
+    "name": "MountainPinnacleTrailTop",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "MountainPinnacleTrailTop"
+  },
+  {
+    "name": "RuinsofEterniaPalaceRuins",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "RuinsofEterniaPalaceRuins"
+  },
+  {
+    "name": "RuinsofEterniaCentralStupa",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "RuinsofEterniaCentralStupa"
+  },
+  {
+    "name": "TowalHighwayCamp",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "TowalHighwayCamp"
+  },
+  {
+    "name": "ValleyofKingsCamp",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "ValleyofKingsCamp"
+  },
+  {
+    "name": "TempleoftheGreatTreeEntryBridge",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "TempleoftheGreatTreeEntryBridge"
+  },
+  {
+    "name": "TempleoftheGreatTreeFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "TempleoftheGreatTreeFront"
+  },
+  {
+    "name": "TempleoftheGreatTreeBrachionRoom",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "TempleoftheGreatBrachionRoom"
+  },
+  {
+    "name": "TempleoftheGreatTreeGarden",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "TempleoftheGreatTreeGarden"
+  },
+  {
+    "name": "ValleyofKingsFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "ValleyofKingsFront"
+  },
+  {
+    "name": "OctusOverlookFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "OctusOverlookFront"
+  },
+  {
+    "name": "BajaTowerFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "BajaTowerFront"
+  },
+  {
+    "name": "ArcheozoicChasmFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "ArcheozoicChasmFront"
+  },
+  {
+    "name": "SilentTowerFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "SilentTowerFront"
+  },
+  {
+    "name": "NostalgiaCape",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "NostalgiaCape"
+  },
+  {
+    "name": "EastCoastCaveFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "EastCoastCaveFront"
+  },
+  {
+    "name": "FormerSanctuaryCryptFront",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "FormerSanctuaryCryptFront"
+  }
+
+
+
+]

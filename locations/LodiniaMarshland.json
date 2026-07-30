@@ -1,7 +1,9 @@
 [
   {
     "name": "Lodinia Marshland 1st half",
-    "access_rules": ["@Vista Ridge north", "@Lodinia Marshland 2nd half, treasure_chest_key"],
+    "access_rules": ["@Vista Ridge north", 
+                     "@Lodinia Marshland 2nd half, treasure_chest_key, Hermits_Scale",
+                     "@Lodinia Marshland 2nd half, treasure_chest_key, Floating_Shoes"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -94,8 +96,8 @@
   },
   {
     "name": "Lodinia Marshland 2nd half",
-    "access_rules": ["@Lodinia Marshland 1st half, Grip_Gloves, Hermits_Scale", 
-                     "@Lodinia Marshland 1st half, Grip_Gloves, Archaeopteryx_Wing",
+    "access_rules": ["@Lodinia Marshland 1st half, Grip_Gloves, Hermits_Scale, treasure_chest_key", 
+                     "@Lodinia Marshland 1st half, Grip_Gloves, Archaeopteryx_Wing, treasure_chest_key",
                      "landmark_sanity, sky_garden", 
                      "@Submerged Cemetery, Hermits_Scale, $has|Castaways|22",
                      "@Valley of Kings Entrance", 

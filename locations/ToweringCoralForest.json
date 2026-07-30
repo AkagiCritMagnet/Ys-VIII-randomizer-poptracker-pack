@@ -1,7 +1,10 @@
 [
   {
     "name": "Towering Coral Forest1",
-    "access_rules": ["@Nameless Coast north", "@Towering Coral Forest Rainbow Falls", "@Towering Coral Forest2"],
+    "access_rules": ["@Nameless Coast north, $hasnot|DungeonRandomized", 
+                     "DungeonRandomized, ToweringCoralForestFront",
+                     "@Towering Coral Forest Rainbow Falls", 
+                     "@Towering Coral Forest2"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -149,7 +152,9 @@
   },
   {
     "name": "Towering Coral Forest Rainbow Falls",
-    "access_rules": ["@Towering Coral Forest1, Grip_Gloves", "@Towering Coral Forest2, Grip_Gloves", "landmark_sanity, rainbow_falls"],
+    "access_rules": ["@Towering Coral Forest1, Grip_Gloves", 
+                     "@Towering Coral Forest2, Grip_Gloves", 
+                     "landmark_sanity, rainbow_falls"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
 	  "children": [
@@ -242,7 +247,9 @@
   },
   {
     "name": "Towering Coral Forest2",
-    "access_rules": ["@Towering Coral Forest Rainbow Falls, Grip_Gloves", "@Roaring Seashore beach"],
+    "access_rules": ["@Towering Coral Forest Rainbow Falls, Grip_Gloves", 
+                     "@Roaring Seashore beach, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, ToweringCoralForestBack"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
 	  "children": [

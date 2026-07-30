@@ -1,7 +1,8 @@
 [
   {
     "name": "East Coast Cave",
-    "access_rules": ["@Nostalgia Cape", 
+    "access_rules": ["@Nostalgia Cape, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, EastCoastCaveFront", 
                      "landmark_sanity, hidden_pirates_storehouse"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",

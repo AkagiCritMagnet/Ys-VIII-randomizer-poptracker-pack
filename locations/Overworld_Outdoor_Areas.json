@@ -1302,6 +1302,45 @@
           "size": 30
         }
         ]
+    },
+
+    {
+		"name": "Temple of the Great Tree",    
+		"sections": [
+          {
+            "ref": "Temple of the Great Tree/Pot in Dana's room",
+            "name": "Pot in Dana's room"
+          },
+          {
+            "ref": "Temple of the Great Tree/Brachion's Skill 1",
+            "name": "Brachion's Skill 1"
+          },
+          {
+            "ref": "Temple of the Great Tree/Brachion's Skill 2",
+            "name": "Brachion's Skill 2"
+          },
+          {
+            "ref": "Temple of the Great Tree Garden/Dana Join",
+            "name": "Dana Join"
+          },
+          {
+            "ref": "Temple of the Great Tree Garden/Dana's Flame Stone",
+            "name": "Dana's Flame Stone"
+          },
+          {
+            "ref": "Temple of the Great Tree Garden/Thanatos Join",
+            "name": "Thanatos Join"
+          }
+
+        ],
+        "map_locations": [
+        {
+          "map": "Seiren",
+          "x": 331,
+          "y": 477,
+          "size": 30
+        }
+        ]
     }
 
     

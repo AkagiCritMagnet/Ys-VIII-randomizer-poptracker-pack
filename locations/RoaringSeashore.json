@@ -1,7 +1,8 @@
 [
   {
     "name": "Roaring Seashore beach",
-    "access_rules": ["@Towering Coral Forest2/Clareon Boss Fight", 
+    "access_rules": ["@Towering Coral Forest2/Clareon Boss Fight, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, RoaringSeashoreMetavolicalis", 
                      "@Roaring Seashore up, $has|Castaways|14",
                      "landmark_sanity, metavolicalis"],
     "chest_unopened_img": "images/items/chest_closed.png",
@@ -71,7 +72,7 @@
       {
         "name": "Roaring Seashore chest 3",
         "sections":[{
-          "access_rules":["$access_roaring_seashore_upper_landmarks"]
+          "access_rules":[]
         }],
         "map_locations": [
           {
@@ -84,7 +85,7 @@
       },
       {
         "name":"Parasequoia",
-        "access_rules":["$access_roaring_seashore_upper_landmarks"],
+        "access_rules":[],
         "sections":[
           {
             "name": "Roaring Seashore near Kong chest"

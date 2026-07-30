@@ -1,7 +1,9 @@
 [
   {
     "name": "Sunrise Beach",
-    "access_rules": ["@Eroded Valley2"],
+    "access_rules": ["@Eroded Valley2, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, SunriseBeach",
+                     "landmark_sanity, beached_remains"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -28,7 +30,8 @@
   
   {
     "name": "Odd Rock Coast",
-    "access_rules": ["@Schlamm Jungle2, Floating_Shoes, Dina"],
+    "access_rules": ["@Schlamm Jungle2, Floating_Shoes, Dina, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, OddRockCoast"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -51,16 +54,17 @@
   
   {
     "name": "Temple of the Great Tree",
-    "access_rules": ["@Ruins of Eternia, green_seal", "@Titis Primeval Forest, Dana", "@Vista Ridge"],
+    "access_rules": ["@Ruins of Eternia, green_seal, $hasnot|DungeonRandomized", 
+                     "@Titis Primeval Forest, Dana, $hasnot|DungeonRandomized", 
+                     "@Vista Ridge, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, TempleoftheGreatTreeFront",
+                     "DungeonRandomized, TempleoftheGreatTreeBack"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
     "map_locations": [
       {
-        "map": "Seiren",
-        "x": 331,
-        "y": 477,
-        "size": 30
+
       }
     ],
     "sections": [
@@ -72,7 +76,23 @@
       },
       {
         "name": "Brachion's Skill 2"
-      },
+      }
+    ]
+  },
+
+  {
+    "name": "Temple of the Great Tree Garden",
+    "access_rules": ["@Temple of the Great Tree, $hasnot|DungeonRandomized", 
+                     "DungeonRandomized, TempleoftheGreatTreeGarden"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+
+      }
+    ],
+    "sections": [
 	  {
         "name": "Dana Join"
       },
@@ -82,14 +102,37 @@
       {
         "name": "Thanatos Join"
       }
-
- 
     ]
+  },
+
+  {
+    "name": "Octus Overlook",
+    "access_rules": ["$access_octus, @Temple of the Great Tree Garden, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, OctusOverlookFront"]
+  },
+
+  {
+    "name": "Octus Entrance Portal",
+    "access_rules": ["$access_octus, @Temple of the Great Tree Garden"],
+    "visibility_rules": ["DungeonRandomized"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "sections":[{
+        }],
+    "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 366,
+            "y": 530,
+			      "size": 15,
+            "shape": "trapezoid"
+          }
+        ]
+
   },
   
   {
     "name": "Octus: Sky Path",
-    "access_rules": ["$access_octus, @Temple of the Great Tree"],
+    "access_rules": ["@Octus Overlook"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -126,7 +169,7 @@
   
   {
     "name": "Octus: Ocean Path",
-	"access_rules": ["$access_octus, @Temple of the Great Tree"],
+	"access_rules": ["@Octus Overlook"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -160,7 +203,7 @@
   
   {
     "name": "Octus: Frozen Path",
-	"access_rules": ["$access_octus, @Temple of the Great Tree"],
+	"access_rules": ["@Octus Overlook"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -196,7 +239,7 @@
   },
   {
     "name": "Octus: Insectoid Path",
-	"access_rules": ["$access_octus, @Temple of the Great Tree"],
+	"access_rules": ["@Octus Overlook"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,
@@ -233,7 +276,7 @@
   
   {
     "name": "Selection Sphere",
-	"access_rules": ["$access_octus, @Temple of the Great Tree"],
+	"access_rules": ["@Octus Overlook"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "item_count": 1,

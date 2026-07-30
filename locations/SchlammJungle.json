@@ -1,7 +1,10 @@
 [
   {
     "name": "Schlamm Jungle1",
-    "access_rules": ["@Beast Hills, Dina", "@Schlamm Jungle2"],
+    "access_rules": ["@Beast Hills, Dina, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, SchlammJungleFront", 
+                     "@Schlamm Jungle2, $hasnot|DungeonRandomized",
+                     "@Schlamm Jungle2, Floating_Shoes"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -142,7 +145,9 @@
   },
   {
     "name": "Schlamm Jungle2",
-    "access_rules": ["@Schlamm Jungle1, Floating_Shoes", "@Field of Herbs area, Dina, Floating_Shoes"],
+    "access_rules": ["@Schlamm Jungle1, Floating_Shoes", 
+                     "@Field of Herbs area, Dina",
+                     "DungeonRandomized, SchlammJungleBack, Floating_Shoes"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

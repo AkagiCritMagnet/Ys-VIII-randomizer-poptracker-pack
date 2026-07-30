@@ -8,6 +8,14 @@ function has(item, amount)
     end
 end
 
+function hasnot(item)
+	local count2 = Tracker:ProviderCountForCode(item)
+    if count2 > 0 then
+		return false
+	else return true
+	end
+end
+
 
 function prismatic_logic(current_trade)
 	local max_trade = Tracker:FindObjectForCode("Prismatic").CurrentStage
@@ -20,16 +28,12 @@ function prismatic_logic(current_trade)
 
 end
 
-function hasnot(item)
-	local count2 = Tracker:ProviderCountForCode(item)
-    if count2 > 0 then
-		return false
-	else return true
-	end
-end
-
 function canSB()
     return AccessibilityLevel.SequenceBreak
+end
+
+function turnBlue()
+	return AccessibilityLevel.Inspect
 end
 
 function intercept_access(stage)

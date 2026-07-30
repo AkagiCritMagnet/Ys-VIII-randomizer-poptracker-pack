@@ -1,14 +1,16 @@
 [
   {
     "name": "Vista Ridge",
-    "access_rules": ["@Temple of the Great Tree", "@Vista Ridge north, Archaeopteryx_Wing"],
+    "access_rules": ["@Temple of the Great Tree, $hasnot|DungeonRandomized", 
+                     "DungeonRandomized, TempleoftheGreatTreeEntryBridge",
+                     "@Vista Ridge north, Archaeopteryx_Wing"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
       {
         "name": "Vista Ridge chest 1",
         "sections":[{
-          "access_rules": ["Grip_Gloves, $has|Castaways|21"]
+          "access_rules": ["Grip_Gloves, $has|Castaways|21, Archaeopteryx_Wing"]
         }],
         "map_locations": [
           {
@@ -21,7 +23,7 @@
       },
       {
         "name":"Top",
-        "access_rules": ["Grip_Gloves, $has|Castaways|21"],
+        "access_rules": ["Grip_Gloves, $has|Castaways|21, Archaeopteryx_Wing"],
         "sections":[
           {
             "name": "Vista Ridge chest 2"

@@ -1,7 +1,7 @@
 [
   {
     "name": "Waterfall Grotto",
-    "access_rules": ["@Great River Valley"],
+    "access_rules": ["@Great River Valley", "landmark_sanity, milky_white_vein"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

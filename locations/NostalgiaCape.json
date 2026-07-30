@@ -2,7 +2,8 @@
   {
     "name": "Nostalgia Cape",
     "access_rules": ["@Longhorn Coast, Archaeopteryx_Wing", 
-                     "@East Coast Cave",
+                     "@East Coast Cave, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, NostalgiaCape",
                      "landmark_sanity, ship_graveyard"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",

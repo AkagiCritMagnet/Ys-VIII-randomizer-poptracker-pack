@@ -1,7 +1,8 @@
 [
   {
     "name": "Silent Tower",
-    "access_rules": ["@Water and Wood Hills, Archaeopteryx_Wing, $has|Castaways|24"],
+    "access_rules": ["@Water and Wood Hills, Archaeopteryx_Wing, $has|Castaways|24, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, SilentTowerFront"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

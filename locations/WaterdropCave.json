@@ -1,7 +1,7 @@
 [
   {
     "name": "Waterdrop Cave",
-    "access_rules": [],
+    "access_rules": ["$hasnot|DungeonRandomized", "DungeonRandomized, WaterdropCaveFront"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

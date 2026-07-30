@@ -1,0 +1,556 @@
+[
+  
+      
+  {
+    "name": "Dungeon Entrances",
+    "visibility_rules": ["DungeonEntrancesVisibility"],
+    "chest_unopened_img": "images/items/chest_closed.png",
+    "chest_opened_img": "images/items/chest_opened.png",
+    "children": [
+      {
+        "name": "Nameless Coast Camp",
+        "access_rules": ["@Nameless Coast north", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "NamelessCoastCamp"   
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 346,
+            "y": 894,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Waterdrop Cave Front",
+        "access_rules": ["^$turnBlue"],
+        "sections":[{    
+          "hosted_item": "WaterdropCaveFront"    
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 419,
+            "y": 1008,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Towering Coral Forest Front",
+        "access_rules": ["@Towering Coral Forest1", "^$turnBlue"],
+        "sections":[{  
+          "hosted_item": "ToweringCoralForestFront"      
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 298,
+            "y": 818,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Towering Coral Forest Back",
+        "access_rules": ["@Towering Coral Forest2", "^$turnBlue"],
+        "sections":[{   
+          "hosted_item": "ToweringCoralForestBack"     
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 193,
+            "y": 818,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Schlamm Jungle Front",
+        "access_rules": ["@Schlamm Jungle1", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "SchlammJungleFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 648,
+            "y": 735,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Schlamm Jungle Back",
+        "access_rules": ["@Schlamm Jungle2, Floating_Shoes", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "SchlammJungleBack"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 726,
+            "y": 588,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Eroded Valley Front",
+        "access_rules": ["@Eroded Valley1", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "ErodedValleyFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 550,
+            "y": 584,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Eroded Valley Back",
+        "access_rules": ["@Eroded Valley2", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "ErodedValleyBack"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 647,
+            "y": 537,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Mt Gendarme Front",
+        "access_rules": ["@Mt Gendarme1", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "MtGendarmeFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 408,
+            "y": 732,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Mt Gendarme Top",
+        "access_rules": ["@Mt Gendarme2", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "MtGendarmeTop"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 484,
+            "y": 640,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Beast Hills South Camp",
+        "access_rules": ["@Beast Hills north, Dina", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "BeastHillsSouthCamp"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 618,
+            "y": 761,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Beast Hills North Camp",
+        "access_rules": ["@Beast Hills north", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "BeastHillsNorthCamp"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 574,
+            "y": 651,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Primordial Passage Camp",
+        "access_rules": ["@Primordial Passage", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "PrimordialPassageCamp"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 410,
+            "y": 768,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Roaring Seashore Metavolicalis",
+        "access_rules": ["@Roaring Seashore beach", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "RoaringSeashoreMetavolicalis"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 151,
+            "y": 794,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Odd Rock Coast",
+        "access_rules": ["@Odd Rock Coast", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "OddRockCoast"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 722,
+            "y": 538,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Sunrise Beach",
+        "access_rules": ["@Sunrise Beach", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "SunriseBeach"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 635,
+            "y": 457,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Water and Wood Hills near Silent Tower",
+        "access_rules": ["@Water and Wood Hills, Archaeopteryx_Wing", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "WaterandWoodHillsnearSilentTower"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 762,
+            "y": 862,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Mountain Pinnacle Trail Top",
+        "access_rules": ["@Mountain Pinnacle Trail", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "MountainPinnacleTrailTop"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 366,
+            "y": 639,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Ruins of Eternia Palace Ruins",
+        "access_rules": ["@Ruins of Eternia", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "RuinsofEterniaPalaceRuins"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 257,
+            "y": 302,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Ruins of Eternia Central Stupa",
+        "access_rules": ["@Ruins of Eternia", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "RuinsofEterniaCentralStupa"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 269,
+            "y": 340,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Towal Highway Camp",
+        "access_rules": ["@Towal Highway", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "TowalHighwayCamp"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 355,
+            "y": 213,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Valley of Kings Camp",
+        "access_rules": ["@Valley of Kings Entrance", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "ValleyofKingsCamp"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 172,
+            "y": 387,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Temple of the Great Tree Entry Bridge",
+        "access_rules": ["@Mountain Pinnacle Trail, Dana", "@Ruins of Eternia, green_seal", "@Vista Ridge, Archaeopteryx_Wing", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "TempleoftheGreatTreeEntryBridge"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 328,
+            "y": 440,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Temple of the Great Tree Front",
+        "access_rules": ["^$turnBlue"],
+        "sections":[{
+          "hosted_item": "TempleoftheGreatTreeFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 298,
+            "y": 477,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Temple of the Great Brachion Room",
+        "access_rules": ["^$turnBlue"],
+        "sections":[{
+          "hosted_item": "TempleoftheGreatBrachionRoom"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 363,
+            "y": 477,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Temple of the Great Tree Garden",
+        "access_rules": ["^$turnBlue"],
+        "sections":[{
+          "hosted_item": "TempleoftheGreatTreeGarden"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 328,
+            "y": 510,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Valley of Kings Front",
+        "access_rules": ["^$turnBlue"],
+        "sections":[{
+          "hosted_item": "ValleyofKingsFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 125,
+            "y": 423,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Octus Overlook Front",
+        "access_rules": ["^$turnBlue"],
+        "sections":[{
+          "hosted_item": "OctusOverlookFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 340,
+            "y": 573,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Baja Tower Front",
+        "access_rules": ["^$turnBlue"],
+        "sections":[{
+          "hosted_item": "BajaTowerFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 395,
+            "y": 253,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Archeozoic Chasm Front",
+        "access_rules": ["^$turnBlue"],
+        "sections":[{
+          "hosted_item": "ArcheozoicChasmFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 224,
+            "y": 281,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Silent Tower Front",
+        "access_rules": ["^$turnBlue"],
+        "sections":[{
+          "hosted_item": "SilentTowerFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 759,
+            "y": 820,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Nostalgia Cape",
+        "access_rules": ["@Nostalgia Cape", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "NostalgiaCape"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 730,
+            "y": 1004,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "East Coast Cave Front",
+        "access_rules": ["landmark_sanity, hidden_pirates_storehouse", "^$turnBlue"],
+        "sections":[{
+          "hosted_item": "EastCoastCaveFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 737,
+            "y": 971,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Former Sanctuary Crypt Front",
+        "access_rules": ["^$turnBlue"],
+        "sections":[{
+          "hosted_item": "FormerSanctuaryCryptFront"
+        }],
+        "map_locations": [
+          {
+            "map": "Seiren",
+            "x": 20,
+            "y": 50,
+			      "size": 20,
+            "shape": "diamond"
+          }
+        ]
+      }
+    ]
+  }
+]

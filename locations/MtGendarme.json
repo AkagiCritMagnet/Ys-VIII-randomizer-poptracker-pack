@@ -1,7 +1,9 @@
 [
   {
     "name": "Mt Gendarme1",
-    "access_rules": ["@Primordial Passage", "@Mountain Pinnacle Trail"],
+    "access_rules": ["@Primordial Passage, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, MtGendarmeFront", 
+                     "@Mt Gendarme2"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -153,7 +155,9 @@
   },
   {
     "name": "Mt Gendarme2",
-    "access_rules": ["@Mt Gendarme1"],
+    "access_rules": ["@Mt Gendarme1",
+                     "@Mountain Pinnacle Trail, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, MtGendarmeTop"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -219,7 +223,8 @@
   
   {
     "name": "Food trades",
-    "access_rules": ["@Mt Gendarme1/Avalodragil Second Fight/Ricotta Join"],
+    "access_rules": ["@Mt Gendarme1/Avalodragil Second Fight/Ricotta Join",
+                     "@Mt Gendarme2/Mt Gendarme upper 1 chest 1"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "map_locations": [

@@ -3,7 +3,8 @@
     "name": "Valley of Kings Entrance",
     "access_rules": ["@Lodinia Marshland 2nd half, Floating_Shoes", 
                      "@Lodinia Marshland 2nd half, Hermits_Scale", 
-                     "@Eternal Hill, maiden_amulet"],
+                     "@Eternal Hill, maiden_amulet",
+                     "DungeonRandomized, ValleyofKingsCamp"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -25,7 +26,8 @@
   },
   {
     "name": "Valley of Kings1",
-    "access_rules": ["@Valley of Kings Entrance"],
+    "access_rules": ["@Valley of Kings Entrance, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, ValleyofKingsFront"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

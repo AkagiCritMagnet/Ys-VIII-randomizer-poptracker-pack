@@ -167,5 +167,17 @@
     "type": "toggle",
     "img": "images/options/TabSwitch.png",
     "codes": "tab_switch"
+  },
+  {
+    "name": "Dungeon Entrance randomization",
+    "type": "toggle",
+    "img": "images/options/DungeonsRandomizer.png",
+    "codes": "DungeonRandomized"
+  },
+  {
+    "name": "Toggle Dungeon Entrances visibility",
+    "type": "toggle",
+    "img": "images/options/DisplayDungeonsEntrances.png",
+    "codes": "DungeonEntrancesVisibility"
   }
 ]

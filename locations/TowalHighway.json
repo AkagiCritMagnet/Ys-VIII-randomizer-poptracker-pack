@@ -1,7 +1,8 @@
 [
   {
     "name": "Towal Highway",
-    "access_rules": ["@Ruins of Eternia, Dana"],
+    "access_rules": ["@Ruins of Eternia, Dana",
+                     "DungeonRandomized, TowalHighwayCamp"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

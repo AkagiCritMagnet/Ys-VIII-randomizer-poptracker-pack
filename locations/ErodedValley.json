@@ -1,7 +1,10 @@
 [
   {
     "name": "Eroded Valley1",
-    "access_rules": ["@Beast Hills north", "@Eroded Valley2"],
+    "access_rules": ["@Beast Hills north, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, ErodedValleyFront", 
+                     "@Eroded Valley2", 
+                     "landmark_sanity, indigo_mineral_vein"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
@@ -195,8 +198,12 @@
   },
   {
     "name": "Eroded Valley2",
-    "access_rules": ["@Eroded Valley1, Glow_Stone", "@Sunrise Beach, Glow_Stone",
-                     "@Eroded Valley1, ^$canSB", "@Sunrise Beach, ^$canSB"],
+    "access_rules": ["@Eroded Valley1, Glow_Stone", 
+                     "@Sunrise Beach, Glow_Stone, $hasnot|DungeonRandomized",
+                     "@Eroded Valley1, ^$canSB", 
+                     "@Sunrise Beach, ^$canSB, $hasnot|DungeonRandomized",
+                     "DungeonRandomized, ErodedValleyBack, Glow_Stone",
+                     "DungeonRandomized, ErodedValleyBack, ^$canSB"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

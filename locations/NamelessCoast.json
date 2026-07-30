@@ -107,7 +107,12 @@
   
   {
     "name": "Nameless Coast north",
-    "access_rules": ["Grip_Gloves", "$has|Castaways|6", "@Towering Coral Forest1", "@Great River Valley"],
+    "access_rules": ["Grip_Gloves", 
+                     "$has|Castaways|6", 
+                     "@Great River Valley", 
+                     "landmark_sanity, birdsong_rock",
+                     "@Towering Coral Forest1, $hasnot|DungeonRandomized",
+                     "NamelessCoastCamp, DungeonRandomized" ],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

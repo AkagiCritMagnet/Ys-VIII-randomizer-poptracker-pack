@@ -1,7 +1,9 @@
 [
   {
     "name": "Primordial Passage",
-    "access_rules": ["@Great River Valley, maiden_journal, Grip_Gloves", "@Mt Gendarme1, maiden_journal"],
+    "access_rules": ["@Great River Valley, maiden_journal, Grip_Gloves", 
+                     "@Mt Gendarme1, maiden_journal, $hasnot|DungeonRandomized",
+                     "Dungeonrandomized, PrimordialPassageCamp"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [

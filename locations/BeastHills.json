@@ -1,7 +1,12 @@
 [
   {
     "name": "Beast Hills north",
-    "access_rules": ["@Great River Valley", "@Eroded Valley1", "@Beast Hills south, Dina"],
+    "access_rules": ["@Great River Valley", 
+                     "@Eroded Valley1, $hasnot|DungeonRandomized",
+                     "@Schlamm Jungle1, $hasnot|DungeonRandomized", 
+                     "DungeonRandomized, BeastHillsSouthCamp",
+                     "DungeonRandomized, BeastHillsNorthCamp",
+                     "@Beast Hills south, Dina"],
     "chest_unopened_img": "images/items/chest_closed.png",
     "chest_opened_img": "images/items/chest_opened.png",
     "children": [
