@@ -35,7 +35,7 @@
 	  {
         "name": "Jungle chest 2",
         "sections":[{
-          "access_rules": ["Grip_Gloves"]
+          "access_rules": ["Grip_Gloves, Dina"]
         }],
         "map_locations": [
           {

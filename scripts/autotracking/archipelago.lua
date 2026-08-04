@@ -1,7 +1,13 @@
 
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
-require("scripts/autotracking/tab_mapping")
+if (string.find(Tracker.ActiveVariantUID,"standard")) then
+    require("scripts/autotracking/tab_mapping")
+end
+if (string.find(Tracker.ActiveVariantUID,"small")) then
+    require("scripts/autotracking/tab_mapping_small")
+end
+
 require("scripts/autotracking/map_mapping")
 
 
@@ -336,8 +342,10 @@ end
 function onNotify(key, value, old_value)
 	print(string.format("called onNotify: %s, %s, %s",key,value,old_value))
 	if key == DATA_STORAGE_ID and value.."*" ~= old_value then
+        print("Update Tab")
 		updateTab(value)
         if has("DungeonRandomized") and old_value ~= "*" then
+            print("Update Dungeon Entrance")
             updateDungeonEntrances(value)
         end
 	end
@@ -358,11 +366,12 @@ function updateTab(value)
 		local tabswitch = Tracker:FindObjectForCode("tab_switch")
 		if tabswitch.Active then
 			if TAB_MAPPING[value] then
-				CURRENT_MAP = TAB_MAPPING[value]
-                 do
-					Tracker:UiHint("ActivateTab", CURRENT_MAP)
+				CURRENT_MAP = TAB_MAPPING[tostring(value)]
+                for i, tab in ipairs(CURRENT_MAP) do
+					Tracker:UiHint("ActivateTab", tab)
                 end
 			else
+                print(string.format("TAB - Failed to find ID %s",value))
 				CURRENT_ROOM = TAB_MAPPING[0x00]
 			end
 		end
@@ -377,7 +386,7 @@ function updateDungeonEntrances(value)
 			print(string.format("Updating randomized entrance to %s",CURRENT_MAP))
             Tracker:FindObjectForCode(CURRENT_MAP).Active = true
 		else
-			print(string.format("Failed to find ID %s",value))
+			print(string.format("DE - Failed to find ID %s",value))
 		end
 	end
 end

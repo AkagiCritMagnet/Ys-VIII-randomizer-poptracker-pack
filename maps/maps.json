@@ -1,4 +1,3 @@
-//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
 [
     {
         "name": "Seiren",
@@ -341,7 +340,7 @@
         "location_border_thickness": 2,
 		"location_shape": "rect",
         "img": "images/maps/AncientSanctuaryCrypt.png"
-    },
+    }
 
 
 
