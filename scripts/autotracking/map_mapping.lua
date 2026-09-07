@@ -21,6 +21,7 @@ MAP_MAPPING = {
     ["mp6211"] = "RuinsofEterniaCentralStupa",
     ["mp6110"] = "TowalHighwayCamp",
     ["mp6108"] = "ValleyofKingsCamp",
+    ["mp6408"] = "TempleoftheGreatTreeEntryBridge",
     ["mp6401"] = "TempleoftheGreatTreeQuarters",
     ["mp6410"] = "TempleoftheGreatTreeBrachionRoom",
     ["mp6409"] = "TempleoftheGreatTreeGarden",
@@ -32,4 +33,68 @@ MAP_MAPPING = {
     ["mp1116"] = "NostalgiaCape",
     ["mp7411"] = "EastCoastCaveFront",
     ["mp6511"] = "FormerSanctuaryCryptFront",
+}
+
+
+NORMAL_ENTRANCES = {
+    ["WC Exit"] = "Calm Inlet Area",
+    ["TCF NCN Exit"] = "Nameless Coast North",
+    ["TCFAB Meta Exit"] = "Metavolicalis Area",
+    ["EVF GRV Exit"] = "Great River Valley Area",
+    ["EVAB SB Exit"] = "Sunrise Beach",
+    ["SJF GRVSC Exit"] = "Great River Valley South Camp",
+    ["SJAB ORC Exit"] = "Odd Rock Coast",
+    ["MGF PPGE Exit"] = "Primordial Passage Gendarme Entrance",
+    ["MGAB SNA Exit"] = "Seiren North Access",
+    ["TGT Entrance Exit"] = "Temple of the Great Tree Entrance",
+    ["TGT Garden Exit"] = "Temple of the Great Tree Garden Entrance",
+    ["ECCBG NCA Exit"] = "Nostalgia Cape Area",
+    ["STE OST Exit"] = "Silent Tower Entrance",
+    ["OO TGT Exit"] = "Temple of the Great Tree Garden",
+    ["FSCF ROEHP Exit"] = "Ruins of Eternia Hidden Passage",
+    ["BTLF THBTE Exit"] = "Towal Highway Baja Tower Entrance",
+    ["ACF BTAC Exit"] = "Bridge to Archeozoic Chasm",
+    ["VOKBD LMB Exit"] = "Lodinia Marshlands Back",
+
+}
+
+DUNGEON_APNAMES_TO_ID = {
+    ["WC Exit"] = "mp7301",
+    ["Calm Inlet Area"] = "mp1201",
+    ["TCF NCN Exit"] = "mp1301",
+    ["Nameless Coast North"] = "mp1105",
+    ["TCFAB Meta Exit"] = "mp1308",
+    ["Metavolicalis Area"] = "mp1117",
+    ["EVF GRV Exit"] = "mp4301",
+    ["Great River Valley Area"] = "mp4102",
+    ["EVAB SB Exit"] = "mp4309",
+    ["Sunrise Beach"] = "mp1119",
+    ["SJF GRVSC Exit"] = "mp2301",
+    ["Great River Valley South Camp"] = "mp2103",
+    ["SJAB ORC Exit"] = "mp2308",
+    ["Odd Rock Coast"] = "mp1118",
+    ["MGF PPGE Exit"] = "mp4331",
+    ["Primordial Passage Gendarme Entrance"] = "mp3105",
+    ["MGAB SNA Exit"] = "mp4341",
+    ["Seiren North Access"] = "mp4103",
+    ["TGT Entrance Exit"] = "mp6401",
+    ["Temple of the Great Tree Entrance"] = "mp6408",
+    ["TGT Garden Exit"] = "mp6410",
+    ["Temple of the Great Tree Garden Entrance"] = "mp6409",
+    ["ECCBG NCA Exit"] = "mp7411",
+    ["Nostalgia Cape Area"] = "mp1116",
+    ["STE OST Exit"] = "mp6411",
+    ["Silent Tower Entrance"] = "mp2104",
+    ["OO TGT Exit"] = "mp6301",
+    ["FSCF ROEHP Exit"] = "mp6511",
+    ["Ruins of Eternia Hidden Passage"] = "mp6211",
+    ["BTLF THBTE Exit"] = "mp6321",
+    ["Towal Highway Baja Tower Entrance"] = "mp6110",
+    ["ACF BTAC Exit"] = "mp6361",
+    ["Bridge to Archeozoic Chasm"] = "mp6204",
+    ["VOKBD LMB Exit"] = "mp6341",
+    ["Lodinia Marshlands Back"] = "mp6108"
+
+
+
 }

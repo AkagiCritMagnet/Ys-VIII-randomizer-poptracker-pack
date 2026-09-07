@@ -15,6 +15,7 @@ CUR_INDEX = -1
 --SLOT_DATA = nil
 
 SLOT_DATA = {}
+DungeonEntrances = {}
 
 
 function onClearHandler(slot_data)
@@ -257,6 +258,13 @@ function onClear(slot_data)
         end
     end
 
+    
+    if slot_data["dungeon_entrances"] then
+        DungeonEntrances = slot_data["dungeon_entrances"]
+    end
+
+
+
 
     
 end
@@ -346,7 +354,7 @@ function onNotify(key, value, old_value)
 		updateTab(value)
         if has("DungeonRandomized") and old_value ~= "*" then
             print("Update Dungeon Entrance")
-            updateDungeonEntrances(value)
+            updateDungeonEntrances(value, old_value)
         end
 	end
 end
@@ -378,19 +386,96 @@ function updateTab(value)
 	end
 end
 
-function updateDungeonEntrances(value)
+function updateDungeonEntrances(value, old_value)
 	if value ~= nil then
 		local tabswitch = Tracker:FindObjectForCode("tab_switch")
 		if MAP_MAPPING[value] then
-			CURRENT_MAP = MAP_MAPPING[value]
-			print(string.format("Updating randomized entrance to %s",CURRENT_MAP))
-            Tracker:FindObjectForCode(CURRENT_MAP).Active = true
+            if DungeonEntrancesFailsafe(value, old_value) then
+			    CURRENT_MAP = MAP_MAPPING[value]
+			    print(string.format("Updating randomized entrance to %s",CURRENT_MAP))
+                Tracker:FindObjectForCode(CURRENT_MAP).Active = true
+            else
+                print("Should be ignored, old value and value :")
+                print(old_value)
+                print(value)
+            end
 		else
 			print(string.format("DE - Failed to find ID %s",value))
 		end
 	end
 end
 
+function DungeonEntrancesFailsafe(value, old_value)
+    local origin = old_value
+    local destination = value
+
+
+    if destination == "mp6301" and origin == "mp6409" then
+        if DungeonEntrances["OO TGT Exit"] == "Temple of the Great Tree Garden" then
+            return true
+        else
+            return false
+        end
+
+    end
+
+
+    for i in pairs(DUNGEON_APNAMES_TO_ID) do
+        if DUNGEON_APNAMES_TO_ID[i] == origin then
+            origin = i
+        end
+        if DUNGEON_APNAMES_TO_ID[i] == destination then
+            destination = i
+        end
+    end
+
+    if NORMAL_ENTRANCES[origin] then 
+        if NORMAL_ENTRANCES[origin] == destination then
+            return CheckDungeonEntranceRandomization(origin, destination)
+        else 
+            return true
+        end
+    else
+        if NORMAL_ENTRANCES[destination] then
+            if NORMAL_ENTRANCES[destination] == origin then
+                return CheckDungeonEntranceRandomization(origin, destination)
+            else 
+                return true
+            end
+        else
+            print ("Couldn't find origin or destination")
+            print (origin, destination)
+            return true
+        end
+    end
+
+    
+    
+    print ("reached end of failsafe")
+    print (origin, destination)
+    return true
+end
+
+function CheckDungeonEntranceRandomization(value1, value2)
+    if DungeonEntrances[value1] then
+        if DungeonEntrances[value1] == value2 then
+            return true
+        else
+            return false
+        end
+    else
+        if DungeonEntrances[value2] then
+            if DungeonEntrances[value2] == value1 then
+                return true
+            else 
+                return false
+            end
+        end
+
+    end
+    print("reached end of heckDungeonEntranceRandomization function")
+    return true
+end
 
 
 

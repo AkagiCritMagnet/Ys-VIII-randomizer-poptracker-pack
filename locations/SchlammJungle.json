@@ -1,7 +1,7 @@
 [
   {
     "name": "Schlamm Jungle1",
-    "access_rules": ["@Beast Hills, Dina, $hasnot|DungeonRandomized",
+    "access_rules": ["@Beast Hills north, Dina, $hasnot|DungeonRandomized",
                      "DungeonRandomized, SchlammJungleFront", 
                      "@Schlamm Jungle2, $hasnot|DungeonRandomized",
                      "@Schlamm Jungle2, Floating_Shoes"],
