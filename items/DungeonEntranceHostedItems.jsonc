@@ -202,6 +202,13 @@
     "type": "toggle",
     "img": "images/items/Question_mark.png",
     "codes": "FormerSanctuaryCryptFront"
+  },
+
+  {
+    "name": "CalmInlet",
+    "type": "toggle",
+    "img": "images/items/Question_mark.png",
+    "codes": "CalmInlet"
   }
 
 

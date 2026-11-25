@@ -80,6 +80,18 @@
     "codes": "castaway_count, Dana"
   },
   {
+    "name": "Gratika",
+    "type": "toggle",
+    "img": "images/items/Gratika.png",
+    "codes": "castaway_count, Gratika"
+  },
+  {
+    "name": "Luminous",
+    "type": "toggle",
+    "img": "images/items/Luminous.png",
+    "codes": "castaway_count, Luminous"
+  },
+  {
     "name": "Dina",
     "type": "toggle",
     "img": "images/items/Dina.png",

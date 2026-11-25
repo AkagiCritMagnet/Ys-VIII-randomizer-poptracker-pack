@@ -35,12 +35,12 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "5, 0",
+                        "item_margin": "1, 0",
                         "h_alignment": "left",
 						"item_size": 45,
                         "rows": [
-                            ["Adol", "Laxia", "Sahad"],
-                            ["Hummel", "Ricotta", "Dana"]
+                            ["Adol", "Laxia", "Sahad", "Gratika"],
+                            ["Hummel", "Ricotta", "Dana", "Luminous"]
                         ]
                     }
                 ]

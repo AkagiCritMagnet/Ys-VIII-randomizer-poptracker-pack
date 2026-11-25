@@ -16,6 +16,7 @@ CUR_INDEX = -1
 
 SLOT_DATA = {}
 DungeonEntrances = {}
+BackupValue = ""
 
 
 function onClearHandler(slot_data)
@@ -347,16 +348,31 @@ function onEventsLaunch(key, value)
     updateEvents(value)
 end
 
+
+
 function onNotify(key, value, old_value)
 	print(string.format("called onNotify: %s, %s, %s",key,value,old_value))
-	if key == DATA_STORAGE_ID and value.."*" ~= old_value then
-        print("Update Tab")
-		updateTab(value)
-        if has("DungeonRandomized") and old_value ~= "*" then
-            print("Update Dungeon Entrance")
-            updateDungeonEntrances(value, old_value)
+    local ReferenceValue=""
+    if value == "" then
+        print("Value empty, ignore and store old value")
+        BackupValue=old_value
+    else
+        if old_value == "" then
+            print ("Value empty, using stored value")
+            ReferenceValue=BackupValue
+        else
+            ReferenceValue=old_value
         end
-	end
+
+	    if key == DATA_STORAGE_ID then
+            print("Update Tab")
+		    updateTab(value)
+            if has("DungeonRandomized") then
+                print(string.format("Update Dungeon Entrance, %s, %s", value, ReferenceValue))
+                updateDungeonEntrances(value, ReferenceValue)
+            end
+	    end
+    end
 end
 
 function onNotifyLaunch(key, value)
@@ -409,6 +425,7 @@ function DungeonEntrancesFailsafe(value, old_value)
     local origin = old_value
     local destination = value
 
+        print(string.format("Dungeon Entrance Failsafe function: %s, %s", value, old_value))
 
     if destination == "mp6301" and origin == "mp6409" then
         if DungeonEntrances["OO TGT Exit"] == "Temple of the Great Tree Garden" then
@@ -457,6 +474,7 @@ function DungeonEntrancesFailsafe(value, old_value)
 end
 
 function CheckDungeonEntranceRandomization(value1, value2)
+    print(string.format("Checking dungeon entrance randomization for %s, %s", value1, value2))
     if DungeonEntrances[value1] then
         if DungeonEntrances[value1] == value2 then
             return true

@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "2.4",
+			"download_url": "https://github.com/AkagiCritMagnet/Ys-VIII-randomizer-poptracker-pack/releases/download/v2.4/Ys.8.pack.zip",
+			"sha256": "ad24be7fdfef91923b8ca4ebeb8c0c1d7b6a91da979634dd791522cf4ad43536",
+			"changelog": ["Fixed Dungeon entrance rando tracking"]
+		},
+		{
 			"package_version": "2.3",
 			"download_url": "https://github.com/AkagiCritMagnet/Ys-VIII-randomizer-poptracker-pack/releases/download/v2.3/Ys.8.pack.zip",
 			"sha256": "26e43974d3b4d8b71a0511cb81cb2b31d1955918a5830046ae2e274a50c4fb7b",

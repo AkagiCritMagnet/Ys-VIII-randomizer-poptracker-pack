@@ -42,6 +42,8 @@ ITEM_MAPPING = {
     [91000] = {{"Hummel"}}, 
     [91600] = {{"Ricotta"}},
     [92100] = {{"Dana"}},
+    [101900] = {{"Gratika"}},
+    [102000] = {{"Luminous"}},
 
     [90200] = {{"Captain Barbatos"}},
     [90300] = {{"Little Paro"}},
